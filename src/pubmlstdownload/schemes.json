@@ -1,0 +1,3351 @@
+{
+  "Achromobacter spp.": {
+    "pubmlst_achromobacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_achromobacter_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Acinetobacter spp.": {
+    "pubmlst_abaumannii_seqdef": [
+      {
+        "method": "MLST (Oxford)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (Pasteur)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST v1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/3"
+      },
+      {
+        "method": "Adherence",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/13"
+      },
+      {
+        "method": "Biofilm",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/4"
+      },
+      {
+        "method": "Class A beta-lactamases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/9"
+      },
+      {
+        "method": "Class B beta-lactamases (MBLs)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/10"
+      },
+      {
+        "method": "Class C beta-lactamases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/11"
+      },
+      {
+        "method": "Class D beta-lactamases (OXAs)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/12"
+      },
+      {
+        "method": "Effector delivery system",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/15"
+      },
+      {
+        "method": "Efflux pumps",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/5"
+      },
+      {
+        "method": "Enzymes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/8"
+      },
+      {
+        "method": "Immune modulation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/14"
+      },
+      {
+        "method": "Iron uptake",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/6"
+      },
+      {
+        "method": "Quorum sensing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/7"
+      }
+    ]
+  },
+  "Actinobacillus spp.": {
+    "pubmlst_actinobacillus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_actinobacillus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Aeromonas spp.": {
+    "pubmlst_aeromonas_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aeromonas_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Aggregatibacter spp.": {
+    "pubmlst_aactinomycetemcomitans_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aactinomycetemcomitans_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Anaplasma spp.": {
+    "pubmlst_aphagocytophilum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aphagocytophilum_seqdef/schemes/1"
+      },
+      {
+        "method": "ankA",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aphagocytophilum_seqdef/schemes/2"
+      },
+      {
+        "method": "groEL",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aphagocytophilum_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Aquaculture-related organisms": {},
+  "Arcobacter spp.": {
+    "pubmlst_arcobacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_arcobacter_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Aspergillus spp.": {
+    "pubmlst_afumigatus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Avibacterium spp.": {
+    "pubmlst_aparagallinarum_seqdef": [
+      {
+        "method": "MLST (Ghanem AP)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aparagallinarum_seqdef/schemes/2"
+      },
+      {
+        "method": "MLST (Guo)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_aparagallinarum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Bacillus spp.": {
+    "pubmlst_bcereus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/1"
+      },
+      {
+        "method": "B. anthracis cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/2"
+      },
+      {
+        "method": "B. anthracis accessory genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/3"
+      },
+      {
+        "method": "B. anthracis plasmids",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/4"
+      },
+      {
+        "method": "B. cereus cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/5"
+      }
+    ],
+    "pubmlst_blicheniformis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_blicheniformis_seqdef/schemes/14"
+      }
+    ],
+    "pubmlst_bsubtilis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bsubtilis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Bacteriophage MLST": {
+    "pubmlst_llactis_phage_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_llactis_phage_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Bacteroides spp.": {
+    "pubmlst_bfragilis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bfragilis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Bartonella spp.": {
+    "pubmlst_bbacilliformis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bbacilliformis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_bhenselae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bhenselae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_bwashoensis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bwashoensis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Blastocystis spp.": {
+    "pubmlst_blastocystis_seqdef": [
+      {
+        "method": "ST3 MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1"
+      },
+      {
+        "method": "ST4 MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Borrelia spp.": {
+    "pubmlst_borrelia_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/1"
+      },
+      {
+        "method": "MLSA (legacy)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/3"
+      },
+      {
+        "method": "OspA IST typing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/4"
+      }
+    ]
+  },
+  "Brachyspira spp.": {
+    "pubmlst_brachyspira_seqdef": [
+      {
+        "method": "B. hampsonii MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/5"
+      },
+      {
+        "method": "B. hyodysenteriae MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/2"
+      },
+      {
+        "method": "B. intermedia MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/3"
+      },
+      {
+        "method": "B. pilosicoli MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/4"
+      },
+      {
+        "method": "Brachyspira MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Brucella spp.": {
+    "pubmlst_brucella_seqdef": [
+      {
+        "method": "MLST (9 locus)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brucella_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (21 locus)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brucella_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_brucella_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Burkholderia spp.": {
+    "pubmlst_bcc_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcc_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_bmallei_seqdef": [
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bmallei_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_bpseudomallei_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bpseudomallei_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bpseudomallei_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Campylobacter spp.": {
+    "pubmlst_campylobacter_nonjejuni_seqdef": [
+      {
+        "method": "C. concisus/curvus MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/5"
+      },
+      {
+        "method": "C. fetus MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/9"
+      },
+      {
+        "method": "C. helveticus MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/1"
+      },
+      {
+        "method": "C. hyointestinalis MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/6"
+      },
+      {
+        "method": "C. insulaenigrae MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/2"
+      },
+      {
+        "method": "C. lanienae MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/7"
+      },
+      {
+        "method": "C. lari MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/3"
+      },
+      {
+        "method": "C. sputorum MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/8"
+      },
+      {
+        "method": "C. upsaliensis MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/4"
+      }
+    ],
+    "pubmlst_campylobacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/1"
+      },
+      {
+        "method": "1643 Gundogdu loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/3"
+      },
+      {
+        "method": "Aerotolerance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/10"
+      },
+      {
+        "method": "Aminoglycoside AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/16"
+      },
+      {
+        "method": "Antimicrobial resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/12"
+      },
+      {
+        "method": "Biofilm formation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/11"
+      },
+      {
+        "method": "C. coli 15-537360",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/6"
+      },
+      {
+        "method": "C. jejuni / C. coli cgMLST v1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/4"
+      },
+      {
+        "method": "C. jejuni / C. coli cgMLST v2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/8"
+      },
+      {
+        "method": "ED pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/7"
+      },
+      {
+        "method": "eMLST (21 partial genes)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/2"
+      },
+      {
+        "method": "Fluoroquinolone AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/13"
+      },
+      {
+        "method": "Lincosomide AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/18"
+      },
+      {
+        "method": "Macrolide AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/15"
+      },
+      {
+        "method": "Phenicol AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/17"
+      },
+      {
+        "method": "Ribosomal Protein Genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/5"
+      },
+      {
+        "method": "Tetracycline AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/14"
+      },
+      {
+        "method": "Virulence",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/9"
+      }
+    ]
+  },
+  "Candida spp.": {
+    "pubmlst_calbicans_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_calbicans_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_cglabrata_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cglabrata_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_ckrusei_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ckrusei_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_ctropicalis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ctropicalis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Carnobacterium spp.": {
+    "pubmlst_cmaltaromaticum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cmaltaromaticum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Chlamydiales spp.": {
+    "pubmlst_chlamydiales_seqdef": [
+      {
+        "method": "Aerobic and ATP Biogenesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/16"
+      },
+      {
+        "method": "Amino Acyl tRNA Synthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/7"
+      },
+      {
+        "method": "Aromatic Amino Acids",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/17"
+      },
+      {
+        "method": "Aspartate Amino Acid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/18"
+      },
+      {
+        "method": "Biotin, Lipoate and Ubiquinone",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/20"
+      },
+      {
+        "method": "Both Purine and Pyrimidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/26"
+      },
+      {
+        "method": "C. abortus cgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/44"
+      },
+      {
+        "method": "Cell Division",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/30"
+      },
+      {
+        "method": "C. trachomatis cgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/42"
+      },
+      {
+        "method": "DNA Replication",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/3"
+      },
+      {
+        "method": "Electron Transport Chain",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/14"
+      },
+      {
+        "method": "Eukaryotic Type Chromatin Factors",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/37"
+      },
+      {
+        "method": "Fatty Acid and Phospholipid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/29"
+      },
+      {
+        "method": "Folic Acid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/21"
+      },
+      {
+        "method": "Glycolysis, Gluconeogensis, Glycogen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/10"
+      },
+      {
+        "method": "Membrane Proteins, Lipoproteins, Porins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/27"
+      },
+      {
+        "method": "Miscellaneous Enzymes/Conserved Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/36"
+      },
+      {
+        "method": "MLST (Chlamydiales)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (C. trachomatis)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/38"
+      },
+      {
+        "method": "MLST (C. trachomatis Uppsala)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/41"
+      },
+      {
+        "method": "Nucleotide Excision and Repair",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/4"
+      },
+      {
+        "method": "Pathogenesis Associated Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/33"
+      },
+      {
+        "method": "Pentose Phosphate Pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/15"
+      },
+      {
+        "method": "Peptide Synthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/8"
+      },
+      {
+        "method": "Peptidoglycan",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/28"
+      },
+      {
+        "method": "Phosphorous and Sulphur",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/11"
+      },
+      {
+        "method": "Plasmid loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/2"
+      },
+      {
+        "method": "Plasmid MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/40"
+      },
+      {
+        "method": "Porphyrin",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/22"
+      },
+      {
+        "method": "Protein Folding, Assembly, Modification",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/9"
+      },
+      {
+        "method": "Purine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/24"
+      },
+      {
+        "method": "Pyrimidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/25"
+      },
+      {
+        "method": "Pyruvate Dehydrogenase",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/12"
+      },
+      {
+        "method": "Recombination",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/5"
+      },
+      {
+        "method": "Riboflavin",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/23"
+      },
+      {
+        "method": "Ribosomal Protein genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/43"
+      },
+      {
+        "method": "RNA Associated",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/6"
+      },
+      {
+        "method": "Serine Amino Acid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/19"
+      },
+      {
+        "method": "Signal Transduction",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/31"
+      },
+      {
+        "method": "Specific Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/35"
+      },
+      {
+        "method": "TCA Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/13"
+      },
+      {
+        "method": "Transport Related Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/34"
+      },
+      {
+        "method": "Type III Effector Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/39"
+      },
+      {
+        "method": "Type III Secretion Systems",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/32"
+      }
+    ]
+  },
+  "Citrobacter spp.": {
+    "pubmlst_cfreundii_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cfreundii_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Clonorchis spp.": {
+    "pubmlst_csinensis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_csinensis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Clostridioides spp.": {
+    "pubmlst_cdifficile_seqdef": [
+      {
+        "method": "cwp cluster genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cdifficile_seqdef/schemes/2"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cdifficile_seqdef/schemes/1"
+      },
+      {
+        "method": "Pathogenicity loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cdifficile_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Clostridium spp.": {
+    "pubmlst_cbotulinum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cbotulinum_seqdef/schemes/1"
+      },
+      {
+        "method": "Extended MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cbotulinum_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_cchauvoei_seqdef": [
+      {
+        "method": "agMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cchauvoei_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cchauvoei_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_cperfringens_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cperfringens_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cperfringens_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_csepticum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_csepticum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Cronobacter spp.": {
+    "pubmlst_cronobacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/1"
+      },
+      {
+        "method": "cogMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/4"
+      },
+      {
+        "method": "Ext-MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/3"
+      },
+      {
+        "method": "Gcog",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/5"
+      },
+      {
+        "method": "O-serotype",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/6"
+      },
+      {
+        "method": "Tax-MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Cutibacterium spp.": {
+    "pubmlst_pacnes_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pacnes_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Dichelobacter spp.": {
+    "pubmlst_dnodosus_seqdef": [
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_dnodosus_seqdef/schemes/3"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_dnodosus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Edwardsiella spp.": {
+    "pubmlst_edwardsiella_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_edwardsiella_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Enterobacter spp.": {
+    "pubmlst_ecloacae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ecloacae_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Enterococcus spp.": {
+    "pubmlst_efaecalis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_efaecalis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_efaecium_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_efaecium_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (Bezdíček et al.)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_efaecium_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Escherichia spp.": {
+    "pubmlst_escherichia_seqdef": [
+      {
+        "method": "MLST (Achtman)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (Pasteur)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/2"
+      },
+      {
+        "method": "beta-lactamase resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/3"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/6"
+      },
+      {
+        "method": "IncL/M",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/12"
+      },
+      {
+        "method": "locus of enterocyte effacement (LEE) island",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/4"
+      },
+      {
+        "method": "oxa-48 chromosome loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/14"
+      },
+      {
+        "method": "pO157 plasmid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/8"
+      },
+      {
+        "method": "pOXA-48 plasmid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/13"
+      },
+      {
+        "method": "quinolone resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/11"
+      },
+      {
+        "method": "shiga toxins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/5"
+      },
+      {
+        "method": "virulence genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/9"
+      }
+    ]
+  },
+  "Flavobacterium spp.": {
+    "pubmlst_fpsychrophilum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_fpsychrophilum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Gallibacterium spp.": {
+    "pubmlst_gallibacterium_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_gallibacterium_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Geotrichum spp.": {
+    "pubmlst_geotrichum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_geotrichum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Glaesserella spp.": {
+    "pubmlst_hparasuis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hparasuis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Haemophilus spp.": {
+    "pubmlst_hinfluenzae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/1"
+      },
+      {
+        "method": "Alanine, aspartate and glutamate metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/42"
+      },
+      {
+        "method": "Aminoacyl-tRNA biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/14"
+      },
+      {
+        "method": "Amino sugar and nucleotide sugar metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/19"
+      },
+      {
+        "method": "Antimicrobial Resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/52"
+      },
+      {
+        "method": "Arginine and proline metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/43"
+      },
+      {
+        "method": "Butanoate metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/21"
+      },
+      {
+        "method": "Capsule - H. parainfluenzae type 1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/57"
+      },
+      {
+        "method": "Capsule - H. parainfluenzae type 2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/58"
+      },
+      {
+        "method": "Capsule - Region I",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/2"
+      },
+      {
+        "method": "Capsule - Region III",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/4"
+      },
+      {
+        "method": "Capsule - serotype A",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/7"
+      },
+      {
+        "method": "Capsule - serotype B",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/3"
+      },
+      {
+        "method": "Capsule - serotype C",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/8"
+      },
+      {
+        "method": "Capsule - serotype D",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/9"
+      },
+      {
+        "method": "Capsule - Serotype E",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/6"
+      },
+      {
+        "method": "Capsule - serotype F",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/5"
+      },
+      {
+        "method": "cgMLST v1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/56"
+      },
+      {
+        "method": "Cysteine and methionine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/38"
+      },
+      {
+        "method": "DNA Replication",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/10"
+      },
+      {
+        "method": "Fatty acid biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/32"
+      },
+      {
+        "method": "Fatty acid metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/31"
+      },
+      {
+        "method": "Fructose and mannose metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/23"
+      },
+      {
+        "method": "Galactose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/20"
+      },
+      {
+        "method": "Glycerolipid metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/33"
+      },
+      {
+        "method": "Glycerophospholipid metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/34"
+      },
+      {
+        "method": "Glycine, serine and threonine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/39"
+      },
+      {
+        "method": "Glycolysis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/15"
+      },
+      {
+        "method": "Glyoxylate and dicarboxylate metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/16"
+      },
+      {
+        "method": "Histidine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/45"
+      },
+      {
+        "method": "H. parainfluenzae cgMLST v1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/59"
+      },
+      {
+        "method": "Iron Acquisition",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/53"
+      },
+      {
+        "method": "LOS Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/50"
+      },
+      {
+        "method": "Lysine biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/40"
+      },
+      {
+        "method": "Lysine degradation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/47"
+      },
+      {
+        "method": "Methane metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/26"
+      },
+      {
+        "method": "Nitrogen Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/27"
+      },
+      {
+        "method": "NTHi_clade_system",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/55"
+      },
+      {
+        "method": "Nucleotide Excision Repair",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/11"
+      },
+      {
+        "method": "Oxidative phosphorylation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/29"
+      },
+      {
+        "method": "Pentose and glucuronate interconversions",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/25"
+      },
+      {
+        "method": "Pentose Phosphate Pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/24"
+      },
+      {
+        "method": "Phenylalanine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/37"
+      },
+      {
+        "method": "Phenylalanine, tyrosine, tryptophan biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/44"
+      },
+      {
+        "method": "Pilus Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/51"
+      },
+      {
+        "method": "Propanoate metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/22"
+      },
+      {
+        "method": "Purine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/35"
+      },
+      {
+        "method": "Pyrimidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/36"
+      },
+      {
+        "method": "Pyruvate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/18"
+      },
+      {
+        "method": "Reductive carboxylate cycle (CO2 fixation)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/30"
+      },
+      {
+        "method": "Ribosomal Protein Genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/13"
+      },
+      {
+        "method": "RNA Polymerase",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/12"
+      },
+      {
+        "method": "Sulphur Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/28"
+      },
+      {
+        "method": "TCA Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/17"
+      },
+      {
+        "method": "Translation regulator",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/54"
+      },
+      {
+        "method": "Tryptophan metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/41"
+      },
+      {
+        "method": "Tyrosine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/46"
+      },
+      {
+        "method": "Valine, leucine and isoleucine biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/48"
+      },
+      {
+        "method": "Valine, leucine and isoleucine degradation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/49"
+      }
+    ]
+  },
+  "Helicobacter spp.": {
+    "pubmlst_hcinaedi_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hcinaedi_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_helicobacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_helicobacter_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_hsuis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_hsuis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Klebsiella spp.": {
+    "pubmlst_kaerogenes_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_kaerogenes_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_koxytoca_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_koxytoca_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Kudoa spp.": {
+    "pubmlst_kseptempunctata_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_kseptempunctata_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Lactobacillus spp.": {
+    "pubmlst_lsalivarius_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_lsalivarius_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Lactococcus spp.": {
+    "pubmlst_lgarvieae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_lgarvieae_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Leptospira spp.": {
+    "pubmlst_leptospira_seqdef": [
+      {
+        "method": "MLST (scheme 1)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (scheme 2)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/2"
+      },
+      {
+        "method": "MLST (scheme 3)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/3"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/4"
+      },
+      {
+        "method": "LPS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/5"
+      }
+    ]
+  },
+  "Candidatus Liberibacter spp.": {
+    "pubmlst_liberibacter_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_liberibacter_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Macrococcus spp.": {
+    "pubmlst_mcanis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mcanis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mcaseolyticus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mcaseolyticus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Mammaliicoccus spp.": {
+    "pubmlst_msciuri_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_msciuri_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Mannheimia spp.": {
+    "pubmlst_mhaemolytica_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhaemolytica_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Melissococcus spp.": {
+    "pubmlst_mplutonius_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mplutonius_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Mycobacterium spp.": {
+    "pubmlst_mycobacteria_seqdef": [
+      {
+        "method": "Core genome (H37Rv ref vs 19 finished species)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mycobacteria_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mycobacteria_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Mycobacteroides spp.": {
+    "pubmlst_mabscessus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mabscessus_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mabscessus_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Mycoplasma spp.": {
+    "pubmlst_magalactiae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_magalactiae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_manserisalpingitidis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_manserisalpingitidis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mbovis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mbovis_seqdef/schemes/2"
+      },
+      {
+        "method": "MLST (legacy)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mbovis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mflocculare_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mflocculare_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mgallisepticum_seqdef": [
+      {
+        "method": "MLST#1 (Ghanem)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mgallisepticum_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST#2 (Bekő)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mgallisepticum_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_mgenitalium_seqdef": [
+      {
+        "method": "MG191-MG309 typing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mgenitalium_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mgenitalium_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_mhominis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhominis_seqdef/schemes/1"
+      },
+      {
+        "method": "MVLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhominis_seqdef/schemes/2"
+      },
+      {
+        "method": "eMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhominis_seqdef/schemes/3"
+      }
+    ],
+    "pubmlst_mhyopneumoniae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhyopneumoniae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mhyorhinis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhyorhinis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mhyosynoviae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mhyosynoviae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_miowae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_miowae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_mpneumoniae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mpneumoniae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_msynoviae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_msynoviae_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Neisseria spp.": {
+    "pubmlst_neisseria_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/1"
+      },
+      {
+        "method": "Finetyping antigens",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/2"
+      },
+      {
+        "method": "rplF species",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/42"
+      },
+      {
+        "method": "ADP-heptose biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/7"
+      },
+      {
+        "method": "Antibiotic resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/5"
+      },
+      {
+        "method": "Antigen genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/3"
+      },
+      {
+        "method": "beta lactamase plasmid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/52"
+      },
+      {
+        "method": "Bexsero Antigen Sequence Typing (BAST)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/53"
+      },
+      {
+        "method": "Capsule Null (cnl)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/63"
+      },
+      {
+        "method": "Capsule Region A - Serogroup A",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/29"
+      },
+      {
+        "method": "Capsule Region A - Serogroup B",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/36"
+      },
+      {
+        "method": "Capsule Region A - Serogroup C",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/37"
+      },
+      {
+        "method": "Capsule Region A - Serogroup E",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/35"
+      },
+      {
+        "method": "Capsule Region A - Serogroup H",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/32"
+      },
+      {
+        "method": "Capsule Region A - Serogroup L",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/33"
+      },
+      {
+        "method": "Capsule Region A - Serogroup W",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/38"
+      },
+      {
+        "method": "Capsule Region A - Serogroup X",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/30"
+      },
+      {
+        "method": "Capsule Region A - Serogroup Y",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/39"
+      },
+      {
+        "method": "Capsule Region A - Serogroup Z",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/31"
+      },
+      {
+        "method": "Capsule Region B",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/41"
+      },
+      {
+        "method": "Capsule Region C",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/40"
+      },
+      {
+        "method": "Capsule Region D and D'",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/48"
+      },
+      {
+        "method": "Commensal cps: Group 1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/74"
+      },
+      {
+        "method": "Commensal cps: Group 2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/75"
+      },
+      {
+        "method": "Commensal cps: Group 3",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/76"
+      },
+      {
+        "method": "Conjugative Plasmid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/49"
+      },
+      {
+        "method": "Cryptic Plasmid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/66"
+      },
+      {
+        "method": "DNA replication",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/25"
+      },
+      {
+        "method": "eMLST (20 locus partial genes)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/4"
+      },
+      {
+        "method": "eMLST (20 locus whole genes)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/12"
+      },
+      {
+        "method": "Factor H binding protein",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/6"
+      },
+      {
+        "method": "GC OMV peptide typing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/73"
+      },
+      {
+        "method": "Glycolysis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/15"
+      },
+      {
+        "method": "Gonococcal Genetic Island",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/50"
+      },
+      {
+        "method": "Human-restricted Neisseria cgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/72"
+      },
+      {
+        "method": "Iron acquisition",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/21"
+      },
+      {
+        "method": "Kdo addition",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/19"
+      },
+      {
+        "method": "L3 cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/45"
+      },
+      {
+        "method": "L44 cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/68"
+      },
+      {
+        "method": "L44 pgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/69"
+      },
+      {
+        "method": "Lipid A biosynthesis: acyltransferases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/17"
+      },
+      {
+        "method": "Lipid A biosynthesis: other",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/18"
+      },
+      {
+        "method": "LOS alpha chain transferases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/9"
+      },
+      {
+        "method": "LOS inner core transferases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/8"
+      },
+      {
+        "method": "LOS transport/export",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/20"
+      },
+      {
+        "method": "Mendevar",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/77"
+      },
+      {
+        "method": "Methylases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/43"
+      },
+      {
+        "method": "MGI-1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/54"
+      },
+      {
+        "method": "MGI-2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/55"
+      },
+      {
+        "method": "MGI-3",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/56"
+      },
+      {
+        "method": "NadA",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/46"
+      },
+      {
+        "method": "Neisseria Heparin Binding Antigen (NHBA)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/44"
+      },
+      {
+        "method": "NG MAST v2.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/71"
+      },
+      {
+        "method": "N. gonorrhoeae agMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/80"
+      },
+      {
+        "method": "N. gonorrhoeae Beta-lactam AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/57"
+      },
+      {
+        "method": "N. gonorrhoeae cgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/62"
+      },
+      {
+        "method": "N. gonorrhoeae cgMLST v2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/89"
+      },
+      {
+        "method": "N. gonorrhoeae Efflux Pumps AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/61"
+      },
+      {
+        "method": "N. gonorrhoeae Fluoroquinolone AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/58"
+      },
+      {
+        "method": "N. gonorrhoeae Macrolides AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/59"
+      },
+      {
+        "method": "N. gonorrhoeae pgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/81"
+      },
+      {
+        "method": "N. gonorrhoeae plasmid mediated AMR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/60"
+      },
+      {
+        "method": "Ng_pblaST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/87"
+      },
+      {
+        "method": "NG STAR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/67"
+      },
+      {
+        "method": "N. meningitidis cgMLST v1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/47"
+      },
+      {
+        "method": "N. meningitidis cgMLST v2",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/85"
+      },
+      {
+        "method": "N. meningitidis cgMLST v3",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/88"
+      },
+      {
+        "method": "Nucleotide excision repair",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/27"
+      },
+      {
+        "method": "OMV peptide",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/64"
+      },
+      {
+        "method": "OMV peptide typing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/65"
+      },
+      {
+        "method": "Other RMS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/86"
+      },
+      {
+        "method": "PenA locus",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/82"
+      },
+      {
+        "method": "Peptidoglycan pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/83"
+      },
+      {
+        "method": "Pilus genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/13"
+      },
+      {
+        "method": "PorB_loop_peptides",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/78"
+      },
+      {
+        "method": "Protein glycosylation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/28"
+      },
+      {
+        "method": "Purine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/22"
+      },
+      {
+        "method": "Pyrimidine metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/23"
+      },
+      {
+        "method": "Pyruvate dehydrogenase complex",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/14"
+      },
+      {
+        "method": "Ribosomal protein genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/24"
+      },
+      {
+        "method": "RMS in Neisseria gonorrhoeae",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/79"
+      },
+      {
+        "method": "RNA polymerase",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/26"
+      },
+      {
+        "method": "Secreted peptides",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/84"
+      },
+      {
+        "method": "Small regulatory RNAs",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/34"
+      },
+      {
+        "method": "TCA cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/16"
+      },
+      {
+        "method": "tRNA molecules",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/70"
+      },
+      {
+        "method": "UDP-GlcNAc synthesis ",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/11"
+      },
+      {
+        "method": "UDP-glucose and UDP-galactose biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/10"
+      },
+      {
+        "method": "VirB T4SS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/51"
+      }
+    ]
+  },
+  "Orientia spp.": {
+    "pubmlst_otsutsugamushi_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_otsutsugamushi_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Ornithobacterium spp.": {
+    "pubmlst_orhinotracheale_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_orhinotracheale_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Paenibacillus spp.": {
+    "pubmlst_plarvae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plarvae_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Pasteurella spp.": {
+    "pubmlst_pmultocida_seqdef": [
+      {
+        "method": "Multiple host MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pmultocida_seqdef/schemes/1"
+      },
+      {
+        "method": "RIRDC MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pmultocida_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST (draft)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pmultocida_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Pediococcus spp.": {
+    "pubmlst_ppentosaceus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ppentosaceus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Photobacterium spp.": {
+    "pubmlst_pdamselae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pdamselae_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Piscirickettsia spp.": {
+    "pubmlst_psalmonis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_psalmonis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Plasmid MLST": {
+    "pubmlst_plasmid_seqdef": [
+      {
+        "method": "IncA/C cgPMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/7"
+      },
+      {
+        "method": "IncA/C PMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/6"
+      },
+      {
+        "method": "IncF RST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/3"
+      },
+      {
+        "method": "IncHI1 MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/5"
+      },
+      {
+        "method": "IncHI2 DLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/2"
+      },
+      {
+        "method": "IncI1 MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/1"
+      },
+      {
+        "method": "IncN MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/4"
+      },
+      {
+        "method": "pBSSB1-family",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/8"
+      },
+      {
+        "method": "Shigella flexneri",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/9"
+      }
+    ]
+  },
+  "Porphyromonas spp.": {
+    "pubmlst_pgingivalis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pgingivalis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Proteus spp.": {
+    "pubmlst_proteus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_proteus_seqdef/schemes/1"
+      },
+      {
+        "method": "Antibiotic resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_proteus_seqdef/schemes/3"
+      },
+      {
+        "method": "Virulence",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_proteus_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Pseudomonas spp.": {
+    "pubmlst_paeruginosa_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_paeruginosa_seqdef/schemes/1"
+      },
+      {
+        "method": "Plasmid loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_paeruginosa_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_pfluorescens_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pfluorescens_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_pputida_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_pputida_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Riemerella anatipestifer": {
+    "pubmlst_ranatipestifer_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ranatipestifer_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Rhodococcus spp.": {
+    "pubmlst_rhodococcus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Ribosomal MLST": {
+    "pubmlst_rmlst_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_rmlst_seqdef_kiosk": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Salmonella spp.": {
+    "pubmlst_salmonella_seqdef": [
+      {
+        "method": "cgMLST v2 (Enterobase)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/4"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/2"
+      },
+      {
+        "method": "Oxford loci",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/1"
+      },
+      {
+        "method": "SalmcgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/3"
+      }
+    ]
+  },
+  "Saprolegnia spp.": {
+    "pubmlst_sparasitica_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sparasitica_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Serratia spp.": {
+    "pubmlst_serratia_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_serratia_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_serratia_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Shewanella spp.": {
+    "pubmlst_shewanella_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_shewanella_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Sinorhizobium spp.": {
+    "pubmlst_sinorhizobium_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sinorhizobium_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Stenotrophomonas maltophilia": {
+    "pubmlst_smaltophilia_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_smaltophilia_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Staphylococcus spp.": {
+    "pubmlst_saureus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/20"
+      },
+      {
+        "method": "Core 2208",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/2"
+      },
+      {
+        "method": "TCS-10: phoPR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/12"
+      },
+      {
+        "method": "TCS-11: airSR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/13"
+      },
+      {
+        "method": "TCS-12: vraSR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/14"
+      },
+      {
+        "method": "TCS-13: agrCA",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/15"
+      },
+      {
+        "method": "TCS-14: kdpDE",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/16"
+      },
+      {
+        "method": "TCS-15: hssRS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/17"
+      },
+      {
+        "method": "TCS-16: nreBC",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/18"
+      },
+      {
+        "method": "TCS-17: braRS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/19"
+      },
+      {
+        "method": "TCS-1: walRK",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/3"
+      },
+      {
+        "method": "TCS-2: kdpED (SCCmec)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/4"
+      },
+      {
+        "method": "TCS-3: hptSR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/5"
+      },
+      {
+        "method": "TCS-4: lytSR",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/6"
+      },
+      {
+        "method": "TCS-5: graRS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/7"
+      },
+      {
+        "method": "TCS-6: saeRS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/8"
+      },
+      {
+        "method": "TCS-7",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/9"
+      },
+      {
+        "method": "TCS-8: arlRS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/10"
+      },
+      {
+        "method": "TCS-9: srrAB",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/11"
+      }
+    ],
+    "pubmlst_schromogenes_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_schromogenes_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_sepidermidis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sepidermidis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_shaemolyticus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_shaemolyticus_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_shominis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_shominis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_spseudintermedius_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spseudintermedius_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Streptococcus spp.": {
+    "pubmlst_oralstrep_seqdef": [
+      {
+        "method": "S. mutans MLST (Do)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/2"
+      },
+      {
+        "method": "S. mutans MLST (Nakano)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/3"
+      },
+      {
+        "method": "S. oralis MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_sagalactiae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/1"
+      },
+      {
+        "method": "Adherence Regulation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/37"
+      },
+      {
+        "method": "Alp Family Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/29"
+      },
+      {
+        "method": "Amino Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/23"
+      },
+      {
+        "method": "Aminoglycosides",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/44"
+      },
+      {
+        "method": "Ascorbate and Aldarate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/17"
+      },
+      {
+        "method": "Biosynthesis and activation of sialic acid",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/3"
+      },
+      {
+        "method": "C5a Peptidase",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/30"
+      },
+      {
+        "method": "Capsular polysaccharide Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/4"
+      },
+      {
+        "method": "Chloramphenicol",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/46"
+      },
+      {
+        "method": "Fatty Acid Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/22"
+      },
+      {
+        "method": "Fibrinogen Binding Proteins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/31"
+      },
+      {
+        "method": "Fructose and Mannose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/14"
+      },
+      {
+        "method": "Galactose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/15"
+      },
+      {
+        "method": "Glycolysis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/12"
+      },
+      {
+        "method": "Haemolysin Operon",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/32"
+      },
+      {
+        "method": "h_S.agalactiae cgMLST v1.0",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/38"
+      },
+      {
+        "method": "Hyaluronidase Activity",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/33"
+      },
+      {
+        "method": "ICESag1962",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/40"
+      },
+      {
+        "method": "IMESp2907",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/39"
+      },
+      {
+        "method": "LysR family",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/35"
+      },
+      {
+        "method": "Macrolides, lincosamides, Streptogramins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/45"
+      },
+      {
+        "method": "Oxidative phosphorylation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/18"
+      },
+      {
+        "method": "Pentose Phosphate Pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/13"
+      },
+      {
+        "method": "Photosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/19"
+      },
+      {
+        "method": "PI-1",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/27"
+      },
+      {
+        "method": "PI-2a",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/28"
+      },
+      {
+        "method": "PI-2b",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/26"
+      },
+      {
+        "method": "Pilus Regulator",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/34"
+      },
+      {
+        "method": "Purine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/21"
+      },
+      {
+        "method": "Pyrimidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/20"
+      },
+      {
+        "method": "Serotype Ia",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/6"
+      },
+      {
+        "method": "Serotype Ib",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/7"
+      },
+      {
+        "method": "Serotype II",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/8"
+      },
+      {
+        "method": "Serotype III",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/9"
+      },
+      {
+        "method": "Serotype IV",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/10"
+      },
+      {
+        "method": "Serotype IX",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/48"
+      },
+      {
+        "method": "Serotype V",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/5"
+      },
+      {
+        "method": "Serotype VI",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/41"
+      },
+      {
+        "method": "Serotype VII",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/42"
+      },
+      {
+        "method": "Serotype VIII",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/47"
+      },
+      {
+        "method": "Starch and Sucrose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/16"
+      },
+      {
+        "method": "Synthesis of the group B carbohydrate",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/2"
+      },
+      {
+        "method": "TCA Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/11"
+      },
+      {
+        "method": "Tetracyclines",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/43"
+      },
+      {
+        "method": "Transcription",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/25"
+      },
+      {
+        "method": "Transcriptional Regulator",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/36"
+      },
+      {
+        "method": "Translation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/24"
+      }
+    ],
+    "pubmlst_sbsec_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sbsec_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_scanis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_scanis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_sdysgalactiae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sdysgalactiae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_sgallolyticus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sgallolyticus_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_siniae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_siniae_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_smitis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_smitis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_spneumoniae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spneumoniae_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spneumoniae_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_spyogenes_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/11"
+      },
+      {
+        "method": "Emm typing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/4"
+      },
+      {
+        "method": "FCT-other",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/6"
+      },
+      {
+        "method": "FCT-pilA",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/2"
+      },
+      {
+        "method": "FCT-pilB",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/3"
+      },
+      {
+        "method": "FCT-pilL",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/7"
+      },
+      {
+        "method": "FnBP domains",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/10"
+      },
+      {
+        "method": "GAC biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/9"
+      },
+      {
+        "method": "M protein domains",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/8"
+      },
+      {
+        "method": "Resistance",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/5"
+      }
+    ],
+    "pubmlst_ssuis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ssuis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_sthermophilus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_sthermophilus_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_suberis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/8"
+      },
+      {
+        "method": "diag_GWAS_1gen+milk&serum_PIMMS",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/19"
+      },
+      {
+        "method": "Growth in milk",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/3"
+      },
+      {
+        "method": "Growth in milk and adult bovine serum",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/4"
+      },
+      {
+        "method": "Growth in Todd Hewitt broth",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/5"
+      },
+      {
+        "method": "GWAS growth in milk",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/6"
+      },
+      {
+        "method": "GWAS growth in milk and adult bovine serum",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/7"
+      },
+      {
+        "method": "milk_GWAS_1_gen+PIMMS_milk",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/17"
+      },
+      {
+        "method": "new_GWAS_diagonal_+-1_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/15"
+      },
+      {
+        "method": "new_GWAS_diagonal_+-2_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/16"
+      },
+      {
+        "method": "new_milk_GWAS_+-1_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/11"
+      },
+      {
+        "method": "new_milk_GWAS_+-2_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/12"
+      },
+      {
+        "method": "new_serum_GWAS_+-1_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/13"
+      },
+      {
+        "method": "new_serum_GWAS_+-2_gen",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/14"
+      },
+      {
+        "method": "serum_GWAS_1_gen+PIMMS_serum",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/18"
+      },
+      {
+        "method": "vMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/2"
+      }
+    ],
+    "pubmlst_szooepidemicus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_szooepidemicus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Streptomyces spp.": {
+    "pubmlst_streptomyces_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_streptomyces_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Taylorella spp.": {
+    "pubmlst_taylorella_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_taylorella_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Tenacibaculum spp.": {
+    "pubmlst_tenacibaculum_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tenacibaculum_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Treponema spp.": {
+    "pubmlst_tpallidum_seqdef": [
+      {
+        "method": "MLST (Grillová)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (Pla-Díaz)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/181"
+      },
+      {
+        "method": "1,4-dichlorobenzene Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/90"
+      },
+      {
+        "method": "ABC Transporters",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/12"
+      },
+      {
+        "method": "Alanine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/66"
+      },
+      {
+        "method": "Alanine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/19"
+      },
+      {
+        "method": "Aldarate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/94"
+      },
+      {
+        "method": "All Membrane-Associated",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/170"
+      },
+      {
+        "method": "Amino Sugar Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/147"
+      },
+      {
+        "method": "Amino Sugar Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/50"
+      },
+      {
+        "method": "Ansamycin Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/167"
+      },
+      {
+        "method": "Antimicrobial Peptide Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/38"
+      },
+      {
+        "method": "Arginine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/56"
+      },
+      {
+        "method": "Ascorbate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/93"
+      },
+      {
+        "method": "Aspartic Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/67"
+      },
+      {
+        "method": "Bactofilins",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/179"
+      },
+      {
+        "method": "Benzoate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/91"
+      },
+      {
+        "method": "Betaine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/24"
+      },
+      {
+        "method": "Biotin Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/158"
+      },
+      {
+        "method": "Biotin Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/98"
+      },
+      {
+        "method": "Biotin Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/28"
+      },
+      {
+        "method": "Butanoate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/71"
+      },
+      {
+        "method": "Calcium Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/11"
+      },
+      {
+        "method": "Carbon Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/73"
+      },
+      {
+        "method": "Cardiolipin Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/162"
+      },
+      {
+        "method": "Carnitine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/25"
+      },
+      {
+        "method": "Cell Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/2"
+      },
+      {
+        "method": "Cell Division",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/3"
+      },
+      {
+        "method": "Choline Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/26"
+      },
+      {
+        "method": "Cobalt Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/5"
+      },
+      {
+        "method": "Cofactor Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/145"
+      },
+      {
+        "method": "C-type Cytochrome Biogenesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/139"
+      },
+      {
+        "method": "Cyanoamino Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/81"
+      },
+      {
+        "method": "Cysteine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/64"
+      },
+      {
+        "method": "D-glutamic Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/83"
+      },
+      {
+        "method": "Dicarboxylate Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/36"
+      },
+      {
+        "method": "DNA Recombination",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/108"
+      },
+      {
+        "method": "DNA Repair",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/107"
+      },
+      {
+        "method": "DNA Replication",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/106"
+      },
+      {
+        "method": "DNA Uptake and Competence",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/109"
+      },
+      {
+        "method": "Drug Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/101"
+      },
+      {
+        "method": "Drug Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/41"
+      },
+      {
+        "method": "Entner Doudoroff Pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/55"
+      },
+      {
+        "method": "Ether Lipid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/86"
+      },
+      {
+        "method": "Ethylbenzene Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/89"
+      },
+      {
+        "method": "Export System",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/143"
+      },
+      {
+        "method": "Fatty Acid Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/169"
+      },
+      {
+        "method": "Fermentation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/103"
+      },
+      {
+        "method": "FeS Cluster Assembly",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/180"
+      },
+      {
+        "method": "Flagellar",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/175"
+      },
+      {
+        "method": "Folate Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/149"
+      },
+      {
+        "method": "Fructose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/45"
+      },
+      {
+        "method": "Fructose Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/14"
+      },
+      {
+        "method": "Galactose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/47"
+      },
+      {
+        "method": "Galactose Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/15"
+      },
+      {
+        "method": "Glutamic Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/68"
+      },
+      {
+        "method": "Glutamine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/23"
+      },
+      {
+        "method": "Glutathione Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/72"
+      },
+      {
+        "method": "Glycerol Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/35"
+      },
+      {
+        "method": "Glycerophospholipid/Glycerolipid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/79"
+      },
+      {
+        "method": "Glycine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/60"
+      },
+      {
+        "method": "Glycine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/20"
+      },
+      {
+        "method": "Glycolysis and Gluconeogenesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/53"
+      },
+      {
+        "method": "Glycosaminoglycan Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/95"
+      },
+      {
+        "method": "Glyoxylate/Dicarboxylate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/82"
+      },
+      {
+        "method": "Histidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/69"
+      },
+      {
+        "method": "Inositol Phosphate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/85"
+      },
+      {
+        "method": "Iron Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/8"
+      },
+      {
+        "method": "Isoquinoline Alkoloid Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/165"
+      },
+      {
+        "method": "Linolene Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/87"
+      },
+      {
+        "method": "Lipopolysaccharide Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/40"
+      },
+      {
+        "method": "Lipoprotein Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/30"
+      },
+      {
+        "method": "Lysine Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/156"
+      },
+      {
+        "method": "Lysine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/58"
+      },
+      {
+        "method": "Magnesium Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/4"
+      },
+      {
+        "method": "Maltose Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/13"
+      },
+      {
+        "method": "Manganese Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/7"
+      },
+      {
+        "method": "Mannose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/46"
+      },
+      {
+        "method": "Metabolic Interconversions",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/102"
+      },
+      {
+        "method": "Methane Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/74"
+      },
+      {
+        "method": "Methionine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/65"
+      },
+      {
+        "method": "Methionine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/18"
+      },
+      {
+        "method": "Nicotinate/Nicotinamide Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/77"
+      },
+      {
+        "method": "Nitrogen Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/99"
+      },
+      {
+        "method": "Novobiocin Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/159"
+      },
+      {
+        "method": "Nucleotide Sugar Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/146"
+      },
+      {
+        "method": "Nucleotide Sugar Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/49"
+      },
+      {
+        "method": "Other Amino Acid Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/157"
+      },
+      {
+        "method": "Other Lipopolysaccharide Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/151"
+      },
+      {
+        "method": "Other Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/178"
+      },
+      {
+        "method": "Other Motility and/or Chemotaxis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/176"
+      },
+      {
+        "method": "Other Protein Processing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/138"
+      },
+      {
+        "method": "Other Protein Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/39"
+      },
+      {
+        "method": "Other Respiration",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/141"
+      },
+      {
+        "method": "Other Signalling",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/174"
+      },
+      {
+        "method": "Other Transcription",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/113"
+      },
+      {
+        "method": "Other tRNA Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/121"
+      },
+      {
+        "method": "Outer Membrane-Associated",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/171"
+      },
+      {
+        "method": "Oxidative Phosphorylation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/140"
+      },
+      {
+        "method": "Pantothenate Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/163"
+      },
+      {
+        "method": "Pentose Phosphate Pathway",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/105"
+      },
+      {
+        "method": "Peptidoglycan Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/150"
+      },
+      {
+        "method": "Phenylalanine Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/152"
+      },
+      {
+        "method": "Phenylalanine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/63"
+      },
+      {
+        "method": "Phosphate Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/33"
+      },
+      {
+        "method": "Phosphonate/Phosphinate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/78"
+      },
+      {
+        "method": "Phosphotransferase System",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/142"
+      },
+      {
+        "method": "Pinene Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/88"
+      },
+      {
+        "method": "Piperidine Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/161"
+      },
+      {
+        "method": "Polyamine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/96"
+      },
+      {
+        "method": "Polyketide Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/168"
+      },
+      {
+        "method": "Porphyrin Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/97"
+      },
+      {
+        "method": "Potassium Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/10"
+      },
+      {
+        "method": "Proline Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/155"
+      },
+      {
+        "method": "Proline Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/57"
+      },
+      {
+        "method": "Propionate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/75"
+      },
+      {
+        "method": "Protein Folding",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/137"
+      },
+      {
+        "method": "Purine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/43"
+      },
+      {
+        "method": "Purine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/42"
+      },
+      {
+        "method": "Putrescine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/32"
+      },
+      {
+        "method": "Pyrimidine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/44"
+      },
+      {
+        "method": "Pyruvate Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/52"
+      },
+      {
+        "method": "Quorum Sensing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/173"
+      },
+      {
+        "method": "Reductive Carboxylate Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/104"
+      },
+      {
+        "method": "Riboflavin Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/100"
+      },
+      {
+        "method": "Riboflavin Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/29"
+      },
+      {
+        "method": "Ribosome",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/115"
+      },
+      {
+        "method": "RNA Degredation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/112"
+      },
+      {
+        "method": "RNA Polymerase",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/110"
+      },
+      {
+        "method": "RNA Processing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/114"
+      },
+      {
+        "method": "rRNA Processing",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/116"
+      },
+      {
+        "method": "Secondary Metabolite Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/148"
+      },
+      {
+        "method": "Selenocompound Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/92"
+      },
+      {
+        "method": "Serine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/61"
+      },
+      {
+        "method": "Serine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/21"
+      },
+      {
+        "method": "Sodium Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/9"
+      },
+      {
+        "method": "Spermidine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/31"
+      },
+      {
+        "method": "Starch Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/51"
+      },
+      {
+        "method": "Streptomycin Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/166"
+      },
+      {
+        "method": "Sucrose Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/48"
+      },
+      {
+        "method": "Taurine/Hypotaurine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/76"
+      },
+      {
+        "method": "TCA Cycle",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/54"
+      },
+      {
+        "method": "Terpenoid Backbone Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/164"
+      },
+      {
+        "method": "Thiamine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/84"
+      },
+      {
+        "method": "Thiamine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/27"
+      },
+      {
+        "method": "Threonine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/59"
+      },
+      {
+        "method": "Threonine Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/22"
+      },
+      {
+        "method": "TPR Genes",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/144"
+      },
+      {
+        "method": "Transcriptional Regulation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/111"
+      },
+      {
+        "method": "Translational Regulation",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/117"
+      },
+      {
+        "method": "tRNA-Ala Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/135"
+      },
+      {
+        "method": "tRNA-Arg Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/133"
+      },
+      {
+        "method": "tRNA-Asp Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/124"
+      },
+      {
+        "method": "tRNA-Cys Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/120"
+      },
+      {
+        "method": "tRNA-Glut Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/131"
+      },
+      {
+        "method": "tRNA-Gly Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/130"
+      },
+      {
+        "method": "tRNA-His Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/126"
+      },
+      {
+        "method": "tRNA-Iso Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/122"
+      },
+      {
+        "method": "tRNA-Leu Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/123"
+      },
+      {
+        "method": "tRNA-Lys Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/127"
+      },
+      {
+        "method": "tRNA-Meth Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/132"
+      },
+      {
+        "method": "tRNA-Phe Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/119"
+      },
+      {
+        "method": "tRNA-Ser Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/128"
+      },
+      {
+        "method": "tRNA-Thre Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/129"
+      },
+      {
+        "method": "tRNA-Trypt Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/125"
+      },
+      {
+        "method": "tRNA-Tyr Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/134"
+      },
+      {
+        "method": "tRNA-Val Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/136"
+      },
+      {
+        "method": "Tropane Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/160"
+      },
+      {
+        "method": "Tryptophan Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/154"
+      },
+      {
+        "method": "Two Component System",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/172"
+      },
+      {
+        "method": "Tyrosine Biosynthesis",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/153"
+      },
+      {
+        "method": "Tyrosine Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/62"
+      },
+      {
+        "method": "Universal GTPases",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/118"
+      },
+      {
+        "method": "Unknown Amino Acid Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/70"
+      },
+      {
+        "method": "Unknown Amino Acid Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/17"
+      },
+      {
+        "method": "Unknown Metal Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/34"
+      },
+      {
+        "method": "Unknown Substrate Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/37"
+      },
+      {
+        "method": "Unknown Sugar Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/16"
+      },
+      {
+        "method": "Virulence-Associated",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/177"
+      },
+      {
+        "method": "Vitamin B6 Metabolism",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/80"
+      },
+      {
+        "method": "Zinc Transport",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/6"
+      }
+    ]
+  },
+  "Trichomonas spp.": {
+    "pubmlst_tvaginalis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tvaginalis_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Trueperella spp.": {
+    "pubmlst_tpyogenes_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_tpyogenes_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Ureaplasma spp.": {
+    "pubmlst_ureaplasma_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ureaplasma_seqdef/schemes/1"
+      },
+      {
+        "method": "eMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ureaplasma_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Vibrio spp.": {
+    "pubmlst_vcholerae_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/1"
+      },
+      {
+        "method": "MLST (O1 and O139)",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/3"
+      }
+    ],
+    "pubmlst_vibrio_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vibrio_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_vparahaemolyticus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/1"
+      },
+      {
+        "method": "AA-MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/3"
+      },
+      {
+        "method": "Virulence markers",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/4"
+      }
+    ],
+    "pubmlst_vtapetis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vtapetis_seqdef/schemes/1"
+      }
+    ],
+    "pubmlst_vvulnificus_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_vvulnificus_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Wolbachia spp.": {
+    "pubmlst_wolbachia_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_wolbachia_seqdef/schemes/1"
+      },
+      {
+        "method": "WSP",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_wolbachia_seqdef/schemes/2"
+      }
+    ]
+  },
+  "Xanthomonas spp.": {
+    "pubmlst_xcitri_seqdef": [
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_xcitri_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Xylella spp.": {
+    "pubmlst_xfastidiosa_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_xfastidiosa_seqdef/schemes/1"
+      }
+    ]
+  },
+  "Yersinia spp.": {
+    "pubmlst_ypseudotuberculosis_achtman_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_ypseudotuberculosis_achtman_seqdef/schemes/3"
+      }
+    ],
+    "pubmlst_yruckeri_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_yruckeri_seqdef/schemes/1"
+      }
+    ]
+  }
+}

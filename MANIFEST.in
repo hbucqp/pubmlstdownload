@@ -1,0 +1,1 @@
+exclude src/pubmlst_download/*.pyx

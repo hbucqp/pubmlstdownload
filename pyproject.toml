@@ -1,0 +1,67 @@
+# ============================================================
+# ① 构建系统（Build System）
+# ============================================================
+[build-system]
+requires = ["hatchling>=1.20", "hatch-cython>=0.5", "Cython>=3.0"]
+build-backend = "hatchling.build"
+
+
+
+
+# ============================================================
+# ② 项目信息（Project Metadata）
+# ============================================================
+[project]
+name = "pubmlstdownload"
+version = "0.1.0"
+description = "A high-performance Python tool for downloading MLST (Multilocus Sequence Typing) and cgMLST (core genome MLST) schemes and allele sequences from the [PubMLST](https://pubmlst.org/) database using their RESTful API."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+# ============================================================
+# ③ 命令行入口（Console Entry Points）
+# ============================================================
+[project.scripts]
+pubmlstdownload = "pubmlstdownload.pubmlst_download:main"
+
+
+# ============================================================
+# ④ 第三方工具配置（Tool-specific Settings）
+# ============================================================
+# ---- uv 包索引（使用阿里云镜像以加速依赖下载）----
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
+
+
+# ---- Hatch 构建目标设置（Wheel 打包配置）----
+[tool.hatch.build.targets.wheel]
+sources = ["src"]
+packages = ["src/pubmlstdownload"]
+artifacts = ["*.so", "*.pyd", "*.dll"]
+exclude = ["*.pyx"]
+
+
+# ---- Hatch 的 Cython 钩子配置 ----
+[tool.hatch.build.targets.wheel.hooks.cython]
+dependencies = ["hatch-cython", "Cython>=3.0", "Numpy>=2.0"]
+# exclude = ["*.pyx"]
+
+
+# ---- 定义Cython扩展模块 ----
+[[tool.hatch.build.targets.wheel.hooks.cython.extensions]]
+# 编译后模块的导入路径（import pubmlst_download.pubmlst_download）
+name = "pubmlstdownload.pubmlst_download"
+# Cython源码文件路径
+sources = ["src/pubmlstdownload/pubmlst_download.pyx"]
+
+[dependency-groups]
+dev = [
+    "cython>=3.1.4",
+    "hatch-cython>=0.5.1",
+    "hatchling>=1.27.0",
+    "setuptools>=80.9.0",
+]
