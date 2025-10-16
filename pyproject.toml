@@ -17,9 +17,40 @@ version = "0.1.0"
 description = "A high-performance Python tool for downloading MLST (Multilocus Sequence Typing) and cgMLST (core genome MLST) schemes and allele sequences from the [PubMLST](https://pubmlst.org/) database using their RESTful API."
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    {name = "Qingpo Cui", email = "cqp@cau.edu.cn"}
+]
+keywords = [
+    "MLST",
+    "cgMLST",
+    "PubMLST",
+    "sequence-typing",
+    "bioinformatics",
+    "genomics",
+    "bacterial-genomics",
+    "pubmlst",
+    "download"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "requests>=2.32.5",
 ]
+
+[project.urls]
+Homepage = "https://github.com/hbucqp/pubmlstdownload"
+Repository = "https://github.com/hbucqp/pubmlstdownload"
+Documentation = "https://github.com/hbucqp/pubmlstdownload#readme"
+Issues = "https://github.com/hbucqp/pubmlstdownload/issues"
 
 # ============================================================
 # ③ 命令行入口（Console Entry Points）
@@ -43,6 +74,9 @@ sources = ["src"]
 packages = ["src/pubmlstdownload"]
 artifacts = ["*.so", "*.pyd", "*.dll"]
 exclude = ["*.pyx"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 
 # ---- Hatch 的 Cython 钩子配置 ----
