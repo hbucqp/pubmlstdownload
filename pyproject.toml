@@ -13,7 +13,7 @@ build-backend = "hatchling.build"
 # ============================================================
 [project]
 name = "pubmlstdownload"
-version = "0.1.0"
+version = "0.3.0"
 description = "A high-performance Python tool for downloading MLST (Multilocus Sequence Typing) and cgMLST (core genome MLST) schemes and allele sequences from the [PubMLST](https://pubmlst.org/) database using their RESTful API."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -73,7 +73,7 @@ default = true
 sources = ["src"]
 packages = ["src/pubmlstdownload"]
 artifacts = ["*.so", "*.pyd", "*.dll"]
-exclude = ["*.pyx"]
+exclude = ["*.pyx", "*.py"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
@@ -82,7 +82,7 @@ allow-direct-references = true
 # ---- Hatch 的 Cython 钩子配置 ----
 [tool.hatch.build.targets.wheel.hooks.cython]
 dependencies = ["hatch-cython", "Cython>=3.0", "Numpy>=2.0"]
-# exclude = ["*.pyx"]
+# exclude = ["*.pyx", "*.py"]
 
 
 # ---- 定义Cython扩展模块 ----
