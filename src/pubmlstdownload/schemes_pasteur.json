@@ -1,0 +1,130 @@
+{
+  " Bordetella REST API group": {
+    "pubmlst_bordetella_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/3"
+      },
+      {
+        "method": "Autotransporters",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/11"
+      },
+      {
+        "method": "Bp_vaccine antigens",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/7"
+      },
+      {
+        "method": "cgMLST_genus",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST_pertussis",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/4"
+      },
+      {
+        "method": "macrolide resistance",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/6"
+      },
+      {
+        "method": "Other toxins",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/9"
+      },
+      {
+        "method": "Phase",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/8"
+      },
+      {
+        "method": "PRN-test-Bp",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/5"
+      },
+      {
+        "method": "T3SS",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/10"
+      }
+    ]
+  },
+  "Corynebacterium REST API group": {
+    "pubmlst_diphtheria_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/3"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST_ulcerans",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/5"
+      },
+      {
+        "method": "PBP",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/2"
+      },
+      {
+        "method": "spuA_island",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/6"
+      },
+      {
+        "method": "tox",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/4"
+      }
+    ]
+  },
+  " Leptospira REST API group": {
+    "pubmlst_leptospira_seqdef": [
+      {
+        "method": "16S_typing",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/2"
+      },
+      {
+        "method": "capture_cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/3"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/1"
+      },
+      {
+        "method": "Ictero",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/8"
+      },
+      {
+        "method": "lfb1",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/7"
+      },
+      {
+        "method": "MLST_1",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/4"
+      },
+      {
+        "method": "MLST_2",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/5"
+      },
+      {
+        "method": "MLST_3",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/6"
+      }
+    ]
+  },
+  " Yersinia REST API group": {
+    "pubmlst_yersinia_seqdef": [
+      {
+        "method": "Virulence factors",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_yersinia_seqdef/schemes/4"
+      },
+      {
+        "method": "Y.enterocolitica cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_yersinia_seqdef/schemes/2"
+      },
+      {
+        "method": "Yersinia cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_yersinia_seqdef/schemes/1"
+      },
+      {
+        "method": "Y.pseudotuberculosis cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_yersinia_seqdef/schemes/3"
+      }
+    ]
+  }
+}

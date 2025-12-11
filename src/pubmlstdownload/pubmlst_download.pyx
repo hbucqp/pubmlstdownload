@@ -1,7 +1,7 @@
 """
-PubMLST Database Downloader
+PubMLST and Pasteur BIGSdb Database Downloader
 
-Downloads MLST/cgMLST schemes and alleles from PubMLST using their RESTful API.
+Downloads MLST/cgMLST schemes and alleles from PubMLST or Pasteur BIGSdb using their RESTful APIs.
 
 Performance optimizations:
 - Concurrent downloads using ThreadPoolExecutor (10 workers by default)
@@ -21,7 +21,7 @@ import logging
 import time
 import random
 import requests
-from typing import List, Dict, Any, Optional, Tuple, Callable
+from typing import List, Dict, Any, Tuple, Callable, Optional
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from requests.adapters import HTTPAdapter
@@ -52,6 +52,9 @@ RETRY_STRATEGY = Retry(
     respect_retry_after_header=True,  # Honor Retry-After header from server
 )
 
+# Pasteur BIGSdb API settings
+PASTEUR_BASE_URL = 'https://bigsdb.pasteur.fr/api'
+
 
 def get_session() -> requests.Session:
     """
@@ -66,6 +69,7 @@ def get_session() -> requests.Session:
     )
     session.mount('http://', adapter)
     session.mount('https://', adapter)
+    
     return session
 
 
@@ -111,8 +115,12 @@ def retry_with_backoff(func: Callable, *args, max_retries: int = MAX_RETRIES,
 
 def fetch_resources(base_url: str = 'https://rest.pubmlst.org') -> List[Dict[str, Any]]:
     """
-    Fetch top-level resources from PubMLST API with a timeout and simple error handling.
+    Fetch top-level resources from PubMLST or Pasteur BIGSdb API with a timeout and simple error handling.
     Uses a session for better connection reuse.
+    
+    Args:
+        base_url: Base URL for the API
+        auth_token: Optional OAuth2 bearer token for Pasteur BIGSdb
     """
     session = get_session()
     try:
@@ -128,12 +136,15 @@ def get_pubmlst_schemes(resources: List[Dict[str, Any]]) -> Dict[str, Dict[str, 
     """
     Function to list organisms and scheme definitions using the PubMLST RESTful API.
     Uses a shared session for better performance across multiple requests.
+    
+    Args:
+        resources: List of resource dictionaries from the API
     """
     session = get_session()
     info_dict = {}
     
     for resource in resources:
-        if resource['databases']:
+        if resource.get('databases'):
             organism_name = resource['description']
             if not re.search('Example', organism_name):
                 logger.info(f'Parsing {organism_name} ...')
@@ -169,6 +180,57 @@ def get_pubmlst_schemes(resources: List[Dict[str, Any]]) -> Dict[str, Dict[str, 
     
     return info_dict
 
+
+def get_pasteur_schemes(resources: List[Dict[str, Any]]) -> Dict[str, Dict[str, List[Dict[str, str]]]]:
+    """
+    Function to list organisms and scheme definitions using the Pasteur BIGSdb RESTful API.
+    Uses a shared session for better performance across multiple requests.
+    
+    Args:
+        resources: List of resource dictionaries from the API
+    """
+    session = get_session()
+    info_dict = {}
+    
+    # Pasteur BIGSdb API structure may differ, adapt as needed
+    for resource in resources:
+        if resource.get('databases'):
+            organism_name = resource.get('description', resource.get('name', 'Unknown'))
+            if not re.search('Example', organism_name, re.IGNORECASE):
+                logger.info(f'Parsing {organism_name} ...')
+                schemes_dict = {}
+                
+                for db in resource['databases']:
+                    if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+                        subscheme = db.get('name', '')
+                        try:
+                            db_attributes = session.get(db['href'], timeout=15).json()
+                        except Exception as e:
+                            logger.warning(f'Failed to fetch db attributes for {subscheme}: {e}')
+                            continue
+                        
+                        if 'schemes' in db_attributes:
+                            try:
+                                scheme_list_dict = session.get(db_attributes['schemes'], timeout=15).json()
+                            except Exception as e:
+                                logger.warning(f'Failed to fetch schemes list for {subscheme}: {e}')
+                                continue
+                            
+                            schemes = scheme_list_dict.get('schemes', [])
+                            info_list = []
+                            
+                            for item in schemes:
+                                info_list.append({
+                                    'method': item.get('description', ''),
+                                    'typing_method_url': item.get('scheme', '')
+                                })
+                            schemes_dict[subscheme] = info_list
+                
+                if schemes_dict:
+                    info_dict[organism_name] = schemes_dict
+    
+    return info_dict
+
 def load_schemes(file_path: Path) -> Dict[str, Any]:
     """
     Load schemes mapping from a JSON file. Returns empty dict if missing or invalid.
@@ -194,16 +256,30 @@ def save_schemes(file_path: Path, data: Dict[str, Any]) -> None:
         logger.error(f'Failed to write {file_path}: {e}')
 
 
-def build_or_load_schemes(schemes_path: Path, force_refresh: bool = False) -> Dict[str, Any]:
+def build_or_load_schemes(schemes_path: Path, force_refresh: bool = False, 
+                         source: str = 'pubmlst') -> Dict[str, Any]:
     """
     Build schemes from API or load from disk, controlled by force_refresh flag.
+    
+    Args:
+        schemes_path: Path to schemes JSON file
+        force_refresh: If True, force refresh from API
+        source: Data source ('pubmlst' or 'pasteur')
     """
     if not force_refresh:
         cached = load_schemes(schemes_path)
         if cached:
             return cached
-    resources = fetch_resources()
-    data = get_pubmlst_schemes(resources)
+    
+    if source == 'pasteur':
+        base_url = PASTEUR_BASE_URL
+        resources = fetch_resources(base_url)
+        data = get_pasteur_schemes(resources)
+    else:  # default to pubmlst
+        base_url = 'https://rest.pubmlst.org'
+        resources = fetch_resources(base_url)
+        data = get_pubmlst_schemes(resources)
+    
     save_schemes(schemes_path, data)
     return data
 
@@ -224,7 +300,8 @@ def output_scheme_info(info_dict):
 
 
 def download_ref_db(scheme: str, subscheme: str, scheme_url: str, output_path: Path, 
-                    max_workers: int = MAX_WORKERS, skip_existing: bool = True, max_retries: int = MAX_RETRIES) -> None:
+                    max_workers: int = MAX_WORKERS, skip_existing: bool = True, 
+                    max_retries: int = MAX_RETRIES) -> None:
     """
     Download a complete reference database scheme including profiles and all loci.
     
@@ -480,7 +557,7 @@ def download_profiles(profiles_url: str, storage_dir: Path, session: Optional[re
 
 def arg_parse():
     "Parse the input argument, use '-h' for help."
-    parser = argparse.ArgumentParser(description='Run pubmlst_download and download schemes from pubmlst using RESTful API',
+    parser = argparse.ArgumentParser(description='Download MLST/cgMLST schemes from PubMLST or Pasteur BIGSdb using RESTful API',
                                      usage='pubmlst_download -scheme SCHEME_NAME -subscheme SUBSCHEME_NAME -scheme_url SCHEME_URL\n\nAuthor: Qingpo Cui(SZQ Lab, China Agricultural University)\n')
     
     # Add subcommand
@@ -492,9 +569,15 @@ def arg_parse():
         'update_schemes', help='Update schemes')
     update_schemes_parser.add_argument(
         '-force_refresh', action='store_true', help='Force refresh schemes')
+    update_schemes_parser.add_argument(
+        '-source', choices=['pubmlst', 'pasteur'], default='pubmlst',
+        help='Data source: pubmlst or pasteur (default: pubmlst)')
 
     show_schemes_parser = subparsers.add_parser(
         'show_schemes', help='Show schemes')
+    show_schemes_parser.add_argument(
+        '-source', choices=['pubmlst', 'pasteur'], default='pubmlst',
+        help='Data source: pubmlst or pasteur (default: pubmlst)')
     
    
     # Main command arguments
@@ -503,14 +586,16 @@ def arg_parse():
     parser.add_argument('-subscheme', '--subscheme',
                       help='wgMLST/cgMLST database name')
     parser.add_argument('-scheme_url', '--scheme_url',
-                      help='Scheme URL from PubMLST API')
+                      help='Scheme URL from PubMLST or Pasteur BIGSdb API')
     parser.add_argument('-output', '--output',
                       help='Base output directory (defaults to ./db)')
+    parser.add_argument('-source', choices=['pubmlst', 'pasteur'], default='pubmlst',
+                      help='Data source: pubmlst or pasteur (default: pubmlst)')
     parser.add_argument('-max_workers', '--max_workers', type=int, default=MAX_WORKERS,
                       help=f'Maximum concurrent downloads (default: {MAX_WORKERS}). Reduce if rate limited.')
     parser.add_argument('-max_retries', '--max_retries', type=int, default=MAX_RETRIES,
                       help=f'Maximum retry attempts per locus (default: {MAX_RETRIES})')
-    parser.add_argument('--force_redownload', action='store_true',
+    parser.add_argument('-force_redownload', action='store_true',
                       help='Force redownload even if files already exist')
     
     # If no arguments provided, print help and exit
@@ -533,7 +618,8 @@ def arg_parse():
     if args.subcommand is None:
         # If no subcommand, require main command arguments
         if not all([args.scheme, args.subscheme, args.scheme_url, args.output]):
-            parser.error("the following arguments are required: -scheme/--scheme, -subscheme/--subscheme, -scheme_url/--scheme_url, -output/--output    ")
+            parser.error("the following arguments are required: -scheme/--scheme, -subscheme/--subscheme, -scheme_url/--scheme_url, -output/--output")
+    
     return args
 
 
@@ -542,12 +628,15 @@ def arg_parse():
 def main():
     # get the path of the current script
     current_path = Path(__file__).parent
-    schemes_path = current_path / 'schemes.json'
     args = arg_parse()
+    source = getattr(args, 'source', 'pubmlst')
+    schemes_path = current_path / f'schemes_{source}.json'
+    
     if args.subcommand is None:
         if not schemes_path.exists():
             schemes_path.touch()
-        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False))
+        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False),
+                                         source=args.source)
         # show the scheme info
         # output_scheme_info(info_dict)
         base_output = Path(args.output)
@@ -557,19 +646,22 @@ def main():
         max_retries = getattr(args, 'max_retries', MAX_RETRIES)
         skip_existing = not getattr(args, 'force_redownload', False)
         download_ref_db(args.scheme, args.subscheme, args.scheme_url, base_output, 
-                       max_workers=max_workers, skip_existing=skip_existing, max_retries=max_retries)
+                       max_workers=max_workers, skip_existing=skip_existing, 
+                       max_retries=max_retries)
     elif args.subcommand == 'update_schemes':
         # if the schemes.json is not exists, create it
         if not schemes_path.exists():
             schemes_path.touch()
-        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False))
+        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False),
+                                         source=args.source)
         # show the scheme info
         output_scheme_info(info_dict)
     elif args.subcommand == 'show_schemes':
         # show the scheme info
         if not schemes_path.exists():
             schemes_path.touch()
-        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False))
+        info_dict = build_or_load_schemes(schemes_path, force_refresh=getattr(args, 'force_refresh', False),
+                                         source=args.source)
         output_scheme_info(info_dict)
     else:
         logger.info(f'{args.subcommand} do not exists, please using "pubmlst_download -h" to show help massage.')

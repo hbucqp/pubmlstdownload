@@ -289,6 +289,10 @@
       {
         "method": "MLST",
         "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcc_seqdef/schemes/1"
+      },
+      {
+        "method": "cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_bcc_seqdef/schemes/2"
       }
     ],
     "pubmlst_bmallei_seqdef": [
@@ -1249,6 +1253,10 @@
       {
         "method": "MLST",
         "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mycobacteria_seqdef/schemes/2"
+      },
+      {
+        "method": "MTBC cgMLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_mycobacteria_seqdef/schemes/3"
       }
     ]
   },
@@ -1852,6 +1860,18 @@
       }
     ]
   },
+  "Providencia spp.": {
+    "pubmlst_providencia_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_providencia_seqdef/schemes/1"
+      },
+      {
+        "method": "P. stuartii MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_providencia_seqdef/schemes/2"
+      }
+    ]
+  },
   "Pseudomonas spp.": {
     "pubmlst_paeruginosa_seqdef": [
       {
@@ -1892,20 +1912,7 @@
       }
     ]
   },
-  "Ribosomal MLST": {
-    "pubmlst_rmlst_seqdef": [
-      {
-        "method": "MLST",
-        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1"
-      }
-    ],
-    "pubmlst_rmlst_seqdef_kiosk": [
-      {
-        "method": "MLST",
-        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1"
-      }
-    ]
-  },
+  "Ribosomal MLST": {},
   "Salmonella spp.": {
     "pubmlst_salmonella_seqdef": [
       {
@@ -2051,6 +2058,12 @@
       {
         "method": "TCS-9: srrAB",
         "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/11"
+      }
+    ],
+    "pubmlst_scapitis_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://rest.pubmlst.org/db/pubmlst_scapitis_seqdef/schemes/1"
       }
     ],
     "pubmlst_schromogenes_seqdef": [
