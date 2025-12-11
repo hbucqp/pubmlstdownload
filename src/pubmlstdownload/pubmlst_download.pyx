@@ -201,7 +201,7 @@ def get_pasteur_schemes(resources: List[Dict[str, Any]]) -> Dict[str, Dict[str, 
                 schemes_dict = {}
                 
                 for db in resource['databases']:
-                    if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+                    if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
                         subscheme = db.get('name', '')
                         try:
                             db_attributes = session.get(db['href'], timeout=15).json()

@@ -71,6 +71,106 @@
       }
     ]
   },
+  "Klebsiella REST API group": {
+    "pubmlst_klebsiella_seqdef": [
+      {
+        "method": "AbST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/20"
+      },
+      {
+        "method": "MLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/1"
+      },
+      {
+        "method": "CbST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/17"
+      },
+      {
+        "method": "cgMLST_KpI",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/15"
+      },
+      {
+        "method": "cgMLST_ST258_ST512_ST1199",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/10"
+      },
+      {
+        "method": "cps cluster genes",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/13"
+      },
+      {
+        "method": "Efflux systems and regulators",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/6"
+      },
+      {
+        "method": "Heavy metal resistance genes",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/8"
+      },
+      {
+        "method": "hvK2 multiplex PCR",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/7"
+      },
+      {
+        "method": "Kpn_cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/19"
+      },
+      {
+        "method": "NativeBetaLactamases",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/5"
+      },
+      {
+        "method": "OtherNativeResistanceGenes",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/22"
+      },
+      {
+        "method": "Quinolone resistance genes",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/12"
+      },
+      {
+        "method": "RmST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/23"
+      },
+      {
+        "method": "scgMLST629_S",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/18"
+      },
+      {
+        "method": "scgMLST634",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/3"
+      },
+      {
+        "method": "SL147_cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/26"
+      },
+      {
+        "method": "SL307_cgMLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/27"
+      },
+      {
+        "method": "SmST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/21"
+      },
+      {
+        "method": "Species-specific markers",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/9"
+      },
+      {
+        "method": "Urease-Nickel cluster",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/14"
+      },
+      {
+        "method": "Virulence genes",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/4"
+      },
+      {
+        "method": "wzi",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/2"
+      },
+      {
+        "method": "YbST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/16"
+      }
+    ]
+  },
   " Leptospira REST API group": {
     "pubmlst_leptospira_seqdef": [
       {
@@ -104,6 +204,66 @@
       {
         "method": "MLST_3",
         "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_leptospira_seqdef/schemes/6"
+      }
+    ]
+  },
+  "Listeria REST API group": {
+    "pubmlst_listeria_seqdef": [
+      {
+        "method": "MLST",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/2"
+      },
+      {
+        "method": "cgMLST1748",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/3"
+      },
+      {
+        "method": "PCR-serogroup",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/4"
+      },
+      {
+        "method": "Virulence",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/5"
+      },
+      {
+        "method": "Antibiotic Resistance",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/6"
+      },
+      {
+        "method": "Metal  & Disinfectants Resistance",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/7"
+      },
+      {
+        "method": "Stress Islands",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/8"
+      },
+      {
+        "method": "Listeria Genomic Islands",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/10"
+      },
+      {
+        "method": "sigB operon",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/11"
+      },
+      {
+        "method": "Rhamnose operon",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/12"
+      },
+      {
+        "method": "Clonogrouping",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/13"
+      },
+      {
+        "method": "PBPs",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/14"
+      },
+      {
+        "method": "cgMLST1748_v2",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/15"
+      },
+      {
+        "method": "Motility",
+        "typing_method_url": "https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/9"
       }
     ]
   },

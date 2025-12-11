@@ -14,7 +14,6 @@
         ],
         "name": "pubmlstdownload.pubmlst_download",
         "sources": [
-            "./src/pubmlstdownload/pubmlst_download.py",
             "./src/pubmlstdownload/pubmlst_download.pyx"
         ]
     },
@@ -2651,7 +2650,7 @@ typedef struct {
   __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_values;
   PyObject *__pyx_tuple[16];
   PyObject *__pyx_codeobj_tab[15];
-  PyObject *__pyx_string_tab[374];
+  PyObject *__pyx_string_tab[375];
   PyObject *__pyx_number_tab[15];
 /* #### Code section: module_state_contents ### */
 /* CommonTypesMetaclass.module_state_decls */
@@ -2807,266 +2806,267 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_kp_u_scheme_3 __pyx_string_tab[111]
 #define __pyx_kp_u_scheme_url_2 __pyx_string_tab[112]
 #define __pyx_kp_u_scheme_url_3 __pyx_string_tab[113]
-#define __pyx_kp_u_source_2 __pyx_string_tab[114]
-#define __pyx_kp_u_src_pubmlstdownload_pubmlst_down __pyx_string_tab[115]
-#define __pyx_kp_u_subscheme_2 __pyx_string_tab[116]
-#define __pyx_kp_u_subscheme_3 __pyx_string_tab[117]
-#define __pyx_kp_u_the_following_arguments_are_requ __pyx_string_tab[118]
-#define __pyx_kp_u_wgMLST_cgMLST_database_name __pyx_string_tab[119]
-#define __pyx_n_u_Any __pyx_string_tab[120]
-#define __pyx_n_u_ArgumentParser __pyx_string_tab[121]
-#define __pyx_n_u_Callable __pyx_string_tab[122]
-#define __pyx_n_u_ConnectionError __pyx_string_tab[123]
-#define __pyx_n_u_Dict __pyx_string_tab[124]
-#define __pyx_n_u_Example __pyx_string_tab[125]
-#define __pyx_n_u_HTTPAdapter __pyx_string_tab[126]
-#define __pyx_n_u_HTTPError __pyx_string_tab[127]
-#define __pyx_n_u_IGNORECASE __pyx_string_tab[128]
-#define __pyx_n_u_INFO __pyx_string_tab[129]
-#define __pyx_n_u_INITIAL_DELAY __pyx_string_tab[130]
-#define __pyx_n_u_List __pyx_string_tab[131]
-#define __pyx_n_u_MAX_RETRIES __pyx_string_tab[132]
-#define __pyx_n_u_MAX_WORKERS __pyx_string_tab[133]
-#define __pyx_n_u_None __pyx_string_tab[134]
-#define __pyx_n_u_Optional __pyx_string_tab[135]
-#define __pyx_n_u_PASTEUR_BASE_URL __pyx_string_tab[136]
-#define __pyx_n_u_Path __pyx_string_tab[137]
-#define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[138]
-#define __pyx_n_u_RETRY_STRATEGY __pyx_string_tab[139]
-#define __pyx_n_u_RequestException __pyx_string_tab[140]
-#define __pyx_n_u_Retry_2 __pyx_string_tab[141]
-#define __pyx_n_u_Session __pyx_string_tab[142]
-#define __pyx_n_u_ThreadPoolExecutor __pyx_string_tab[143]
-#define __pyx_n_u_Timeout __pyx_string_tab[144]
-#define __pyx_n_u_Tuple __pyx_string_tab[145]
-#define __pyx_n_u_Unknown __pyx_string_tab[146]
-#define __pyx_n_u_action __pyx_string_tab[147]
-#define __pyx_n_u_adapter __pyx_string_tab[148]
-#define __pyx_n_u_add_argument __pyx_string_tab[149]
-#define __pyx_n_u_add_parser __pyx_string_tab[150]
-#define __pyx_n_u_add_subparsers __pyx_string_tab[151]
-#define __pyx_n_u_all __pyx_string_tab[152]
-#define __pyx_n_u_alleles_fasta __pyx_string_tab[153]
-#define __pyx_n_u_arg_parse __pyx_string_tab[154]
-#define __pyx_n_u_argparse __pyx_string_tab[155]
-#define __pyx_n_u_args __pyx_string_tab[156]
-#define __pyx_n_u_argv __pyx_string_tab[157]
-#define __pyx_n_u_as_completed __pyx_string_tab[158]
-#define __pyx_n_u_asyncio_coroutines __pyx_string_tab[159]
-#define __pyx_n_u_attempt __pyx_string_tab[160]
-#define __pyx_n_u_backoff_factor __pyx_string_tab[161]
-#define __pyx_n_u_base_output __pyx_string_tab[162]
-#define __pyx_n_u_base_url __pyx_string_tab[163]
-#define __pyx_n_u_basicConfig __pyx_string_tab[164]
-#define __pyx_n_u_bool __pyx_string_tab[165]
-#define __pyx_n_u_build_or_load_schemes __pyx_string_tab[166]
-#define __pyx_n_u_cached __pyx_string_tab[167]
-#define __pyx_n_u_choices __pyx_string_tab[168]
-#define __pyx_n_u_class_getitem __pyx_string_tab[169]
-#define __pyx_n_u_cline_in_traceback __pyx_string_tab[170]
-#define __pyx_n_u_completed __pyx_string_tab[171]
-#define __pyx_n_u_concurrent_futures __pyx_string_tab[172]
-#define __pyx_n_u_current_path __pyx_string_tab[173]
-#define __pyx_n_u_data __pyx_string_tab[174]
-#define __pyx_n_u_databases __pyx_string_tab[175]
-#define __pyx_n_u_datefmt __pyx_string_tab[176]
-#define __pyx_n_u_db __pyx_string_tab[177]
-#define __pyx_n_u_db_attributes __pyx_string_tab[178]
-#define __pyx_n_u_debug __pyx_string_tab[179]
-#define __pyx_n_u_default __pyx_string_tab[180]
-#define __pyx_n_u_definitions __pyx_string_tab[181]
-#define __pyx_n_u_delay __pyx_string_tab[182]
-#define __pyx_n_u_description __pyx_string_tab[183]
-#define __pyx_n_u_dest __pyx_string_tab[184]
-#define __pyx_n_u_download_alleles_seq __pyx_string_tab[185]
-#define __pyx_n_u_download_loci_seq __pyx_string_tab[186]
-#define __pyx_n_u_download_path __pyx_string_tab[187]
-#define __pyx_n_u_download_profiles __pyx_string_tab[188]
-#define __pyx_n_u_download_ref_db __pyx_string_tab[189]
-#define __pyx_n_u_dump __pyx_string_tab[190]
-#define __pyx_n_u_e __pyx_string_tab[191]
-#define __pyx_n_u_ensure_ascii __pyx_string_tab[192]
-#define __pyx_n_u_enter __pyx_string_tab[193]
-#define __pyx_n_u_enumerate __pyx_string_tab[194]
-#define __pyx_n_u_error __pyx_string_tab[195]
-#define __pyx_n_u_exceptions __pyx_string_tab[196]
-#define __pyx_n_u_executor __pyx_string_tab[197]
-#define __pyx_n_u_exist_ok __pyx_string_tab[198]
-#define __pyx_n_u_exists __pyx_string_tab[199]
-#define __pyx_n_u_exit __pyx_string_tab[200]
-#define __pyx_n_u_exit_2 __pyx_string_tab[201]
-#define __pyx_n_u_f __pyx_string_tab[202]
-#define __pyx_n_u_failed_downloads __pyx_string_tab[203]
-#define __pyx_n_u_failed_file __pyx_string_tab[204]
-#define __pyx_n_u_fasta_url __pyx_string_tab[205]
-#define __pyx_n_u_fetch_resources __pyx_string_tab[206]
-#define __pyx_n_u_file __pyx_string_tab[207]
-#define __pyx_n_u_file_path __pyx_string_tab[208]
-#define __pyx_n_u_float __pyx_string_tab[209]
-#define __pyx_n_u_force_redownload_2 __pyx_string_tab[210]
-#define __pyx_n_u_force_refresh __pyx_string_tab[211]
-#define __pyx_n_u_format __pyx_string_tab[212]
-#define __pyx_n_u_func __pyx_string_tab[213]
-#define __pyx_n_u_func_2 __pyx_string_tab[214]
-#define __pyx_n_u_future __pyx_string_tab[215]
-#define __pyx_n_u_future_to_url __pyx_string_tab[216]
-#define __pyx_n_u_get __pyx_string_tab[217]
-#define __pyx_n_u_getLogger __pyx_string_tab[218]
-#define __pyx_n_u_get_pasteur_schemes __pyx_string_tab[219]
-#define __pyx_n_u_get_pubmlst_schemes __pyx_string_tab[220]
-#define __pyx_n_u_get_session __pyx_string_tab[221]
-#define __pyx_n_u_help __pyx_string_tab[222]
-#define __pyx_n_u_href __pyx_string_tab[223]
-#define __pyx_n_u_i __pyx_string_tab[224]
-#define __pyx_n_u_id __pyx_string_tab[225]
-#define __pyx_n_u_indent __pyx_string_tab[226]
-#define __pyx_n_u_info __pyx_string_tab[227]
-#define __pyx_n_u_info_dict __pyx_string_tab[228]
-#define __pyx_n_u_info_list __pyx_string_tab[229]
-#define __pyx_n_u_initial_delay __pyx_string_tab[230]
-#define __pyx_n_u_int __pyx_string_tab[231]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[232]
-#define __pyx_n_u_item __pyx_string_tab[233]
-#define __pyx_n_u_items __pyx_string_tab[234]
-#define __pyx_n_u_json __pyx_string_tab[235]
-#define __pyx_n_u_keys __pyx_string_tab[236]
-#define __pyx_n_u_kwargs __pyx_string_tab[237]
-#define __pyx_n_u_last_exception __pyx_string_tab[238]
-#define __pyx_n_u_level __pyx_string_tab[239]
-#define __pyx_n_u_load __pyx_string_tab[240]
-#define __pyx_n_u_load_schemes __pyx_string_tab[241]
-#define __pyx_n_u_loci __pyx_string_tab[242]
-#define __pyx_n_u_loci_name __pyx_string_tab[243]
-#define __pyx_n_u_loci_url __pyx_string_tab[244]
-#define __pyx_n_u_locus_att __pyx_string_tab[245]
-#define __pyx_n_u_locus_url_list __pyx_string_tab[246]
-#define __pyx_n_u_logger __pyx_string_tab[247]
-#define __pyx_n_u_logging __pyx_string_tab[248]
-#define __pyx_n_u_main __pyx_string_tab[249]
-#define __pyx_n_u_main_2 __pyx_string_tab[250]
-#define __pyx_n_u_max_retries __pyx_string_tab[251]
-#define __pyx_n_u_max_workers __pyx_string_tab[252]
-#define __pyx_n_u_method __pyx_string_tab[253]
-#define __pyx_n_u_method_url __pyx_string_tab[254]
-#define __pyx_n_u_mkdir __pyx_string_tab[255]
-#define __pyx_n_u_module __pyx_string_tab[256]
-#define __pyx_n_u_mount __pyx_string_tab[257]
-#define __pyx_n_u_name __pyx_string_tab[258]
-#define __pyx_n_u_name_2 __pyx_string_tab[259]
-#define __pyx_n_u_open __pyx_string_tab[260]
-#define __pyx_n_u_organism __pyx_string_tab[261]
-#define __pyx_n_u_organism_name __pyx_string_tab[262]
-#define __pyx_n_u_out_fasta __pyx_string_tab[263]
-#define __pyx_n_u_outfile __pyx_string_tab[264]
-#define __pyx_n_u_output_3 __pyx_string_tab[265]
-#define __pyx_n_u_output_path __pyx_string_tab[266]
-#define __pyx_n_u_output_scheme_info __pyx_string_tab[267]
-#define __pyx_n_u_parent __pyx_string_tab[268]
-#define __pyx_n_u_parents __pyx_string_tab[269]
-#define __pyx_n_u_parse_args __pyx_string_tab[270]
-#define __pyx_n_u_parser __pyx_string_tab[271]
-#define __pyx_n_u_pasteur __pyx_string_tab[272]
-#define __pyx_n_u_pathlib __pyx_string_tab[273]
-#define __pyx_n_u_pool_connections __pyx_string_tab[274]
-#define __pyx_n_u_pool_maxsize __pyx_string_tab[275]
-#define __pyx_n_u_pop __pyx_string_tab[276]
-#define __pyx_n_u_print __pyx_string_tab[277]
-#define __pyx_n_u_print_help __pyx_string_tab[278]
-#define __pyx_n_u_profiles __pyx_string_tab[279]
-#define __pyx_n_u_profiles_csv __pyx_string_tab[280]
-#define __pyx_n_u_profiles_out __pyx_string_tab[281]
-#define __pyx_n_u_profiles_url __pyx_string_tab[282]
-#define __pyx_n_u_pubmlst __pyx_string_tab[283]
-#define __pyx_n_u_pubmlst_2 __pyx_string_tab[284]
-#define __pyx_n_u_pubmlstdownload_pubmlst_download __pyx_string_tab[285]
-#define __pyx_n_u_qualname __pyx_string_tab[286]
-#define __pyx_n_u_r __pyx_string_tab[287]
-#define __pyx_n_u_raise_for_status __pyx_string_tab[288]
-#define __pyx_n_u_random __pyx_string_tab[289]
-#define __pyx_n_u_re __pyx_string_tab[290]
-#define __pyx_n_u_replace __pyx_string_tab[291]
-#define __pyx_n_u_requests __pyx_string_tab[292]
-#define __pyx_n_u_requests_adapters __pyx_string_tab[293]
-#define __pyx_n_u_resource __pyx_string_tab[294]
-#define __pyx_n_u_resources __pyx_string_tab[295]
-#define __pyx_n_u_respect_retry_after_header __pyx_string_tab[296]
-#define __pyx_n_u_response __pyx_string_tab[297]
-#define __pyx_n_u_result __pyx_string_tab[298]
-#define __pyx_n_u_retry_with_backoff __pyx_string_tab[299]
-#define __pyx_n_u_return __pyx_string_tab[300]
-#define __pyx_n_u_s_2 __pyx_string_tab[301]
-#define __pyx_n_u_save_schemes __pyx_string_tab[302]
-#define __pyx_n_u_scheme __pyx_string_tab[303]
-#define __pyx_n_u_scheme_dict __pyx_string_tab[304]
-#define __pyx_n_u_scheme_list_dict __pyx_string_tab[305]
-#define __pyx_n_u_scheme_url __pyx_string_tab[306]
-#define __pyx_n_u_schemes __pyx_string_tab[307]
-#define __pyx_n_u_schemes_2 __pyx_string_tab[308]
-#define __pyx_n_u_schemes_dict __pyx_string_tab[309]
-#define __pyx_n_u_schemes_path __pyx_string_tab[310]
-#define __pyx_n_u_search __pyx_string_tab[311]
-#define __pyx_n_u_seqdef __pyx_string_tab[312]
-#define __pyx_n_u_seqs __pyx_string_tab[313]
-#define __pyx_n_u_session __pyx_string_tab[314]
-#define __pyx_n_u_set_name __pyx_string_tab[315]
-#define __pyx_n_u_setdefault __pyx_string_tab[316]
-#define __pyx_n_u_show_schemes __pyx_string_tab[317]
-#define __pyx_n_u_show_schemes_parser __pyx_string_tab[318]
-#define __pyx_n_u_skip_existing __pyx_string_tab[319]
-#define __pyx_n_u_skipped __pyx_string_tab[320]
-#define __pyx_n_u_sleep __pyx_string_tab[321]
-#define __pyx_n_u_source __pyx_string_tab[322]
-#define __pyx_n_u_species __pyx_string_tab[323]
-#define __pyx_n_u_st_size __pyx_string_tab[324]
-#define __pyx_n_u_stat __pyx_string_tab[325]
-#define __pyx_n_u_status_code __pyx_string_tab[326]
-#define __pyx_n_u_status_forcelist __pyx_string_tab[327]
-#define __pyx_n_u_stderr __pyx_string_tab[328]
-#define __pyx_n_u_storage_dir __pyx_string_tab[329]
-#define __pyx_n_u_store_true __pyx_string_tab[330]
-#define __pyx_n_u_str __pyx_string_tab[331]
-#define __pyx_n_u_subcommand __pyx_string_tab[332]
-#define __pyx_n_u_submit __pyx_string_tab[333]
-#define __pyx_n_u_subparsers __pyx_string_tab[334]
-#define __pyx_n_u_subscheme __pyx_string_tab[335]
-#define __pyx_n_u_success __pyx_string_tab[336]
-#define __pyx_n_u_sys __pyx_string_tab[337]
-#define __pyx_n_u_test __pyx_string_tab[338]
-#define __pyx_n_u_text __pyx_string_tab[339]
-#define __pyx_n_u_time __pyx_string_tab[340]
-#define __pyx_n_u_timeout __pyx_string_tab[341]
-#define __pyx_n_u_title __pyx_string_tab[342]
-#define __pyx_n_u_total __pyx_string_tab[343]
-#define __pyx_n_u_touch __pyx_string_tab[344]
-#define __pyx_n_u_type __pyx_string_tab[345]
-#define __pyx_n_u_typing __pyx_string_tab[346]
-#define __pyx_n_u_typing_method_url __pyx_string_tab[347]
-#define __pyx_n_u_uniform __pyx_string_tab[348]
-#define __pyx_n_u_update_schemes __pyx_string_tab[349]
-#define __pyx_n_u_update_schemes_parser __pyx_string_tab[350]
-#define __pyx_n_u_url __pyx_string_tab[351]
-#define __pyx_n_u_urllib3_util_retry __pyx_string_tab[352]
-#define __pyx_n_u_usage __pyx_string_tab[353]
-#define __pyx_n_u_value __pyx_string_tab[354]
-#define __pyx_n_u_values __pyx_string_tab[355]
-#define __pyx_n_u_w __pyx_string_tab[356]
-#define __pyx_n_u_warning __pyx_string_tab[357]
-#define __pyx_n_u_write __pyx_string_tab[358]
-#define __pyx_kp_b_iso88591_2_vEUUV_xs_Q_5_wd_XQ_Q_Q_x_q_c __pyx_string_tab[359]
-#define __pyx_kp_b_iso88591_4q_9A_WAV_Q_AQ_t_s_4_7_a_gQfTee __pyx_string_tab[360]
-#define __pyx_kp_b_iso88591_6_Q_5_4r_1_1_Q_xr_Rq_c_3ir_xq_1 __pyx_string_tab[361]
-#define __pyx_kp_b_iso88591_6fIQ_5Q_xs_Q_aq_r_T_WCt_uBirQR __pyx_string_tab[362]
-#define __pyx_kp_b_iso88591_A_k_A_84q_HAQ_t2WA_e1Jaq_q_F_1 __pyx_string_tab[363]
-#define __pyx_kp_b_iso88591_A_k_A_84q_HD_AXQ_t2WA_r_e1Jaq_q __pyx_string_tab[364]
-#define __pyx_kp_b_iso88591_IQ_t9G1_q_XQ_4uAQ_ha_Qa_q __pyx_string_tab[365]
-#define __pyx_kp_b_iso88591_IU_iq_HKuA_d_s_a_AQ_aq_U_1_Qb_a __pyx_string_tab[366]
-#define __pyx_kp_b_iso88591_J_C1_k_7_az_xuA_fA_Kq_q __pyx_string_tab[367]
-#define __pyx_kp_b_iso88591_L_1_XQ_QfC_G7_fA_q_AQ __pyx_string_tab[368]
-#define __pyx_kp_b_iso88591_Oq_O1_7q_D_b_r_t_q_V1HF_1_q_k_7 __pyx_string_tab[369]
-#define __pyx_kp_b_iso88591_PPVVW_B_HXXY_aq_Cq_q_2_3LAMgghh __pyx_string_tab[370]
-#define __pyx_kp_b_iso88591_Q_hha_k_A_Q_6_Q_6_a_1 __pyx_string_tab[371]
-#define __pyx_kp_b_iso88591_X_A_1_a_6_Jk_q_a_uA_a_81K_81_Q __pyx_string_tab[372]
-#define __pyx_kp_b_iso88591_oQ_5Q_t1_Qa_1_1_wc_1_O1A_1_1_O1 __pyx_string_tab[373]
+#define __pyx_kp_u_seqdef_definitions __pyx_string_tab[114]
+#define __pyx_kp_u_source_2 __pyx_string_tab[115]
+#define __pyx_kp_u_src_pubmlstdownload_pubmlst_down __pyx_string_tab[116]
+#define __pyx_kp_u_subscheme_2 __pyx_string_tab[117]
+#define __pyx_kp_u_subscheme_3 __pyx_string_tab[118]
+#define __pyx_kp_u_the_following_arguments_are_requ __pyx_string_tab[119]
+#define __pyx_kp_u_wgMLST_cgMLST_database_name __pyx_string_tab[120]
+#define __pyx_n_u_Any __pyx_string_tab[121]
+#define __pyx_n_u_ArgumentParser __pyx_string_tab[122]
+#define __pyx_n_u_Callable __pyx_string_tab[123]
+#define __pyx_n_u_ConnectionError __pyx_string_tab[124]
+#define __pyx_n_u_Dict __pyx_string_tab[125]
+#define __pyx_n_u_Example __pyx_string_tab[126]
+#define __pyx_n_u_HTTPAdapter __pyx_string_tab[127]
+#define __pyx_n_u_HTTPError __pyx_string_tab[128]
+#define __pyx_n_u_IGNORECASE __pyx_string_tab[129]
+#define __pyx_n_u_INFO __pyx_string_tab[130]
+#define __pyx_n_u_INITIAL_DELAY __pyx_string_tab[131]
+#define __pyx_n_u_List __pyx_string_tab[132]
+#define __pyx_n_u_MAX_RETRIES __pyx_string_tab[133]
+#define __pyx_n_u_MAX_WORKERS __pyx_string_tab[134]
+#define __pyx_n_u_None __pyx_string_tab[135]
+#define __pyx_n_u_Optional __pyx_string_tab[136]
+#define __pyx_n_u_PASTEUR_BASE_URL __pyx_string_tab[137]
+#define __pyx_n_u_Path __pyx_string_tab[138]
+#define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[139]
+#define __pyx_n_u_RETRY_STRATEGY __pyx_string_tab[140]
+#define __pyx_n_u_RequestException __pyx_string_tab[141]
+#define __pyx_n_u_Retry_2 __pyx_string_tab[142]
+#define __pyx_n_u_Session __pyx_string_tab[143]
+#define __pyx_n_u_ThreadPoolExecutor __pyx_string_tab[144]
+#define __pyx_n_u_Timeout __pyx_string_tab[145]
+#define __pyx_n_u_Tuple __pyx_string_tab[146]
+#define __pyx_n_u_Unknown __pyx_string_tab[147]
+#define __pyx_n_u_action __pyx_string_tab[148]
+#define __pyx_n_u_adapter __pyx_string_tab[149]
+#define __pyx_n_u_add_argument __pyx_string_tab[150]
+#define __pyx_n_u_add_parser __pyx_string_tab[151]
+#define __pyx_n_u_add_subparsers __pyx_string_tab[152]
+#define __pyx_n_u_all __pyx_string_tab[153]
+#define __pyx_n_u_alleles_fasta __pyx_string_tab[154]
+#define __pyx_n_u_arg_parse __pyx_string_tab[155]
+#define __pyx_n_u_argparse __pyx_string_tab[156]
+#define __pyx_n_u_args __pyx_string_tab[157]
+#define __pyx_n_u_argv __pyx_string_tab[158]
+#define __pyx_n_u_as_completed __pyx_string_tab[159]
+#define __pyx_n_u_asyncio_coroutines __pyx_string_tab[160]
+#define __pyx_n_u_attempt __pyx_string_tab[161]
+#define __pyx_n_u_backoff_factor __pyx_string_tab[162]
+#define __pyx_n_u_base_output __pyx_string_tab[163]
+#define __pyx_n_u_base_url __pyx_string_tab[164]
+#define __pyx_n_u_basicConfig __pyx_string_tab[165]
+#define __pyx_n_u_bool __pyx_string_tab[166]
+#define __pyx_n_u_build_or_load_schemes __pyx_string_tab[167]
+#define __pyx_n_u_cached __pyx_string_tab[168]
+#define __pyx_n_u_choices __pyx_string_tab[169]
+#define __pyx_n_u_class_getitem __pyx_string_tab[170]
+#define __pyx_n_u_cline_in_traceback __pyx_string_tab[171]
+#define __pyx_n_u_completed __pyx_string_tab[172]
+#define __pyx_n_u_concurrent_futures __pyx_string_tab[173]
+#define __pyx_n_u_current_path __pyx_string_tab[174]
+#define __pyx_n_u_data __pyx_string_tab[175]
+#define __pyx_n_u_databases __pyx_string_tab[176]
+#define __pyx_n_u_datefmt __pyx_string_tab[177]
+#define __pyx_n_u_db __pyx_string_tab[178]
+#define __pyx_n_u_db_attributes __pyx_string_tab[179]
+#define __pyx_n_u_debug __pyx_string_tab[180]
+#define __pyx_n_u_default __pyx_string_tab[181]
+#define __pyx_n_u_definitions __pyx_string_tab[182]
+#define __pyx_n_u_delay __pyx_string_tab[183]
+#define __pyx_n_u_description __pyx_string_tab[184]
+#define __pyx_n_u_dest __pyx_string_tab[185]
+#define __pyx_n_u_download_alleles_seq __pyx_string_tab[186]
+#define __pyx_n_u_download_loci_seq __pyx_string_tab[187]
+#define __pyx_n_u_download_path __pyx_string_tab[188]
+#define __pyx_n_u_download_profiles __pyx_string_tab[189]
+#define __pyx_n_u_download_ref_db __pyx_string_tab[190]
+#define __pyx_n_u_dump __pyx_string_tab[191]
+#define __pyx_n_u_e __pyx_string_tab[192]
+#define __pyx_n_u_ensure_ascii __pyx_string_tab[193]
+#define __pyx_n_u_enter __pyx_string_tab[194]
+#define __pyx_n_u_enumerate __pyx_string_tab[195]
+#define __pyx_n_u_error __pyx_string_tab[196]
+#define __pyx_n_u_exceptions __pyx_string_tab[197]
+#define __pyx_n_u_executor __pyx_string_tab[198]
+#define __pyx_n_u_exist_ok __pyx_string_tab[199]
+#define __pyx_n_u_exists __pyx_string_tab[200]
+#define __pyx_n_u_exit __pyx_string_tab[201]
+#define __pyx_n_u_exit_2 __pyx_string_tab[202]
+#define __pyx_n_u_f __pyx_string_tab[203]
+#define __pyx_n_u_failed_downloads __pyx_string_tab[204]
+#define __pyx_n_u_failed_file __pyx_string_tab[205]
+#define __pyx_n_u_fasta_url __pyx_string_tab[206]
+#define __pyx_n_u_fetch_resources __pyx_string_tab[207]
+#define __pyx_n_u_file __pyx_string_tab[208]
+#define __pyx_n_u_file_path __pyx_string_tab[209]
+#define __pyx_n_u_float __pyx_string_tab[210]
+#define __pyx_n_u_force_redownload_2 __pyx_string_tab[211]
+#define __pyx_n_u_force_refresh __pyx_string_tab[212]
+#define __pyx_n_u_format __pyx_string_tab[213]
+#define __pyx_n_u_func __pyx_string_tab[214]
+#define __pyx_n_u_func_2 __pyx_string_tab[215]
+#define __pyx_n_u_future __pyx_string_tab[216]
+#define __pyx_n_u_future_to_url __pyx_string_tab[217]
+#define __pyx_n_u_get __pyx_string_tab[218]
+#define __pyx_n_u_getLogger __pyx_string_tab[219]
+#define __pyx_n_u_get_pasteur_schemes __pyx_string_tab[220]
+#define __pyx_n_u_get_pubmlst_schemes __pyx_string_tab[221]
+#define __pyx_n_u_get_session __pyx_string_tab[222]
+#define __pyx_n_u_help __pyx_string_tab[223]
+#define __pyx_n_u_href __pyx_string_tab[224]
+#define __pyx_n_u_i __pyx_string_tab[225]
+#define __pyx_n_u_id __pyx_string_tab[226]
+#define __pyx_n_u_indent __pyx_string_tab[227]
+#define __pyx_n_u_info __pyx_string_tab[228]
+#define __pyx_n_u_info_dict __pyx_string_tab[229]
+#define __pyx_n_u_info_list __pyx_string_tab[230]
+#define __pyx_n_u_initial_delay __pyx_string_tab[231]
+#define __pyx_n_u_int __pyx_string_tab[232]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[233]
+#define __pyx_n_u_item __pyx_string_tab[234]
+#define __pyx_n_u_items __pyx_string_tab[235]
+#define __pyx_n_u_json __pyx_string_tab[236]
+#define __pyx_n_u_keys __pyx_string_tab[237]
+#define __pyx_n_u_kwargs __pyx_string_tab[238]
+#define __pyx_n_u_last_exception __pyx_string_tab[239]
+#define __pyx_n_u_level __pyx_string_tab[240]
+#define __pyx_n_u_load __pyx_string_tab[241]
+#define __pyx_n_u_load_schemes __pyx_string_tab[242]
+#define __pyx_n_u_loci __pyx_string_tab[243]
+#define __pyx_n_u_loci_name __pyx_string_tab[244]
+#define __pyx_n_u_loci_url __pyx_string_tab[245]
+#define __pyx_n_u_locus_att __pyx_string_tab[246]
+#define __pyx_n_u_locus_url_list __pyx_string_tab[247]
+#define __pyx_n_u_logger __pyx_string_tab[248]
+#define __pyx_n_u_logging __pyx_string_tab[249]
+#define __pyx_n_u_main __pyx_string_tab[250]
+#define __pyx_n_u_main_2 __pyx_string_tab[251]
+#define __pyx_n_u_max_retries __pyx_string_tab[252]
+#define __pyx_n_u_max_workers __pyx_string_tab[253]
+#define __pyx_n_u_method __pyx_string_tab[254]
+#define __pyx_n_u_method_url __pyx_string_tab[255]
+#define __pyx_n_u_mkdir __pyx_string_tab[256]
+#define __pyx_n_u_module __pyx_string_tab[257]
+#define __pyx_n_u_mount __pyx_string_tab[258]
+#define __pyx_n_u_name __pyx_string_tab[259]
+#define __pyx_n_u_name_2 __pyx_string_tab[260]
+#define __pyx_n_u_open __pyx_string_tab[261]
+#define __pyx_n_u_organism __pyx_string_tab[262]
+#define __pyx_n_u_organism_name __pyx_string_tab[263]
+#define __pyx_n_u_out_fasta __pyx_string_tab[264]
+#define __pyx_n_u_outfile __pyx_string_tab[265]
+#define __pyx_n_u_output_3 __pyx_string_tab[266]
+#define __pyx_n_u_output_path __pyx_string_tab[267]
+#define __pyx_n_u_output_scheme_info __pyx_string_tab[268]
+#define __pyx_n_u_parent __pyx_string_tab[269]
+#define __pyx_n_u_parents __pyx_string_tab[270]
+#define __pyx_n_u_parse_args __pyx_string_tab[271]
+#define __pyx_n_u_parser __pyx_string_tab[272]
+#define __pyx_n_u_pasteur __pyx_string_tab[273]
+#define __pyx_n_u_pathlib __pyx_string_tab[274]
+#define __pyx_n_u_pool_connections __pyx_string_tab[275]
+#define __pyx_n_u_pool_maxsize __pyx_string_tab[276]
+#define __pyx_n_u_pop __pyx_string_tab[277]
+#define __pyx_n_u_print __pyx_string_tab[278]
+#define __pyx_n_u_print_help __pyx_string_tab[279]
+#define __pyx_n_u_profiles __pyx_string_tab[280]
+#define __pyx_n_u_profiles_csv __pyx_string_tab[281]
+#define __pyx_n_u_profiles_out __pyx_string_tab[282]
+#define __pyx_n_u_profiles_url __pyx_string_tab[283]
+#define __pyx_n_u_pubmlst __pyx_string_tab[284]
+#define __pyx_n_u_pubmlst_2 __pyx_string_tab[285]
+#define __pyx_n_u_pubmlstdownload_pubmlst_download __pyx_string_tab[286]
+#define __pyx_n_u_qualname __pyx_string_tab[287]
+#define __pyx_n_u_r __pyx_string_tab[288]
+#define __pyx_n_u_raise_for_status __pyx_string_tab[289]
+#define __pyx_n_u_random __pyx_string_tab[290]
+#define __pyx_n_u_re __pyx_string_tab[291]
+#define __pyx_n_u_replace __pyx_string_tab[292]
+#define __pyx_n_u_requests __pyx_string_tab[293]
+#define __pyx_n_u_requests_adapters __pyx_string_tab[294]
+#define __pyx_n_u_resource __pyx_string_tab[295]
+#define __pyx_n_u_resources __pyx_string_tab[296]
+#define __pyx_n_u_respect_retry_after_header __pyx_string_tab[297]
+#define __pyx_n_u_response __pyx_string_tab[298]
+#define __pyx_n_u_result __pyx_string_tab[299]
+#define __pyx_n_u_retry_with_backoff __pyx_string_tab[300]
+#define __pyx_n_u_return __pyx_string_tab[301]
+#define __pyx_n_u_s_2 __pyx_string_tab[302]
+#define __pyx_n_u_save_schemes __pyx_string_tab[303]
+#define __pyx_n_u_scheme __pyx_string_tab[304]
+#define __pyx_n_u_scheme_dict __pyx_string_tab[305]
+#define __pyx_n_u_scheme_list_dict __pyx_string_tab[306]
+#define __pyx_n_u_scheme_url __pyx_string_tab[307]
+#define __pyx_n_u_schemes __pyx_string_tab[308]
+#define __pyx_n_u_schemes_2 __pyx_string_tab[309]
+#define __pyx_n_u_schemes_dict __pyx_string_tab[310]
+#define __pyx_n_u_schemes_path __pyx_string_tab[311]
+#define __pyx_n_u_search __pyx_string_tab[312]
+#define __pyx_n_u_seqdef __pyx_string_tab[313]
+#define __pyx_n_u_seqs __pyx_string_tab[314]
+#define __pyx_n_u_session __pyx_string_tab[315]
+#define __pyx_n_u_set_name __pyx_string_tab[316]
+#define __pyx_n_u_setdefault __pyx_string_tab[317]
+#define __pyx_n_u_show_schemes __pyx_string_tab[318]
+#define __pyx_n_u_show_schemes_parser __pyx_string_tab[319]
+#define __pyx_n_u_skip_existing __pyx_string_tab[320]
+#define __pyx_n_u_skipped __pyx_string_tab[321]
+#define __pyx_n_u_sleep __pyx_string_tab[322]
+#define __pyx_n_u_source __pyx_string_tab[323]
+#define __pyx_n_u_species __pyx_string_tab[324]
+#define __pyx_n_u_st_size __pyx_string_tab[325]
+#define __pyx_n_u_stat __pyx_string_tab[326]
+#define __pyx_n_u_status_code __pyx_string_tab[327]
+#define __pyx_n_u_status_forcelist __pyx_string_tab[328]
+#define __pyx_n_u_stderr __pyx_string_tab[329]
+#define __pyx_n_u_storage_dir __pyx_string_tab[330]
+#define __pyx_n_u_store_true __pyx_string_tab[331]
+#define __pyx_n_u_str __pyx_string_tab[332]
+#define __pyx_n_u_subcommand __pyx_string_tab[333]
+#define __pyx_n_u_submit __pyx_string_tab[334]
+#define __pyx_n_u_subparsers __pyx_string_tab[335]
+#define __pyx_n_u_subscheme __pyx_string_tab[336]
+#define __pyx_n_u_success __pyx_string_tab[337]
+#define __pyx_n_u_sys __pyx_string_tab[338]
+#define __pyx_n_u_test __pyx_string_tab[339]
+#define __pyx_n_u_text __pyx_string_tab[340]
+#define __pyx_n_u_time __pyx_string_tab[341]
+#define __pyx_n_u_timeout __pyx_string_tab[342]
+#define __pyx_n_u_title __pyx_string_tab[343]
+#define __pyx_n_u_total __pyx_string_tab[344]
+#define __pyx_n_u_touch __pyx_string_tab[345]
+#define __pyx_n_u_type __pyx_string_tab[346]
+#define __pyx_n_u_typing __pyx_string_tab[347]
+#define __pyx_n_u_typing_method_url __pyx_string_tab[348]
+#define __pyx_n_u_uniform __pyx_string_tab[349]
+#define __pyx_n_u_update_schemes __pyx_string_tab[350]
+#define __pyx_n_u_update_schemes_parser __pyx_string_tab[351]
+#define __pyx_n_u_url __pyx_string_tab[352]
+#define __pyx_n_u_urllib3_util_retry __pyx_string_tab[353]
+#define __pyx_n_u_usage __pyx_string_tab[354]
+#define __pyx_n_u_value __pyx_string_tab[355]
+#define __pyx_n_u_values __pyx_string_tab[356]
+#define __pyx_n_u_w __pyx_string_tab[357]
+#define __pyx_n_u_warning __pyx_string_tab[358]
+#define __pyx_n_u_write __pyx_string_tab[359]
+#define __pyx_kp_b_iso88591_2_vEUUV_xs_Q_5_wd_XQ_Q_Q_x_q_c __pyx_string_tab[360]
+#define __pyx_kp_b_iso88591_4q_9A_WAV_Q_AQ_t_s_4_7_a_gQfTee __pyx_string_tab[361]
+#define __pyx_kp_b_iso88591_6_Q_5_4r_1_1_Q_xr_Rq_c_3ir_xq_1 __pyx_string_tab[362]
+#define __pyx_kp_b_iso88591_6fIQ_5Q_xs_Q_aq_r_T_WCt_uBirQR __pyx_string_tab[363]
+#define __pyx_kp_b_iso88591_A_k_A_84q_HAQ_t2WA_e1Jaq_q_F_1 __pyx_string_tab[364]
+#define __pyx_kp_b_iso88591_A_k_A_84q_HD_AXQ_t2WA_r_e1Jaq_q __pyx_string_tab[365]
+#define __pyx_kp_b_iso88591_IQ_t9G1_q_XQ_4uAQ_ha_Qa_q __pyx_string_tab[366]
+#define __pyx_kp_b_iso88591_IU_iq_HKuA_d_s_a_AQ_aq_U_1_Qb_a __pyx_string_tab[367]
+#define __pyx_kp_b_iso88591_J_C1_k_7_az_xuA_fA_Kq_q __pyx_string_tab[368]
+#define __pyx_kp_b_iso88591_L_1_XQ_QfC_G7_fA_q_AQ __pyx_string_tab[369]
+#define __pyx_kp_b_iso88591_Oq_O1_7q_D_b_r_t_q_V1HF_1_q_k_7 __pyx_string_tab[370]
+#define __pyx_kp_b_iso88591_PPVVW_B_HXXY_aq_Cq_q_2_3LAMgghh __pyx_string_tab[371]
+#define __pyx_kp_b_iso88591_Q_hha_k_A_Q_6_Q_6_a_1 __pyx_string_tab[372]
+#define __pyx_kp_b_iso88591_X_A_1_a_6_Jk_q_a_uA_a_81K_81_Q __pyx_string_tab[373]
+#define __pyx_kp_b_iso88591_oQ_5Q_t1_Qa_1_1_wc_1_O1A_1_1_O1 __pyx_string_tab[374]
 #define __pyx_float_0_1 __pyx_number_tab[0]
 #define __pyx_int_0 __pyx_number_tab[1]
 #define __pyx_int_1 __pyx_number_tab[2]
@@ -3102,7 +3102,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_type_15pubmlstdownload_16pubmlst_download___pyx_defaults1);
   for (int i=0; i<16; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<15; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<374; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<375; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<15; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* CommonTypesMetaclass.module_state_clear */
@@ -3132,7 +3132,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   Py_VISIT(traverse_module_state->__pyx_type_15pubmlstdownload_16pubmlst_download___pyx_defaults1);
   for (int i=0; i<16; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<15; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<374; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<375; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<15; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* CommonTypesMetaclass.module_state_traverse */
@@ -6182,7 +6182,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
  *                 schemes_dict = {}
  * 
  *                 for db in resource['databases']:             # <<<<<<<<<<<<<<
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')
 */
         __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_resource, __pyx_mstate_global->__pyx_n_u_databases); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 203, __pyx_L1_error)
@@ -6243,7 +6243,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
           /* "pubmlstdownload/pubmlst_download.pyx":204
  * 
  *                 for db in resource['databases']:
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
  *                         subscheme = db.get('name', '')
  *                         try:
 */
@@ -6276,7 +6276,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
           }
           #endif
           {
-            PyObject *__pyx_callargs[4] = {__pyx_t_2, __pyx_mstate_global->__pyx_n_u_definitions, __pyx_t_14, __pyx_t_15};
+            PyObject *__pyx_callargs[4] = {__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_seqdef_definitions, __pyx_t_14, __pyx_t_15};
             __pyx_t_3 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_4, (4-__pyx_t_4) | (__pyx_t_4*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
@@ -6291,7 +6291,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
 
             /* "pubmlstdownload/pubmlst_download.pyx":205
  *                 for db in resource['databases']:
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')             # <<<<<<<<<<<<<<
  *                         try:
  *                             db_attributes = session.get(db['href'], timeout=15).json()
@@ -6305,7 +6305,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
             __pyx_t_9 = 0;
 
             /* "pubmlstdownload/pubmlst_download.pyx":206
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')
  *                         try:             # <<<<<<<<<<<<<<
  *                             db_attributes = session.get(db['href'], timeout=15).json()
@@ -6359,7 +6359,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
                 __pyx_t_9 = 0;
 
                 /* "pubmlstdownload/pubmlst_download.pyx":206
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')
  *                         try:             # <<<<<<<<<<<<<<
  *                             db_attributes = session.get(db['href'], timeout=15).json()
@@ -6512,7 +6512,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
               goto __pyx_L12_except_error;
 
               /* "pubmlstdownload/pubmlst_download.pyx":206
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')
  *                         try:             # <<<<<<<<<<<<<<
  *                             db_attributes = session.get(db['href'], timeout=15).json()
@@ -6942,7 +6942,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
             /* "pubmlstdownload/pubmlst_download.pyx":204
  * 
  *                 for db in resource['databases']:
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
  *                         subscheme = db.get('name', '')
  *                         try:
 */
@@ -6952,7 +6952,7 @@ static PyObject *__pyx_pf_15pubmlstdownload_16pubmlst_download_8get_pasteur_sche
  *                 schemes_dict = {}
  * 
  *                 for db in resource['databases']:             # <<<<<<<<<<<<<<
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')
 */
           __pyx_L7_continue:;
@@ -19170,7 +19170,7 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
   /* "pubmlstdownload/pubmlst_download.pyx":204
  * 
  *                 for db in resource['databases']:
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):             # <<<<<<<<<<<<<<
  *                         subscheme = db.get('name', '')
  *                         try:
 */
@@ -19180,7 +19180,7 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 
   /* "pubmlstdownload/pubmlst_download.pyx":205
  *                 for db in resource['databases']:
- *                     if re.search('definitions', db.get('description', ''), re.IGNORECASE):
+ *                     if re.search('seqdef|definitions', db.get('description', ''), re.IGNORECASE):
  *                         subscheme = db.get('name', '')             # <<<<<<<<<<<<<<
  *                         try:
  *                             db_attributes = session.get(db['href'], timeout=15).json()
@@ -19335,34 +19335,34 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 10; } index[] = {{1},{3},{4},{8},{40},{23},{28},{50},{14},{42},{77},{11},{23},{21},{19},{33},{36},{34},{34},{37},{33},{15},{16},{28},{44},{21},{6},{23},{20},{20},{9},{39},{43},{31},{24},{35},{33},{179},{26},{43},{37},{8},{10},{24},{16},{25},{26},{8},{12},{14},{45},{12},{9},{37},{32},{22},{28},{29},{14},{17},{1},{1},{2},{4},{0},{4},{3},{4},{1},{1},{8},{7},{41},{9},{11},{21},{7},{72},{6},{9},{20},{6},{23},{17},{17},{14},{2},{7},{8},{29},{24},{9},{5},{5},{19},{15},{17},{14},{12},{13},{12},{13},{7},{8},{11},{146},{27},{16},{8},{4},{7},{8},{11},{12},{7},{40},{10},{11},{122},{27},{3},{14},{8},{15},{4},{7},{11},{9},{10},{4},{13},{4},{11},{11},{4},{8},{16},{4},{20},{14},{16},{5},{7},{18},{7},{5},{7},{6},{7},{12},{10},{14},{3},{13},{9},{8},{4},{4},{12},{18},{7},{14},{11},{8},{11},{4},{21},{6},{7},{17},{18},{9},{18},{12},{4},{9},{7},{2},{13},{5},{7},{11},{5},{11},{4},{20},{17},{13},{17},{15},{4},{1},{12},{9},{9},{5},{10},{8},{8},{6},{8},{4},{1},{16},{11},{9},{15},{8},{9},{5},{16},{13},{6},{4},{8},{6},{13},{3},{9},{19},{19},{11},{4},{4},{1},{2},{6},{4},{9},{9},{13},{3},{13},{4},{5},{4},{4},{6},{14},{5},{4},{12},{4},{9},{8},{9},{14},{6},{7},{8},{4},{11},{11},{6},{10},{5},{10},{5},{8},{4},{4},{8},{13},{9},{7},{6},{11},{18},{6},{7},{10},{6},{7},{7},{16},{12},{3},{5},{10},{8},{12},{12},{12},{7},{8},{32},{12},{1},{16},{6},{2},{7},{8},{17},{8},{9},{26},{8},{6},{18},{6},{1},{12},{6},{11},{16},{10},{7},{8},{12},{12},{6},{7},{4},{7},{12},{10},{12},{19},{13},{7},{5},{6},{7},{7},{4},{11},{16},{6},{11},{10},{3},{10},{6},{10},{9},{7},{3},{8},{4},{4},{7},{5},{5},{5},{4},{6},{17},{7},{14},{21},{3},{18},{5},{5},{6},{1},{7},{5},{925},{365},{203},{228},{323},{366},{80},{115},{82},{70},{270},{430},{65},{467},{116}};
-    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (4596 bytes) */
-const char* const cstring = "BZh91AY&SY\344\033\355\363\000\003a\177\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\021\377w\206\217+v\227\273\036\267\261\3555\335q\275;\235\265\216\354\007Q\272p\025u\265l:h*;O6\300\000\036\035\004\242\n#\020\202xS2\236\223f\215\032M\220\004\306S\311\243\021\246\246\236\246\201\264\320\324\324\336\246\211\220\323\320\2313M\032OI\232\230\202Q\021\204\r\010\320\001M\204\214\247\350%\036\231L\324?R\003 \000\000h4\r\006@2\032\000\000\006\232\002D52zD\365OQ\246\324\0326\247\251\352\000=M\032\000\000\000\000\000\000\000h=@\310h\320\t\021\004\004\022mMOM\031\010\324\365<\211\342\232=!\243\322\032\006@\000\001\240\000\r\000\000\000h4A\246&\004\030\000\232i\246\230\000\214\004bd\300&\000\0020\214\000\0020\002d\311\204\304\t\"\010\210`&L\223b\204\317%?Q\251\351?T\362d\236\240\r\000\001\240\000\006\200\001\247\250\320\036S\023M=C\376*Sm\354CN\363\242%y\334\"_\315\313\200q\002\322\367\033\203\256\273\010?\245\331Gk\211q@\201\376Pf(\220\360E8U\207T`A\023\315\026\016\031\243\307\260\265\205\207\306\254\031\177\357Tlm\215\261\266\306\201\266&\332\006\333M\215\014l\036\006\030,v\010ZV\275tu\220\245\033{\024\002j\251P\315,\333\032Cm\244\201\264\003m\203aq\027\014\0140Z\353s3\034L\021\201\256\034\302\323\350p\367\035o\026{\3221p\305\210\r1\245\352\255\005\2706\264\200\214\224\225\253u&\244L\310>\271f0@0h\026\251VJ\301:F\020\304\305l\340\304\331\240\014h`\333I\264\306\203\001f\260\264\021\003\241\263.\352\257\0324[\265\r\234\205\r\321\311b\202p\352\312\336\252)G{M\312\330\275\252F\363=\246\324hW\003\005j\324\354E\342\tl!L\273+a\270W\212%\342F\004Q34\211]\227\017\235 \0069Q\310\236\236,\2725\322[!\nir\201\001QK\341y\030$\222O\252!YJ6\204\240\256\202\361P\244(\240fFA+\023\033\2276a{\3033/\343\227*d\331h\202\3245\355\"\203ymm+\013\005\005\005\010\025\227\017xX7C\204\266\250Z\226\305\022%\364g\n\246\215\327*\026H\024\224\371e\203\177\207\303?\010\233\375N\267X\243\373?Z\264\22225^\006\362\233\017]\211\357=>V\254\203\366\340\306\301\265""\306,\266l\257\231\301\300L\252\266\230\013\257\243_\345k\343&\201_\032O\347Q\026\216b\266\272\214\213\t,aO\360\215\316\260\200\366\266\351}5\235\363\267%\214\307\372\346\266?[\317\231\247F|\370_\0143<\207\372X\225t5s.\315\220[\007\265YS\177\177\217\304\221\261j\247\346mF\211\014\310#\013\213\373\263\254\347J\257\357\317\335y?\314\330>\241\214\305\321l\326D~\006\014\032\245\270\263\307^iV\367b\271h\\'\276\252\251\240\256\372+\231&k\030^\250\235\325!\276\356\024C\235\207\210u\"\230\t/\026B$\024\305\003\027<$!)j=\036<[7\266\312\24182\2469\214,\376a`\235\025+\"k\317\230\323\262w\266\212\030j\312\220\3327-i\025\236\2056\2454\203<\007{\310d\tH\263\335R\264$\341:P[,f;|\310\276\007\312\372\004\310q\234\372J\202\252\270H\320\022\316\231\213$k\350\313W\235\2418ts\273\271\211\245 p\246D\211se\300{\235\244\234\324\207\315\316\276\031\035F59c\344\334\324\323\257Zd<>\325\006\237L\222\332\261\346\340\035\033\343\331w2n`o{\201\340\343'\036\244Gt\016\307\221\315\211\227\265\215_u\250Q\264\023\255\337\256S'\267g\217\rJ\332Y\261Xc\232\013\366\365\374\223\201\301\"\350/\251\355\203ye\376R\353\226:\357\203\333\276\271Xt*9p\314\225\305p\346\233f1\350\233;PQ9!\215\326 \006Xb$<\300\205\213-\021$0u\016\224,\\\304I!\024\332\\4\230\335\351\366o\345W5\244\250(\362@\264\365|\017BBB\037b_f#\307\247\237\342\262d\242\310\375\243\277\226\252A\351\344\364lOJ\272\307\206\222\363\324\272\001\251\036U}\243\306Z;\361\365\363\257Q\320\306\362\233\363\373\023\237\rq\3111\352\225\272\256L\2464\214'\322C%\025\021\"\211\022 \377G6\320\207\267\032\023\372^\237Y\024\332\364u\275\235\022\243`u\372L4V\215\312^\241t\204d\274/pR@A\001H)\335\236b\231%\221]a\014C\225\016\031\345\232\207.\361\253\201r%\013\205\374K\375o\017{M:\220\363\245\334\2650\213[\213r\334\320\2717\357\277\030V\266\274v\034\313\313{'t\016\207\355\247CB)\201\247wW1#p\333AH8%\232Y\324\262\3165e\343[\240\216\316\270\022\340\266H\315\"\272*y\362\262R\031\207\277\016\232\023oY\236\0314G\304_\373\247\312\374u\030\271\022jMR\260\301\335C\355zV\273""\004\375\225|\3050\357 \037\336\r\261v\373\350DD\354\352\nD\210\251y\023RI|p\275\260\002\"\344p\336{\342\314\265\217\3221\230\226\371\352\3455(z\355|\266\214\034\371\036\007\220\352\361\241\303I\033\001\214Y,\344\311\252\020\222\370n\303d\213Hd\227P\304)h4\366\240\273\222\242\231\3544\356\345\317\335\273\367A/\331\010\264(\013\331\234\332j\352\270X\364\215\235\236\231\261\nLE\215\234B\206\234e\321\266>c\227\334\275S\373\207\034\352l\300\357s\\\235b\\\264\354\006\\yB\304\033\253\307\266\303d\267\312\031\257\025J\352F\035K\022\027\272\321\345H\354F\315\305N\342\361\366\301\377\305\371E\204\010\0177\367\363n\216\333\351?\226V\005\375\263\350&:\330%\266\245\272y#\303\0219\220\320c4H\207o\005\333\266\254[*]\233\224\215\207YI\247\215\200\323\352t\033[\320\027\334\334\365\275\254Z\363\271\340\216\317T\274\236\304\271\252p\\\266\253u\366\332\357$\354\263\314\217\251|\353\020\214L\360'\345\301\215\312Ik\322G\262\034\023u\357T\033YR\264.\274\271\276\372f\016\025\325\231D\270b0\331\002 \317\2755\226\025\234\332rM\201\265\230V$\224\rK\354k]\021\013\2470\035.\340\333\345\360\223\005b\273\001\254\306\224.\265\247\301\201F\375\300\013l\0046\352\205M\267y)\260\014\253\r\363e`\325\356\250Q\005CY1\352\330h\217\301\2131R\366\371\345V\377\222\2204\355}\2229\203\3532=\334\311\222\034\r\3558b'\301\256N\305\021h/~=\236\355iP\206kU4\210\334\306\267p\334B\370-y+\222\023o\243<q\027\021\307\220q7+QQ\\\017@u\314\241\264#i\031\3039\025\023l\2078\200Nrx)>\361\317xAv\006\251>|Ge\016e\351\350\031\267\014\216\313\246f\343\200@\217\t\302a\023\235I\224J_D\305\270\252\206S\005E\024\2642\273'rl\030\266\016e\202\320\245EU\334\262H#o^\345m\0208\313\306\354\227\016\330\306?\365\3234\223\301\214q\245\230\345\306,l\200\311S4\250sx\313\306_\037\316\266E\331\213\204\230\333 |\322D\304\002cM1\255\220\242(\341\016\253\316\222\255n~Wqm\345\253\346\236\237S\206FAVC\357.\243\261\352Z\371\353\332w\364?\022(\r\245Nz\340\346\003\323T\005\300\200\245obNQ\216i\222\004\217\212L\305\215\263&\203\206\237\001\304\347\245""\345\226\364\202\353\336\263_\305\316\005h\306\234Z\321\361\205\216f\211\216l\212\030\27085\n\331E\346\262El\031d\360,\2138\315\251W\277_\2402,z\235\262\267\036`\343L\246$\016V\252\360a\032:Qg\337\323Y\302\365\264\344(t\205\017\254\030D\225O\014\315\272,F\220\206\004\307of\2733X7\307\234\313\230Z9\377v\325b\033\252\215\231\2720x\343\325\266\005x\307\257:\322:\352\234N4\203\261\254\274\265*I\02568*R\032`\31682\331\2066\251D\360\200\301\252A\024P?!\\\233W\271\207K\"Q\215\\a\275\265+\276\224\350\251N\370\302&\350\340\333\033\0337h,\255\255\3163\247\206\223\023\013\245\007K\316\316\2071r\216G4\344\317\242\257\352e-\036'K\021\306\265m\017\247\307\213I\306\024\221y\252\326k\262r\312\225\220)\331vTl\013zW\333\023}\2663\305k)G\2558\266\351\225^\034\202/%\230\315\177:\245[\022\247P\334\201\205\026\356c\266\261\226\247l\301rx\026\271M\006\214y\320\322\213\214\300\327\257\033\027q\254\235\375\324Z\305p\200\302\266\370t\241\004\204D\231\275\013\204D\343(\346c\036X\3139\246\367\002\340r9\007\037T\2320\322\352\256\025\252W\326\335J\034\240XA\200\253\230\315\307\263\00772Y&\206\341\001Q\t\3336e.\016\322\244l5p\272\240bDi\201*5\233\213#\256q\302>\003\256\302\343\206\315\216\234\262\n\024\004\201\274\003\326\230.+\231D\253\014X\373\201\214\024P_\013)\030\225\352cf\302\003\247\265\215a\237i\264\350\360zW\232\211@\345G>\344\323n \357h\276\004\n\033\002n(\234|\335\232*]c\022Kc\222\034E;/5\237\021kc\217hc\304\211p\304\245\205\336)\331\243\001\266\254\271\266\371\231\230_\247\306\033\037aS\275\274XK\331\276&\232,\030\203\016XKF\273UF\373a\305D_y\234UFi\276T-C)\200e\013[\223\240\3624\336\226${;\306\323Si\247\224G\024\034\227\276\002\337\276\022`\320=\023\226\342RVh\305>;\341tS\227\244\320\267\026\263\313:+\211\276\030\233zV\232\330\202\034!\266\334\036<\2556g\0143;uP\261\306a8\3420\203\321\244\000\235\265\270P\255[\315$\246\ni\201\216}>\213\243;\243L\210CfO\250\274\336nv\036c@\251\231\201\014\2030\004\n\224\003hm]x\030\207\010t<c\243\2060kfE\221\337f\312\365v\210\242{\255\024qH\3363\305""\007>}9\345\225\322\032\330\231\032\311\205\323\260\364\006 \311\227&\236\376\260qp\351\305S\035{f\307T\npD\274\327\"\333\367\032\026\343DF\200`\263}l\262\001\231\231,\231\262\312z\032\330^\315m\206|.\315d\326{l\212\247\036'L\016\275\332,\247av\227\rM\017\245\354K\251.WbJ\252\305U\003\025\037\345m\365\205\216\206\325\036\374\322\n\006G\017O\017\243\341\244\350N\331AM\331\005\230\274\010\357 \316\261\030\267\021\274m*\021@G\240\241KD\034\227Vq#KT\2500;\022\223\230\342IxV*\324[.\262\325\"\032{Q=\312Q\266P\216G5t\225\036<u\265$J\014E\220\302\325\030|\267\225UM\325\027roT)*\344\317\243\t\353S]O5\016kh\335\252w\004\340\267j\215\344\266\214 \255\017\022\243\322\225C\230\355\360\243\302\344,XA\204Y#\313\321-\342\261{ma\001\350\014X\2444[\306\326\203\246\020#\233\240]ns\243\240\353\363\355\367\246\220<\345\354r\212\016</\236a\246\236\366\337ZV.\326\344W\270U\367q8\363\240N\020(s$\337\232\272U\303\365\376L\016\006\307<\272Q\016\250\225\026\206\327i\227oL\0331}\366\344-\236\262z\311/{\323\206\342\305\004\n1\230\210\305\362 \205\302\263\334]\002\357_\3226|N\\\272\310a|\006\312.\034#v0\033\336\347L\243{m\326\024\036| \247\026\274\025\010Cp\213D\024\221S\007\305\025&\202\262\271N\340\266\226\252i\267\341\225n,\262\334\032<R\316vY?-\351\274\336\233\315\343}\366\275\024&{\014\234l\026L\236\016h\334\351sG,\356sJ\241\274+ R\013K\211\211\254\304\265\2104\310N\270\323\313\"\003;\335.\207\245C;\344\020\341\221W\233\202T\034\004\372\365\317Y\203C\2231;\223\211\223\236\241\003\227\004#\257Y+\031\327M\224)\2571\241:\345\020\0318\313(\244[A\006\271\315\234E\364\233\350A\013\212\362\201\245\205\252M\320\351\002/\232\306\366\024\271SI\321\351\335\224i\244vA\230J\316W<\371K\035\330m\354\343\2078\216s\233V{\327\026\356\222d2\240\212\006\265\334\367iP\312q\361\250\335\256{4\004T\327\3362&\353\334\301h\361\277\213\221\035z\245X\\\242.\321\276m\250\210\037c\252O\005\220\327Hg6\326\020'\030\210Z\214\320p\323\333\346\025H\315,\373\226eTfJc`y\335\224\267*\200\n\024\225Gu\031K\000\354\222\250\252""\301D\026\221\212\2567\211\213\021v\207)\247b0dY\267{\030)R\255\267\271\006Gs\264G\206\230i.0\305\220k\332\014\350N\302\210\251\222R\3238\275{\344\232u\017\004\313\301\324`a\230a\205\3710\315\273\177\363tp\2611pC\373\255\n\001\211\376\260\375\351\177>\353B\364\232\375\215\246\017\261\350\3002d\037W@p\034\"\353\260}\3264\3353\003\037\014\006m\257\230\327\341\224\243yu\244\224X`\346j1\025\026/\037\020\341}0-\337u\220vx\307\337\277\311a\335\305\026r\330Q\376\365&\3610\227\361\030;\375\0303o\370O\006\262Y\356\375\334{\\\200\345A\352\317\253\031\030z\354\001\037I\312(\345\005\304O\345\034\326\270QK(\351\353\311S\261_\205\274^q;\270\344\246\305.-\204\312m\277\223\202a\340N=\204L\017\323<EO\t\363+\024j`Dh\234\007L:[\207Kw\252v\202\204\177\255IL\3403}\006\361\320:\273\314\217\307\276fF\n\252\343\2543\323\330\0138\006\364\331\223EA\277tp\375\037,\017\247\3709X\303\340\250\331\302\350\236g\373\246\351\374\\\216r\3628\322\177\256\003`\016i@\322\241\3122}\020Rx\252\344\371v\332\235\263\277;S\221h\325\3259\005MorrBp<\252\317F\271L\243\254-/+\237\300\321\364g\346\323\242\306q\262\225h\016\200j\360\361\031\245\026\003i#\351\3005XS\246{MY\371\274\363tQE\027\324\301\215I\373\225\350\177T\271\264\0104i|\264\010d\0066\221>\204\342x\275U\241\252\237\204\021\255u*;\245\006WR\302\242\267S,\200\263qs\346\025\334\322\302\272h\3467D\2033!7&6V\350\321\351]\317\343\367'|\357\213.h\341\352\331\312\214\231\r43\345G\256\346\246\206\331\266w\210c\031*\264.\347\207o3<\224\361\231\256\261\216V\031\341\314t\222\255B]Z\334X\253\215V\256\316\325c\036M\241\264\233Ec\352\r\306\255\277\224]\367\261\3444\337\310\034\367=p\3721\361vI-\032\306c#\315\222\tbM\356\307k\031N\336L\230\013\216\315y\033\025\027\304:\303\370{[\306I\225\332\032]*\327\265*\031\035uuJ\216\316S[*\375C#\262\326e\246\366\346\266[\001i\263\030\310\310)s\367\224\264>\336<\226\215\373\ne!91\nR\033\201\203\204\314.\266\031\365+bx\310\244b'-\010\306\r\005\373\325\323\212\261\261\371k\30584\347/9\230\003w\t\213|N\235$w\307\2475Up\357\245\260""\375/\226\375-\357\245Q\336\337\320\227~\232\t{\325\311\312\313K\337\225\032#\031h^}3\021u/)\252tB\353\0014\360\215\253\210\305\325\2239\355e\302\221\350\036\204zJ\007\226\300f#\202\031'\261\345)\220R:\234\317\024#\315\315\206)\372\213\"\333\311\tMt\362_\323\025w\354\317\005\251h\322U\314\373]B\016W\0077\230\267\032\\p\321\273\031\210QI\246\272vI\025M\226|)\037\361\312\263\006\204\304\365y\303\346\235\003\203I2\302Y\3443\303\350X\371\3263l\026\375\314\376\2370\3527\025\214f\"\021[\001\214{Y\031\357v5+ \302\230fE\221/3\t@\310\232\342\332D\002J*\254\031f\252F\225^\nqB$\315\301y)t\264\006E\252z\205x\220^\320((!A\rT\261A\247\320\243h\014\n\263\331#b\311\363d\017x\277W\033\333\310\231/\314Z\302\315\370m\314\214\225\240\321H\031\3459<\310alU\201\nr\220\366pa\367A\211=\334\315J\034\346G\340\031P\363\314\362\221\323N\362u4n\256\333\246\345H\265\235\273/\t\017K\2470\230.\255q4!\005\312\304d\022,*6<\233\236\327^\267,n\302\311x!\334+\236\247\2336\377\305\334\221N\024$9\006\373|\300";
-    PyObject *data = __Pyx_DecompressString(cstring, 4596, 2);
+    const struct { const unsigned int length: 10; } index[] = {{1},{3},{4},{8},{40},{23},{28},{50},{14},{42},{77},{11},{23},{21},{19},{33},{36},{34},{34},{37},{33},{15},{16},{28},{44},{21},{6},{23},{20},{20},{9},{39},{43},{31},{24},{35},{33},{179},{26},{43},{37},{8},{10},{24},{16},{25},{26},{8},{12},{14},{45},{12},{9},{37},{32},{22},{28},{29},{14},{17},{1},{1},{2},{4},{0},{4},{3},{4},{1},{1},{8},{7},{41},{9},{11},{21},{7},{72},{6},{9},{20},{6},{23},{17},{17},{14},{2},{7},{8},{29},{24},{9},{5},{5},{19},{15},{17},{14},{12},{13},{12},{13},{7},{8},{11},{146},{27},{16},{8},{4},{7},{8},{11},{12},{18},{7},{40},{10},{11},{122},{27},{3},{14},{8},{15},{4},{7},{11},{9},{10},{4},{13},{4},{11},{11},{4},{8},{16},{4},{20},{14},{16},{5},{7},{18},{7},{5},{7},{6},{7},{12},{10},{14},{3},{13},{9},{8},{4},{4},{12},{18},{7},{14},{11},{8},{11},{4},{21},{6},{7},{17},{18},{9},{18},{12},{4},{9},{7},{2},{13},{5},{7},{11},{5},{11},{4},{20},{17},{13},{17},{15},{4},{1},{12},{9},{9},{5},{10},{8},{8},{6},{8},{4},{1},{16},{11},{9},{15},{8},{9},{5},{16},{13},{6},{4},{8},{6},{13},{3},{9},{19},{19},{11},{4},{4},{1},{2},{6},{4},{9},{9},{13},{3},{13},{4},{5},{4},{4},{6},{14},{5},{4},{12},{4},{9},{8},{9},{14},{6},{7},{8},{4},{11},{11},{6},{10},{5},{10},{5},{8},{4},{4},{8},{13},{9},{7},{6},{11},{18},{6},{7},{10},{6},{7},{7},{16},{12},{3},{5},{10},{8},{12},{12},{12},{7},{8},{32},{12},{1},{16},{6},{2},{7},{8},{17},{8},{9},{26},{8},{6},{18},{6},{1},{12},{6},{11},{16},{10},{7},{8},{12},{12},{6},{7},{4},{7},{12},{10},{12},{19},{13},{7},{5},{6},{7},{7},{4},{11},{16},{6},{11},{10},{3},{10},{6},{10},{9},{7},{3},{8},{4},{4},{7},{5},{5},{5},{4},{6},{17},{7},{14},{21},{3},{18},{5},{5},{6},{1},{7},{5},{925},{365},{203},{228},{323},{369},{80},{115},{82},{70},{270},{430},{65},{467},{116}};
+    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (4601 bytes) */
+const char* const cstring = "BZh91AY&SYb\200\225\352\000\003`\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\021\377w\215\355\326W\270`u\356\307\264\327w\010l\223\307lj\265q\030t\324]5\247.\203\255\250z \000\017\017A(\204\210\305=\t\037\242\014\247\224\336\232\233BO4\032hO!\246\230FHz\201<\323CSSz\232&\3244\364\323Bm\006\215&\312b\tDF\020\000\202`\3253&\204\300\223\002e6H\033Q\240=CM\001\240\3204\000\000\000\000\001\246\200\210\215L\231\023Dh\323CM\242h\000\320\000\000\000\000\001\240\000\001\240\3204\0324\002DA\006\244\323JxLL\231M5=2jz\236\210h=L\200\000\000\000\000\000\000\000\000\r\001\006\230\230\020`\002i\246\232`\0020\021\211\223\000\230\000\010\3020\000\010\300\t\223&\023\020$P\211\224\323L\214\004\324\332jz\243\324\362\236\3253C\005<\243\3244h\000\007\250\320\032h\000\000\007\242hyF\3244\3654\355\224\321f\026#n\354\021\"\274\366\211\027\362wQ\016@U\275\307\303\331\\h?\243\373Gk\221r@\204\377(3\024Hx\"\234*\303\2520 \211\346\213\007\014\321\343\330Z\326\036E`\323\376\377\341\261\2666\306\333\032\006\330\233h\033m641\260y\031d\263\336\020\261Z\365#\241\nQ\267\256\200MU*\032\245\253cHm\264\2206\200m\260l.\"\341\221\226Kf\313\232\231\346P\212\n\324`\026_\263o\302\320\336\253\232\221K\203\025 4\306\227me\212\300Wi\001$\251*]|\\\222\2169\006s\026\310\324\001Br\350%\245@\350\n \242b\266\260fo`\00640m\244\332cA\220\265YZ\010\200\270\313\016\"F\264\031\223Fp2\336\007\032\027y!\302\0250DT\"\273\232\226\241\026/j\221\270\327i\265\030+\221\222\265ju\305\342\tl!L\273+e\276.\001D\270H\300\212&v\221)\252\324|\251\0000\256n\202Y\370\331li\234\262\261\t\347r\201\001QK\241q\030%i[\350\210RN\215\231&)\230\270T'\t\246\024\320\320%fgr\346\366W\2743R\375\262\345M\033-\020Z\206\316\342(;\226R\322\220\250PPP\201Ih\367\205Ct8K(\205\211dQ\"]7t \020\256XZ\227\003m\013MR\334\341\343\322=\0168x>_!\377)\305\002\320x\300X\037\005\250\260\3541=\347\247\313\334\304~\274\255V\r\26252\331\263>w\007!2\252\332\340.\316\235\237\221\260\214t\203W\304r\363\013\260\225-\2370""\3336\3307\266?\235\364\316B\302\231\264\354z&*\033o%\327\372g\266\257\251\347\314\327\247F\214\260\206\031\336C\375\014J\272\032\273.\335\220['\265YS\217\307\354y\371\033V\252~f\3724\310fA\031\\\277\271;\016u\252\376\374\365\360'\371\233\007\334\032\246/\026\317\225\307\34420j\226_\301\035y\353\245\356\276\325\231rKu\024O1M\323S\"H\3260\271Q=\225'\227T\324\027v\372\016\2363xyz\272\321\036\235@uy\003\255\017Q}\022\244\244\242\306V\302#\232\251\t9\315\212\317\212X9\361\251\007'\241\302\272\323\313p\365\026\244\200w\317\025\324\322z\263\330\223\316\014\345;^\023(WYW\251:\314\222\204\2511ex\030Y\317\027\300\364{$\210q\312|\325AU\\$f\n\370\0239Uf\276l\324zz\023w6\367y\230\232R\006\351\353++\341\315\220{\235\244\224\324\207\312\340^\345gI\202\235\030t7<\363\353\326\231N\347\355\230\323\355\025\255\212\317\036A\332\335\036\263\275\243s\003{\234\017(\212D\177\250\216\370\035~W>f^8\303\357\265\014l\304\253g\352\252D\356\263\301\223R\266vlV\031\244\202\375m\177\034\334nH\272\013\355\372A\264\252\357!\226\005\216\3143\372\227\326\226\032\264\300\264dJ\322\264s\r\243\021\n\223\270:\205I\346C7\0310\031a\210\220\363\002\026,\264D\220\301\324:P\261s\021$\204Si\220\322C\213\332\353\333\321\303a\\H\370^V{\234\257B\241!\017\247W\324\210\361\351\343\357U\"MT~\251\311\226\211\301\351\341\363\323R|\n\252 \032\013\217n\350\006\224yM\366\217\031h\357\275\325\275zNf7\242O\311\372%=u\302\264\3035vj\2653\030$a.\222\031f\240\211\024H\221\007\371\363\342\020vc\300z\373\321\352#\033\034\031\377\347L\252\327\335\213\346\032+J\351/P\350!\035/\013\334\004\307\007\340?AN\354\363\024\311,\212\353\010b\034\250p\317,\324?l\006\347)qJ\027\035\026k\372\236-i\351\372A\315\316\272j`\220\356b\021\twF\354^\214\010p\370\354\271\227\221-\035\322:_\304\3722\343\035Y\367u\245$~+g\350\377\000\265KZ\266\231\246\246v4D\021\331\267\"\\\226\311\035\244gFO<\234\224\202aE\211\333\2311\3528!\227D{\305\337\272\\\317\302\202\376\202\266\244\224+\014\216\351\037c\322\225\330'\353\243\344\251\205x\370\365\340[\027oE\200BN""\336\230\244(J\227\220\264\344\021N'\232\370!.G\025\347\2766\204<;\342\370\321_\221\353j\027\252B\273\276YF~\334\307G\312\202\272U\342\240\225\200\304-<\3353O\000Fhxn\303l\213Hd\227P\304)h\247\265\005\335\205\024\317a\257\213\233Gv\357\335\004\336\351BEk\3037;\016\372\326\225\205\236\301\331\331\366\016\246\300\304\263\263\021\033\222I}\375\3439\315\376e\351\227\304\343z\2332\035\256\033S\250KV}\200\313O T#ux1\250\331^\332\353\216{\205R\252Q\207J\314G|_j@\245\037\201\216\322\227ox\373`\377\342\374\342\302\004\007\233\253\317\305\034n\234\376Y\230\027vK\240\220\352`\226X\226i\350G\205\344\246SA\201\242\262\035\233\227\036\002\261l\311|\374\264l\272\252M|<\206\277S\240\337q\240/\267\273\353r56\007w\301\035\226\344\274\236\274\271\247\332M\354\3011\331\347\322\030pH\353\227\327\254aU\005\3066\r\346\250\275\007a4\354\016P\340\233\340\365A\266\025+J\354\313\2340\246`\341]Y\224K\206#-\260\"\014\373\263Y\241Y\315\247\031\2606\263\n\324I\001\251}\215\213\304@]y\300\3517G\003\366\336&b\261]\201\240\312\321\270\363\241\237\236\245~\320\005\226\004v\262\202\235\250Be;\001\252\206\367\353\250j\371\250\024AP\326H{\225\032#\353E\227\316\366\370\312,\377$\340i\305\365Vp\207\321d|\334)\226\033\215\2557^K\221\256N\265\021f.~\033<\253:\2043\330\251\244H\325\032\261n\301\005\3465\221]\202m\350\325\246\221g\026\262\2039\270\252\302\222\250\007\220:\346\240l\210\331F\272\327$\244m\021\347\221\t\347\232\021SC\2776\341\030\2561\323>\334Gf\016\025\355\363\014\307&Wf\323#p\200@\216\351BA\023z\222(\223\276i\013/\241\274\246\210\244\210\223\362\261Q\214\034\241\217Q\321ap\222\276d\364\225\021\002K\371\260\252\2008K\306\376\213\213\2721\217\374\361\230\223\305\234p\245\250\345\306ll\200\321ST\250s\366\027a|OF\332\027fn\022cl\201\363\311\023\020\t\2154\306\267\241DQ\302\035W\243%Z\337~\016\362\333\313W\317<|\334Z\032\005Y\017\302\271\235\277\343\364\213\3336\253\317a\262\374\010\2409\305M\375\303\230\017MP\027`\200\245pbNa\257<\311\003\207\305$b\306\331\023I\307\253\230\336rN\362\2539\301vnY.""\336\347\002\264cM\355ix\312\307e\242c\263\241C7\007\023P\255\244^k$V\301\246\217\"\301fF\255J\275\372\372\203B\307\245\345\225\270\365\007\030\322b@\345j\257&\021\207J-|X\3319^\266\235\005\014\244(o\2402\231*\236Z\233p\263\032B\030\006^\036Y\362\305,N\274Y\213*f-\315\234\351t\032!\006X\227 \033\337\235\233\010\326=\235+\021\324\251\300\343\020u\354\227\246\302\244\221Sy\301R\220\323\006p\301\246\365\2570\035\r\224\013\024u\n\350\240\364iA\2468\226\325\200d\027\202\266\322J2x\222\234*S\3040\211\2728\233ccf\376\005\245\266\\\3418\362\304\304\302\362 \277\315<\207Jq\234]D\276\262g\315\312Zy\375\215\206\233nA\230v\244YX(\222\241\225f\251x\253\005\225+ P\353vTl\013}\033\355\211\276\333\032\346\266JQ\33586\343J\2703(\206TNs\237?y\034\227\210\220\316zm5\241~\030\336\230\227:\363F\016\320\234\244\036e\313\241\032\322\200\330;\267Nm\316j\323\350\334Fv\215\242#\025\230a\255\030\244\"D\346\364m\022\024\006\245\221\230\265%6\301n\026\202\320c\306r\360\023\243\r\020YXV\002\276\206\352Q\322\007E\020\006\357\027\264\265\255\317\033\3132\274C\030\201\244M\031^fhs\214\264l5n\265\362\227\251.\022\216a[x\334w\2443/\257#22\362\254\260\\(p\250\250*\241\322\022R\231\026\373Y5t\205\370z\240\306\n(/q\223\214Ju1\262d\202:[\030\326\034\030\230\234\334\277\006\343Q\\\016\211\267\361&\233/\016\326\213\240@\231\260$\343D\343\357\354\321B\364\020m{\316Hq\024\362^\253^\002\326\317>\340\307\231\022\341\211K\013\274\323\263FCmYs\355\363\3652\277\037\010o>\265O\016\341e/{tM0\262b\014\271a,5\334\2527[.\n\"\373\215b\2525M\276T-\201\245 \031B\326\344\355\036V7%\231\036\272\361\264\330m1\340#\202\016K\337!n\335\t0h\036\023\226\325\221\022J\013\241\327V\244\017\275\324P&\2012p\305\322\202\023\265q\261\252Z$)\016\020\333n\016\334\254ok\0145;\265P\263\316a8\3402\203\336R\000N\333.\024U\253z\244\224\301Ldg\257\037j\342\326\350\306\204!\263G\314\274|\375*\036\005@T\316\300\206Q\231\001\002\205\000\3041]y\013\307\010s<c\243\305\302\0234KC\3243z\275\235\242(\236\375\242\216)\006\341\236\214\035:\361\317,\257 ""iR(\312Zd\266V\036\354b\014\221r\351\344\326\016-\035(\252aN2aD\t\362\"\\k\254\262\356\"{\344|\202\2644[\300\235\212\200*\252\242rs\370\271\234\3726b\313\253\353Vb\305[\215\214\301QT\337\274\347\201\327\267MS\342[\251\303SK\347{\022\331\313U\327\245\024_\215\010j\3769\340\254,\360mQ\357LA@\320\342\374Y|\377>\223\202v\312\no\350\2131s\321\254\203ab1n#\226l\252\210\250\022\335Q\241\310 M\327\236D\250t\3220\206V\260g\231%\341X\253Qm:\026\304\210i\355D\367\251F\331B9\034\325\322Tv\351\321\330\251Ye\032\030\271\306G\227\310\264Yq\252D\026\215\003\"nN\355\rv\270V\222\3113\232\331\270\265J\340\224\026\335Q\270\257\021\204\025\241\336TzN\250u\236/5\\7\002\315\242\014\242\311\036v\022\334+\027\266\326\020\036\354b\315!\242{\325\2449Q\001\0304E\241\204\321\321X\260\327\361\314\270\016\254^c\212$8l\276\231\206\232{\233\360\307M\026\216\367\354,\256\025~f\207\026(\023\224\n\034\3117\354\327\025p\374\337\004\016\006\307<\330\2407TJ\233Ck\3232\355\343&\314\336\346X\t\307;\016\023\014\037\t#\177\002\305\004\213\030\316Dj|PB\345Z.]\002\361\260\3416\215G6m\010az\201\223\246\326\322\350\272\201\244\350/\202\351$\230TQ\334\252\000\374\0338U\010Cp\213D\024\221S'\301\025&\202\262\271N\360\266\226\252i\265\357\265\035t\323X\024,R\255\354\252^\215\251\264\332\233M\243}\366\275\023'\005F^:\205\255\222\301\322O*\335%\235mi*\206\362\254\201H-.&&\263\022\326`\323!:\347O8\210\rot\273O\025\ro\240C\206E^\256\tPq\t\365W]\223\006\016MD\356Nf\216y\210\034\270!\035U\222\261\255q\275B\2339\314\023\263H\200\320q\246\221H\266\004\0335\2338\213\342o\202\010\\\027\224\r,\255Rn\207H\021}Vw\260\245\312\232N\036;\362\214b<\220fR\265\225\323>\005M\212+\343\246\214\"0\2309W\363\235\234z\244\221u\t\201\240\361\324\237\003\013\246\226\323#\332\265\343\2303gGQ\306\267\357s%\207\235\375\016DuU*\302\345Av-\323m\202\030/\016\241\271\022aR\361\2348\260\201(\304B\304f\203v\236\316r\212\314\365\360q,\212\252\027*\323\230\033\232\325cu\200\014*\231t\343\312\272f\001\255]\261\270\014C\2521U\306\321/\274\267C\224\323""\261\0302,\307k\030)B\255\2279\006G\211\332#\273L4\231\245\2737\010\362\250\220G\273Z\305\022U\t\224\327\016\227\261\236L\347\247\30358\177\006\014lc\027\003\033\334\317\353\301\034LLW\020\376V\205\000b|\001\330K\207#B\3525\326m0x\374\230\003M\007\325\272@\010\004\240\270\317\272\305\270&\301\237\004F\366~cW\212i\245u\1773%&0\346^d\224\231t\370H\005\364\301j\365Z\017\245\331\347\341\212\243\030\301\034\256[*=\357Ro\271\206w\304`\357\364`\315\237\351<5\022\327o\356\343\364\222\t4L\341\311\010j\023?L\014\235)1\222`\373\305\366\251F2\030\3122.\r\206z\035^\304\177o\274]>\201\024\330\242\341=\021\212m\275\372\023\016rp\327\204`?\254\336&6N\234\320\223Q\211!\310\341> \337\357M\375\316\261\332\n\210\377\235\005\023\304ox\226f\236\271j\207\247=U\030*\253\214\361\236\216\320Z\2767&\350M\025\006\375\321\303\332;\317\271~C\225\214>\n\215\234.\211\346{\3336\177\305\310\347/#\215'\275O\232\370sJ&\225\036a\224)\002\224\005W'\317\274\324\357\036\t\332|\213J\266\241\310*T\366\247$\007\003\305fpvMR\225Ai\3579\355\366\217R\241\227\253I\214\343e:\357\234\373S\213\334e\224\230\r\246\217j\2765\030j\352\236\303R\206_\340m\212(\242\372X1\251Cj\305\036\032w\024G\364\251\374\345\220G\314m2\205\031\305\001s\026\216\242~/\306\265\324\351m\224YaK*\212\335<\241\362\315\304\353\350\026\034\322\312\272h\3467D\177\241\220\233Z\r\231\2664y,9\356?jx\017\000\271\323G\017+g*3B\nK\353\314\303\260\346\244\275\223d\326 \214d\312\360;\376-\231]rc\3032\335g\034\2563\305)\322\n\325L\352\325\375\330\213\215Z\266\276\305s\036G8\330M\202\277\324\033\215_vIw\255\217\212\323w s\\\270]<<MrCF\261\230\310\361\256?,\310\275\356wq\224\357d\310|\270\354\354\342\367*\257\214u\227\270\273\273\206L\236\350\323\240\253b\031T\310\354+\252\255Wf\255I7\352\031\035\266\263)76\252e1U\027U\231&FAO\237\270\2478\373y2Z7\354)%\t\311\326)\342\267\252``\263\007?\010\372\225\372\336Ac\021\310\\\324c\230\024W\357Z|e\217\217\315b1\277>r\363\331\325\033\264h,Rt\351\003\276=I\252\253\205\0279\207\355\324\277H\221fR\334\335\227\235~\222""\322\3673&NR|\351R\030\310E\337,\244];\274\305N\210]FM,\023b&\001uh\314\026\262\345L:\007\002<\223\001\342\330\tH\340\202H\355o\025\007\351\206\245\277\216\001\346\270\202\212~\342\342\333y`)\330O-\375AWv\324\360\3039\315&]P\207\246?\223\277qn\267:\\pQ\275\271IUM4\321)vQ\342F\271\254\317\205C\3769\226h\320\232\236\2378}\023\246o\317IA\236yIa\312Y\372h\231\236\022'~\\[s\021\270\254b\361\220p\232Ua\227v!\330\324\254\203\na\231\026D\274\314%\003\"k\205i\020\t(\252\260e\232\251\032UyT\342\204I\233\205\344\245\345\2402-S\324+\304\202\366\201AA\n\010j\245\212\r>\205\033@`U\236\311\033VO\227\020\370\01477y\030\2468g-af\373\370\023#\032\322h\244\r\022\234\236d0\266\245`B\234\314\246T\035i\346\r\332\335\375M\205\016\223C\357\014\250{S]dt\307\205:\230n\014\350j\020\026d\317\005\341!\351u\347\023\005\325\256M\010Aub1\022,*6\274\233\275\257\202\335c\213\013%\340\207p\256z~l\333\377\027rE8P\220b\200\225\352";
+    PyObject *data = __Pyx_DecompressString(cstring, 4601, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (4553 bytes) */
-const char* const cstring = "x\332\325XM{\323\326\266\2169\241\030\010\020CHB\233\024\031\022Hh\342\034CJC\n\247\307\371\000R\276\3428)P\240:\262%;jl\313\326\007$-\264\014=\324PC\r5\324\320C\0173\334C\017\363\023\362\023\356\273\266$\307\t\364\336\247\367\216.\017\226\366\336\332\332{\355w\275\353]K\231I\245\213\231rY\310\230\246R\251\231\302\202d(\202f\2315\313\024dUW\n\246\246\357\010\023\262R\224\254\262i\010\246&\244f\344\374\344\242V\251\225\025S\221\005Y{W-k\222,\0245]X\324\254\262,T5S0\244\267\212P\224\3242\246l\254=6\346\205%\311\224\004C\263\364\2022/\324\254|\245l\230\002\336\251I\206\251Xzg\223\316\303\311%\265`\2762L}J\310Tw\336\034\364\016Z\217U\303|u\320\305\345\r\376-E&=y\234[\237)\224\350&\030\205M\245\242\030BQ\327*\302\252\225\347\203\330~5\334~a\345AN\316\013\226\241VK\302\332rn\275h\001\226\325\225h1\234\243\253Y\323\265\"\316\306\001\271\177pJ~l\271k\020\255\016@\237\031\352,\303\255:\230PT\314\302\246\220'g\350J\200\331_\314\201\311\222i\352j\3362i\n\016ttFY+X\206PQLI&\017H\346'3\002h\016\246|v\243\010\2772 ?\262\317\221\323\275\323US\371\244\177\0101\r\007\302\311:8(o\225\252\240\026\205`\206T\326\025I\336\021\224m\354\025\315-\002\210\216\025\3675\253*\013\017\327\327W\005E\327aL\264\0229\257k\230\233NcG\210B|z\303\307\2102O\244m\265bU\204\202V-X\272\256T\315\316zF\027-\243i\272b\"&\244 b\014\241\246\350!\306\007S\237j8DY\301a\304\"\370%\02198h\301\304\247\204YA\305\010\035C\255F\036\010\3061ae\351\340\031\316]\323\252`\002wKgJ\307[d\216\252\020\355\302\t\000\333\334\204\233\027w\314M\r\260\032\202\254\224\325\274\242K\246R\336\241 \001\0160\032\223\252\302\352\362\352\364\354\334\254 a3]\371\025\001\017\022[\371BY2\014\270B+\nyK-\233\260\303\334\251)FJX)\n;\232%T\225\300\271\210\336C/\230\233\360\244\241\230\324\020\256KUh\201d\252ZU\304\353p\304\365PUT\250\003\217\222\262\241\244\236\325h\206T~\245+uK1L#\225S\014\003Co\236\351%\251\252\032\025a\372_B\256\246\024T\354\200\346\023\005'\223\017Z\242\245\227;SC,\267\024\350\226\222*\245\246\204\267\205M\255\214\343+\223""\253\222\316\343{U\327J\300\025\252\264\006P\300\351\212j\202n\005\034J\t\224\354`\034\003\000\363P\277\233m\223)aM\221-p\024\374\325\273f\245\350\0011%\270\006Z\030\216\321\213\2004\027\230\312\311\361\337\313\022\204(\267\251\275\213\370\237\333Rk\004\247\320i\204\341\2252\267Ma\342P\000\031\2239S\322M\232\364\031\202\223\207;\317\017iy\316*@u\014\310 H#\037H\037\210-lT\225m\270\203\260\3704\3766j2\301\020\232:\376rz\2742=.\013\343\017\347\307\237\314\217\347R?\314\013B\n\350\300}\270M\342wjR\222e\261J\314\225\212D\315\361\t\311\000I*\312$\374\215^\031\374.W\245N\037\353\032R\211z\2350\214\032X\2743\026\346\037:\215\254\032R\276\254\300P\236\236\002d\246\004$1\022\331@\365\257\204\211G\354\3400\275y\205hj\020\364\233J\271&T$\276qJ\251\362\325\202\r\346\303{\347=\203\334\220\342\221\037\\?q\t\267\251\"U-\251\034\350\311t\221tN<\320\304\316\000\027\276Ra\3234k\36333t3\272\356y\265d\310\371T\230DSE}F\252\251\321C\274i\246\302C\2454\275\244\032\201\335r\352W\003\312\3005\210_&*\322\266\370N\323\267\024\335\270\027\014\201P\344~\300\307\273]YkJ\240\331\201\354\030\367\246\273:\323\207:]kN\037\352\004\365\305tx\357b\356\247\370\207\301\234[|\270\374dY|\232y\262\2141+\037\ro,\034~\302\207I\r\2427\020Z\247Ne,\210\204>/d\341\344\232&,Z\352D\356\347\254\360X\312O\t\213H\017\222\220)A\023\241\334\226.\021\271\241N\320\tsg\362\324'\026\221\324i\025xN>*VSab0@\350\320\222\351\350~`\330tw;\314\354za&\334'\332f\346\350\276\251\332\316\366\301\301\247\017\232$\263E\255\\\326\336\021\203%\275dU\020\336\010\007\235\222f\335\202\332\202\237\341\2463\321\356S](\316t\2556\325\215\341L\267\255x\022\270k&\362\333\273RwyE\251\210\327+\024\245H\257\231\320\022R\\E_\204h\020\361\026\265j\225\324_\253.\223lPB^\336\226\250\224\244\244\235\221\245\032\242\237\232\374\361\312\203\247\317\326\226\0273\271\345\225\247\367\237\255<]Y_\311<\026\227\226\037g^R\356~\222y!\256-\257\257\255,\347\250\371\374\331\332\243\345\265\334S\255\252D\te5\223[_\336X\023\027\260\004QaU27Equg\033?\332[|\252l\233kJ""\221Vy)\346\326\3272\353\313\017^\256\005\216]F:\340\353p\305\016\235\274\276Ia\274\252i\345\345m\245`\241:^\207J\001\220u\013\207\330\250nU\3410\211\237P\nNC\312\026\271\205\3325\016\010\265\200z\3201\010\235\356r\001\363\203yhDw\003\277\267\222!\026\242\312[2v\252\005UK\0254\035\373\253U\305\010u//\025\266\264b\021KQ\365NN\021\003\217\361&|\211\273Z\200+\212j)\217\223P\202\227EM\027\211hb(\333\005\tw\031\211S\005AE\221\247w\261\244\230\310l\025\352b?QEV\327\245\202B\033v\314:\3101\251\242\205\200\302RA\027'27\211&\021U\014J\023\305\212)\347\345\274xP\304\312J\336*\205\225\024njU%41\\\226vd\254\246\253\334+hv\302E\214\3203\224zg\214d\353\320\000\337\277\323\t\313\321\316\000\204V\204%V\245\246(U\003v\213HA\252*\2120]\321\351\006\027R~\347\tO\211\310a(!\017\270\260\213\332V \360\230\277\255\232\301\265x4;\204}\332\237\273\233|\302+U\261S\354\213\374ix%\303\213x\323<\232#\016\245\010t*\230bU\013x-\274\022\376\301U45\332\006\036\304\377\307Z\251\244\350h\210a\336\210\274\316\207B\351\351\0322\002\362S\006\004\377\213\252\212</\003\027\265Z\324\350'\312\010&\336\240\257\003\3561\251,r\217\251p\274J\254\rIJ\374\241\237A\031\0105\232\261\365\216\310\rz\231b\007T\236\356\351\200\335\214$\177r\237\222\302\360\006\316\303ka\"O\320\300\0107\241\314\017HW\250\242(V$P\225_\273\362SWF\252\360*\262\322\251%+[\250R\361\202&[\344\204\nJq\370\222\366\r\256ZM\251ja\275\031\335\203\007\226\031D0\032\344\272 \356\202+wc\330\014u\225 C|\003\311\340j\360`'\271\010Zz\350\036z\023\025|\r\301\n$#\t5x\037\3070\324\337\224\232V\253\351\000\233_D\362T\304\360\350.\026\214\267\235\266\326\311\273\034\264\320\347\221\353\217d\243\324\321l$\212u\024.\001\036\272.\241\254\020\301>\021\3476-CGn\324*\272\242+\2652\304!J\223\235t\031\352\242\021q\275\303y\372\320\301\311\270\177vD^\010\342 \2509\365\350\023\010w\210B\360\374\235\n-\017\245\016#\226^5\350\343;bK$c\034g\242g\330$vt\367q\370\303oD\013tM2\270\353H\205\021\242\244(J\021W#\214\n\021CfH\016\264\242?\225\240d\354\330\322\325\016\365\337@""\335.r\251\000A\251SSd\243\254(\265\020\213\340[\207\242\020\276%\\\003l\341}Y\t\233<\370\3518p\024 2\240A\250La6o\"\340u\302[?(X\320B\350\035d\235N\3267\202J\337\330\201\354@\200M\272n\233T~\233Ar\203\352C\333\361%W\006\227Q\211\342K0\370\234\013\256\342A\344XU\225t\310\342\237\000\321\231\017\367B\004h2\342W\315\337JA\030\312)\356U\213\212\353\267R\331\n.\306;\210C\025;\360?!\260\036\201\t7\375k\315\223\255D{p\234\215\377\320|\313\2267\330\306O\373\203=\307\343\037\267\033\206\235l\307\317\333\3378\331\375/z\216'\354X\2737\3368m\177\353\304\234D;~\262\3357d\277sd7\351\316{/\374l\273o\200\r\214\273\270\017;q\36785\316\264\343\347\032\333\366\357n\312\217\265\373\3165\352\366Ig\324-x\211\275\376a\347\230s\325Ys\014w\322\273\351\375\344\3175\323\315\305f\275\335\177\301\236sn:\257\275\363^\272=\360\2453\341&\331\325\333\354\366\203V}7\316V\327\330\032Y\310~R\231\372+\373UcZ\255=0\354|\341HN}\017\323\257\2711\226\274\313\356>\336\315\354f\333\003_9\351\275\376A\273\350d\330\350\254\377\250Yo\305\332\375Cv\235\354\372\340d`\262\275`\027\234\363\316-Guuo\320\333\366\353\315\1774\323d\354\266\255;#\356\232\013\233\006\355MGb\227\227Z\217v\353l\365g\366\363+\366\252\300\n\nS6\331&,y\317\336\177\330\357\351\371#\266x\014\267\305cK\307\332\375\003\366}'\331\265\375\002[\200\3619\226\203\331[l\253\314\355\330\353=\361\321l\244\333\361\263\215\242\235a\027\3574\023d\032\306\373\001\325\200\223u\244\366\221)\337\303\272`\312y{\314\226p\226\336\263\215\262s\305Y \014\310Q\361\217\177\330\353\316\220{\3025\2741\257\344o4\2574WZk\255z\270\206\375\312\215\271\377\343>\267}\311\3478\3615O\036\362\373\005\373;g\014\333\375\356M\370\311v_?\353Ob\301\304E;k\253\3166!v\311\031t\352n\257\013\210\317\333\327\360\342\250+a\034o\246\377\212\023\355\277\307\211\1775%\366C\226e\001*\034\362\232\275\026\231\370\037\366\037\203\031&3w\330\316o\237\362\002\320\261\273Ov\263\273\322af\320Q\337\267\322\255\314\377\201\033\263~\306\177\335J\264n\200x/\330\306s\366<\240I\225UAR\230d}J\211\233~\222""\335Zje\3302\314\177\303\336\374\022r\342t#\3751\266\327{\301\236\265\353\316I \213\221;v\246\335{\246\361\034\356\373\311\231Gp\341\361=\367\230{\303\313x\331\200Fwm\303A\300\236n\3146\336;\337\271I\nD\000\320\216#.'\275\204\227j\236m\225p\372\"[\007s\213\355\311\177\372\275~\006\336=9d\3130l\326\251\007o\377\356\\\307\246\210\356\267 \306\246[\364V\020\335\361A\273\204n\321}\346\247\217t\206\235^\347\201\233v\357\263\033\360J;\216C`d\305]\367F\374\365\346hKj\017]u\357\371g\233\274\221n\237<\323x\355\\p2{\177\327\326\275\370\227\004\340\377~\201v\260\300\036H\256\330i\370W\262M'\315zF\331\350\367\315\333\320\301\241k\354\332\277[\261\375\261\236\343\2036p\215\037\341\375,\034?L\301\323o\307\235\3238\013H\333\271\335#F\217:\331C\014!\251;\013~\237\367ny\252\2577\007\233\333\220\262\177\354\246C\3528\277\301\332\t\377\212\277\350\327\331\034\330\311\236\376\302~\001\231e&+G9\343\374\344\246\331\330r+\333\222w\223\264\200\264\327{\212\235\032a#\377\364O6\023\315$\353\031cc\267\375\"\002>\313E\375[?\273?pT\316\273\264\343\202}\327\321\335\304\201n\214\270\317\275E\317\364\3576\255\326BK\335\325\021b\221pdC\3218\336\216G\022\360\007\227\376x(\001 \352='\326%g\227wc\273\211\316[g\022v\302N\271q/\026\311\002\307\222;\203\rL{YO\342s\217\256s\313O\373\317x\200\322S\326s\225]\275\333\314\354\367\367\034?\327\330\202o\240b1\362U\037\202\004\224\230\343\201\203=F\234\207n\306\345\3760\355\233\366s\000\370\n{\0037\305I;?rI\352\277\014\205\3400CV\340\311\201!xn\010\ny\331?\346'A\357\3411w\201\317\034\276\324\036\231\362\036\370\263\320\201c\315d\363N\353\341\356\342\256\305\3267\332\303\227\235\017^\246=r\305\235\360\222\354\233g\224&\242\230\036\031\335\033\376\n!\233\303\316#\243m\341\226\377]s\254)5?@)^\263\227\022\223\340iJg\355\221\253\234B\3025w\323\223\330L\220.\002Y\223\332Bro\004\344\274\355\313\330\372{\304\324\310\204\027\333\033\0218\232\302\2447\2047\307R\236\314m\036\273\323\034hf\233\322\036M\362F}i\017\212\234`_~\343\245\271\274|\036\302@\350?\007\342\022V\271""\334\214\267z[\231\326\213\335#\200\236\003\253\023\177\003\3241\310\355\237-e\367&\026\342\340\312^\322\233#\244\377\177\000\034\330/\005 \257\007\232\337\0054\245\270\001\250\000\373z\306\253\207h\217@\r\263\373q\2121\023R\376\300I\207<\017c\342\033\347\005\321\224\364\305\002\246\331\256\000\330\264%6D\213\217\370Y?\010\217\2171Z\352T#\321H\2669\353W\234\r( DYE\322\305[}\215\207\366#\307\242\354;\010i'\037\334\365\014\177\"<X\037%\375\257xd\200\026\027)G\266\373Gi\rR2\312\342\3710c\277G\340\361\252\211\365\014\330?\262\257\027[\351\375\363\035\312t\311\300o\336\260\237\350\310\000\317\3608\310\3218\276\333|\004\355\213\205Q<\342<f\023\310\311t\230/\016\341\320o\037\207\021Eg\021N\177\000o&\217.t\335\255{}\310\270Y\254\302F\246\330\324=v\017\234h'\257\273\037H)\320`\327\277\363\353\3737z\216_\264\227\370i\362\336\tO\207\221<W\336sNP\266\273\210d\232\006\277\357{\223>\"\343Tc\034\206\365Oz\227P\326\240\254\302)\017\211\335{\320\364\226\257\240\0068b\317\275\346\233\335$$=~r\257\367\242\375\302Yw\023D\324\256\232\212\273\361\246?\331\014&\361\235\220Bb\224\306\202\372:\376\361O\224\033\000\017\221\032\2248\2638\312\235\335\247\250#\350\371%'\306.M\"\014\373\240\203\303\327\\\215\352\215vd\363\r:\001\353\201\342\003\212U\266\212\022\371y\373\322\004\233Xh]c\017_\260\027/\367\207{\216_\210d\277\257\261\210\375c\235\327y)\202\242\231=)\261\022\025\265{\301\361\333\275CA\205)\355\235D\311D\036\233k\306\366\220\3629\315\026\221|\357\004\022K\307~\356f\330\370\\\363Tkzw\207\275\240\225\332}t\232\033nf\017\222\241\333\347\021\033QJ\243\302\343\"iM_\343G\273\314\271\207\222\343C\260\332\231v?\025m'\\\316\314,\225\200\220\243\366\300\230\373\300KC\010\320\237\347\225\342U\344X\303\273A\331\223J\303q\004@\037J\242W\315\0304\251\217j$\256\367\274\336\202\3405_\361\204\324/\320\322\224\nF\035^=\325;>\232\302\3339?\306\322(\314Z\331=\004U\331\275\202HB\376\347\005n\305\235\363\370!(\210\007\002\002\361\322\233R\332\270]g\303\010{?\326\251\"y\236c\227@F\302-Lu7I\245Y\017\326\333?""E\341\264I\225@\3108\2240\204\312%j]\244\032\344t\3436\017\r\256\n\324\234r\244N\221x\246\361\302\026\201\331k0{\034\362NL9o\017\332\177\272\320\2123\215_\234\333Ar\037\2052oQ\210r\214\332\275\227(\276\251w\335\375\332\263P\031E#Tk\247\235G\010\3759\342\352\231\006,\370\022\036|\344\325\251\322;Nfp7}n*\205\362\351\3064\022\007\025E\203`\0141\214\372g\261vw\377\034<\333\335?:\3774\301\354=B]>\267{\350\t\033\006\251\3574/6\225\360\t\373\212{\352\257\037?\344.\217\036O{\317qZZ0\010:\243\221l\334j\224\354\\\020\316p\000\276A\262\224\001\277\265cv\"\200\377+'\023\314\346U6\345\321Y\350i\022bPj\346\360M\031\037\245\302\302\273\340e:/\356\237\355\314w\222A\241\212\002\014E\347\022J\372\001\370k\300\177\323\032#5\016*\241D\230*&\274/<\255\231m_J\262$\025o\347\203e\200o\302\036\341\037jX+\315\277\244\210\270\357\032\005;A\256H\023o\236\241\n\247\"\211\235\273B\001\265\367W\343\224\355\355\257\035^h\245\377\013\367\366\233o";
-    PyObject *data = __Pyx_DecompressString(cstring, 4553, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (4569 bytes) */
+const char* const cstring = "x\332\325X\315\177\323\326\266\215\271\2415\020 \206\220\2046)2$\220\320\304\271\206\224\206\024n\237\363\001\244|\305qR\240@ueKv\324\330\226\255\017\222\264p\313\320C\r5\324PC\r=\3640\3033\3640\177B\376\204\267\366\221\3448\201\276\367\356{\243\307\017K\347\034\035\235\263\317\332k\257\275\225\231T\272\230)\227\205\214i*\225\232),H\206\"h\226Y\263LAVu\245`j\372\2560!+E\311*\233\206`jBjF\316O.j\225ZY1\025Y\220\265\355jY\223d\241\250\351\302\242f\225e\241\252\231\202!\275S\204\242\244\2261ec\355\2111/,I\246$\030\232\245\027\224y\241f\345+e\303\024\360NM2L\305\322;\233t\036N.\251\005\363\265a\352SB\246\272\373\366\260w\330z\242\032\346\353\303..o\361o)2\351\351\223\334\372L\241D7\301(l*\025\305\020\212\272V\021V\255<\037\304\366\253\341\366\013+\017sr^\260\014\265Z\022\326\226s\353E\013\260\254\256D\213\341\034]\315\232\256\025q6\016\310\203\303S\362c\313]\203hu\000\372\314Pg\031n\325\341\204\242b\0266\205<9CW\002\314\376b\016L\226LSW\363\226ISp\240\3433\312Z\3012\204\212bJ2y@2?\231\021@s8\345\263\033E\370\225\001\371\261}\216\235n[WM\345\223\376\021\3044\034\010'\353\340\240\274S\252\202Z\024\202\031RYW$yWPv\260W4\267\010 :V<\320\254\252,<Z__\025\024]\2071\321J\344\274\256an:\215\035#\n\361\351-\037#\312<\225v\324\212U\021\nZ\265`\351\272R5;\353\031]\264\214\246\351\212\211\230\220\202\2101\204\232\242\207\030\037N}\246\341\020e\005\207\021\213\340\227D\344\340\240\005\023\237\021f\005\025#t\014\265\032y \030\307\204\225\245\303g8wM\253\202\t\334-\235)\035o\2219\252B\264\013'\000ls\023n^\334575\300j\010\262RV\363\212.\231Jy\227\202\0048\300hL\252\n\253\313\253\323\263s\263\202\204\315t\3457\004<Hl\345\013e\3110\340\n\255(\344-\265l\302\016s\267\246\030)a\245(\354j\226PU\002\347\"z\217\274`n\302\223\206bRC\270!U\241\005\222\251jU\021\257\303\0217BUQ\241\016<J\312\206\222z^\243\031R\371\265\256\324-\3050\215TN1\014\014\275}\256\227\244\252jT\204\351\177\010\271\232RP\261\003\232O\025\234L>l\211\226^\356L\r\261\334R\240[J\252\224\232\022\336\0256\2652\216\257L\256J:""\217\357U]+\001W\250\322\032@\001\247+\252\t\272\025p(%P\262\303q\014\000\314#\375n\266M\246\2045E\266\300Q\360W\357\232\225\242\007\304\224\340\032ha8F/\002\322\\`*'\307\177-K\020\242\334\246\266\035\361?\267\245\326\010N\241\323\010\303+e\356\230\302\304\221\0002&s\246\244\2334\3513\004'\017w\236\037\321\362\234U\200\352\030\220A\220F>\224>\020[\330\250*;p\007a\361i\374m\324d\202!4u\374\325\364xez\\\026\306\037\315\217?\235\037\317\245~\234\027\204\024\320\201\373p\233\304\357\364\244$\313b\225\230+\025\211\232\343\023\222\001\222T\224I\370\033\2752\370]\256J\235>\3265\244\022\365:a\0305\260xg,\314?t\032Y5\244|Y\201\241<=\005\310L\tHb$\262\201\352_\r\023\217\330\301az\363*\321\324 \3507\225rM\250H|\343\224R\345\253\005\033\314\207\367\316{\006\271!\305#?\270~\342\022nSE\252ZR9\320\223\351\"\351\234x\250\211\235\001.|\245\302\246i\326\346gf\350ft\335\363j\311\220\363\2510\211\246\212\372\214TS\243\207x\323L\205\207JizI5\002\273\345\324o\006\224\201k\020\277LT\244\035q[\323\267\024\335\270\037\014\201P\344~\300\307\273]YkJ\240\331\201\354\030\367\247\273:\323G:]kN\037\351\004\365\305tx\357b\356\247\370\207\301\234[|\264\374tY|\226y\272\2141+\037\ro,\034}\302\207I\r\2427\020Z\247Og,\210\204>/d\341\344\232&,Z\352D\356\227\254\360D\312O\t\213H\017\222\220)A\023\241\334\226.\021\271\241N\320\tsw\362\364'\026\221\324i\025xN>.VSab0@\350\320\222\351\350~h\330tW\333P\352\310\030\357\361S\253*I\2401\035\346z\2750\023\356\034m<s\334\222Tmw\347\020\212\351\303&\toQ+\227\265m\342\264\244\227\254\n\002\036\001\242S\032\255[\320_064c&\262g\252\013\327\231\256\325\246\272Q\235\351\266\036O\002\007\316D\236\334.u\027\\\224\234x\005Cq\213\204\233\t-!\rV\364E\310\010QqQ\253V)\037h\325e\022\022J\321\313;\022\025\227\224\3063\262T\203\036P\223?^y\370\354\371\332\362b&\267\274\362\354\301\363\225g+\353+\231'\342\322\362\223\314+\312\346O3/\305\265\345\365\265\225\345\0345_<_{\274\274\226{\246U\225(\305\254fr\353\313\033k\342\002\226 r\254J\346\246(\256\356\356\340G{\213\317\224\035sM)""\322*\257\304\334\372Zf}\371\341\253\265\300\325\313H\020|\035\256\341\241\333\3277)\260W5\255\274\274\243\024,\324\313\353\320-\000\262n\341\020\033\325\255*\034&\361\023J\301iH\353\"\267P\273\306\001\241\026P\017:\006\241\323]@`~0\017\215\350n\340\367N2\304BT\213K\306n\265\240j\251\202\246c\177\265\252\030\241\022\346\245\302\226V,b)\252\347\311)b\3401\336\204/qW\013pEQ-\345q\022J\371\262\250\351\"\021M\014\205\274 \341.#\225\252 \250(\362\204/\226\024\023\271\256B]\354'\252\310\363\272TPh\303\216Y\207Y'U\264\020bX*\350\342D\346&\321$\242\212A\211\243X1\345\274\234\027\017\313ZY\311[\245\260\266\352\n\026T5\322\256\214\325t\225{\005\315N\270\210\021z\024c\321\030\t\331\221\001\276\177\247\023\026\250\235\001H\257\010K\254JMQ\252\006\354\026\221\224TU\024a\272\242\323\r.\244\214\317S\240\022\221\303PB\036p\251\027\265\255@\3621\177G5\203k\361x\276\010\373\264?w7\371\204\327\256b\247\374\027\371\323\360J\206\027\361\246y<k\034I\032\350T0\305\252\026\360Zx%\374\203\253hj\264\r<\210\377O\264RI\321\321\020\303L\022y\235\017\205\322\3235d\004\344\247\234\010\376\027U\025\231_\006.j\265\250\321O\224\021L\274A\337\013\334cRY\344\036S\341x\225X\033\222\224\370C?\203r\022\2526ck\233\310\rz\231b\007T^\000\320\001\273\031I\376\344>%\205\341\r\234\207W\307D\236\240\201\021nB\231\037\220\256PEQ\254H\240*\277ve\254\256\034U\341ue\245S]V\266P\267\342\005M\266\310\t\025\024\347\360%\355\033\\\265\232R\325\302\n4\272\007\017,3\210`4\310uA\334\005W\356\306\260\031\352*A\206\370\006\222\301\325\340\301Nr\021\264\364\320=\364&j\372\032\202\025HF\022j\360>\216a\250\277+5\255V\323\0016\277\210\344\251\210\341\321],\030\357:m\255\223\2119h\241\317#\327\037\313F\251\343\331H\024\353(e\002<t]B\241!\202}\"\316mZ\206\216l\251UtEWje\210C\2248;\t4\324E#\342z\207\363\364\351\203\223q\377\354\212\2744\304AP\205\352\321G\021\356\020\205\340\371\266\n-\017\245\016#\226^5\350s<bK$c\034g\242g\330$vt\367)1\037y#Z\240k\222\301]G*\214\020\r\3228\256F\030\025\"\206\314\220\034hE\177<A\021\331\261\245""\253\035\352\277\201J^\344R\001\202R\247\246\310FYQj!\026\301\327\017E!|K\270\006\330\302\373\262\0226y\360\323q\340(@d@\203P\253\302l\336D\300\353\204\267~X\302\240\205\320;\314:\235\254o\004\265\277\261\013\331\201\000\233t\3351\251 7\203\344\006\325\207\266\343\333\256\014.\2436\305\267a\360\201\027\\\305\303\310\261\252*\351\220\305?\n\2423\037\355\205\010\320d\304\257\232\277\235\2020\224S\334\253\026\225\333\357\244\262\025\\\214m\210C\025;\360?*\260\036\201\t\267\374\353\315S\255D{p\234\215\377\330|\307\2267\330\306\317\007\203='\343\037w\032\206\235l\307/\330\337:\331\203/zN&\354X\2737\3368c\177\347\304\234D;~\252\3357do;\262\233t\347\275\227~\266\3357\300\006\306]\334\207\235\270{\222\032g\333\361\363\215\035\373\0177\345\307\332}\347\033u\373\2243\352\026\274\304~\377\260s\302\271\346\2549\206;\351\335\362~\366\347\232\351\346b\263\336\356\277h\3179\267\2347\336\005/\335\036\370\312\231p\223\354\332\035v\347a\253\276\027g\253kl\215,d?\253L\375\215\375\2461\255\326\036\030v\276p$\247\276\217\351\327\335\030K\336c\367\236\354e\366\262\355\201\257\235\364~\377\240]t2lt\326\177\334\254\267b\355\376!\273Nv}p20\331^\260\013\316\005\347\266\243\272\2727\350\355\370\365\346\337\232i2v\307\326\235\021w\315\205M\203\366\246#\261+K\255\307{u\266\372\013\373\3455{]`\005\205)\233l\023\226\274g\357?\034\364\364\374+\266x\002\267\305\023K'\332\375\003\366\003'\331\265\375\002[\200\3619\226\203\331[l\253\314\355\330\357\375\362\243\331H\267\343\347\032E;\303.\335m&\3104\214\367\003\252\001'\353H\355cS~\200u\301\224\013\366\230-\341,\275\347\032e\347\252\263@\030\220\243\342\037\377e\257;C\356\227\256\341\215y%\177\243y\265\271\322Zk\325\3035\354\327n\314\375o\367\271\343K>\307\211\257y\352\210\337/\332\337;c\330\356\017o\302O\266\373\372Y\177\022\013&.\331Y[uv\010\261\313\316\240Sw{]@|\301\276\216\027G]\t\343x3\375W\234h\377{\234\370GSb?fY\026\240\302!o\330\033\221\211\377d\3774\230a2s\227\355\376\376)/\000\035\273\367t/\273'\035e\006\035\365}+\335\312\374\037\2701\353g""\3747\255D\353&\210\367\222m\274`/\002\232TY\025$\205I\326\247\224\270\345'\331\355\245V\206-\303\374\267\354\355\257!'\3164\322\037c\373\275\027\355Y\273\356\234\002\262\030\271kg\332\275g\033/\340\276\237\235y\004\027\036\337wO\2707\275\214\227\rht\3176\034\004\354\231\306l\343\275\363\275\233\244@\004\000\3558\342r\322Kx\251\346\271V\t\247/\262u0\267\330\236\374\273\337\353g\340\335SC\266\014\303f\235z\360\366\037\316\rl\212\350~\007bl\272Eo\005\321\035\037\264K\350\026\335\347~\372Xg\330\351u\036\272i\367\001\273\t\257\264\3438\004FV\334uo\304_o\216\266\244\366\3205\367\276\177\256\311\033\351\366\251\263\2157\316E'\263\377\357\332\272\037\377\212\000\374\337/\320\016\026\330\007\311\025;\r\377J\266\351\244Y\317(\033\375\241y\007:8t\235]\377\217V\354`\254\347\344\240\r\\\343\307x?\013\307\017S\360\364\333q\347\014\316\002\322vn\367\211\321\243N\366\010CH\352\316\201\337\027\274\333\236\352\353\315\301\346\016\244\354o{\351\220:\316\357\260v\302\277\352/\372u6\007v\262g\277\262_Af\231\311\312q\3168?\273i6\266\334\312\266\344\275$- \355\367\236f\247G\330\310\337\375S\315D3\311z\306\330\330\035\277\210\200\317rQ\377\316\317\036\014\034\227\363.\355\270h\337st7q\250\033#\356\013o\3213\375{M\253\265\320R\367t\204X$\034\331P4N\266\343\221\004\374\213K\177<\224\000\020\365\276\023\353\222\263+{\261\275D\347\255\263\t;a\247\334\270\027\213d\201c\311\235\301\006\246\275\254'\361\271\307\327\271\355\247\375\347<@\351)\353\271\306\256\335kf\016\372{N\236ol\3017P\261\030\371\252\017A\002J\314\361\300\301\036#\316#7\343r\177\230\366-\373\005\000|\215\275\201\233\342\244\235\237\270$\365_\201Bp\230!+\360\344\300\020<7\004\205\274\342\237\360\223\240\367\360\230\273\300g\016_n\217Ly\017\375Y\350\300\211f\262y\267\365hoq\317b\353\033\355\341+\316\007/\323\036\271\352NxI\366\355sJ\023QL\217\214\356\017\177\215\220\315a\347\221\321\266p\333\377\2769\326\224\232\037\240\024o\330+\211I\3604\245\263\366\3105N!\341\272\273\351Il&H\027\201\254Im!\271?\002r\336\361el\375\003bjd\302""\213\355\217\010\034Ma\322\033\302\233c)O\3466\217\335m\0164\263Mi\237&y\243\276\264\017EN\260\257\276\365\322\\^>\017a \364\237\003q\t\253\\i\306[\275\255L\353\345\3361@\317\203\325\211\377\031\250,\371=&\223i\332\336\006[[\347\330\021\276\262\227\364\346\010\354\377\037\030\217!c\374\211\347\034\347\365@\366\273\260\246,7\000!`\337\314x\365\020\360\021\010b\366 NafB\315\037:\351\220\352aX|\353\274$\246\222\304X\2005\333\025\003\233\266\304\206h\361\021?\353\007\021\3621FK\235n$\032\3116'\376\212\263\001\021\204.\253\310\273x\253\257\361\310~\354X\224\200\007\241\356\344\206{\236\341O\204\007\353\243\274\3775\017\0160\343\022\245\311v\377(\255AbF\211<\037&\355\367\210=^8\261\236\001\373'\366\315b+}p\241\303\232.%\370\335\033\366\023\035%\340I\036\0079\036\312\367\232\217!\177\2610\220G\234'l\002i\231\016\363\305\021\034\372\355\2230\242\350,\302\351\017\341\315\344\361\205n\270u\257\017I7\213U\330\310\024\233\272\317\356\203\023\355\344\r\367\003\211\005\032\354\306\367~\375\340f\317\311K\366\022?M\336\373\322\323a$O\227\367\235/)\341]B>M\203\342\017\274I\037\301q\2721\016\303\372'\275\313\250lPY\341\224G\364\356=hz\333WP\006\034\263\347~\363\355^\022\252\036?\265\337{\311~\351\254\273\t\"jWY\305\335x\313\237l\006\223\370N\310\"1\312dA\211\035\377\370'*\016\200\207`\r\252\234Y\034\345\356\3363\224\022\364\374\262\023c\227'\021\211}\220\302\341\353\256F%G;\262\371&\235\200\365@\364\001\305*[E\225\374\242}y\202M,\264\256\263G/\331\313W\007\303='/F\312\337\327X\304\376\261\316\353\274\032A\335\314\236\226X\211\352\332\375\340\370\355\336\241\240\310\224\366O\241j\"\217\3155c\373\310\372\234f\213\310\277w\003\225\245c\277p3l|\256y\2725\275\267\313^\322J\355>:\315M7\263\017\325\320\355\013\210\215(\253Q\355q\211\344\246\257\361\223]\346\334C\325\361!X\355l\273\237\352\266/]\316\314,U\201P\244\366\300\230\373\320KC\010\320\237\347\305\3425\244Y\303\273I\t\224\252\303q\004@\037\252\242\327\315\030d\251\217\312$.\371\274\344\202\3465_\363\234\324/\320\322\224\rF\035^@\325;"">\232\302\3339?\306\322\250\315Z\331}\004U\331\275\212HB\t\300k\334\212;\347\361CP\020\017\004\004\342\3257e\265q\273\316\206\021\366~\254SH\362T\307.\203\214\204[\230\355n\221P\263\036\254wp\232\302i\223\212\201\220q\250b\010\225\313\324\272De\310\231\306\035\036\032\\\025\2509\345H\235:\361l\343\245-\002\2637`\3668\024\236\230r\301\036\264\377t\241\025g\033\277:w\202\374>\nq\336\242\020\345\030\265{/S|S\357\206\373\215g\2418\212F\250\334N;\217\021\372s\304\325\263\rX\360\025<\370\330\253S\261w\222\314\340n\372\334T\n\3453\215i\344\016\252\213\006\301\030b\030\365\317a\355\356\376yx\266\273\177|\376\031\202\331{\214\322|n\357\310\0236\014R\337m^j*\341\023\3665\367\324_?~\304]\036=\236\366^\340\264\264`\020tF#\331\270\335(\331\271 \234\341\000|\206d)\t~g\307\354D\000\377\327N&\230\315\013mJ\245\263\320\323$\304\240\324\314\341\2632>J\265\205w\321\313t^<8\327\231\357$\203Z\0255\030\352\316%T\365\003\360\327\200\377\2665Fj\034\024C\2110ULx_xZ3\333\276\234dI\252\337.\004\313\000\337\204=\302\277\325\260V\232\177L\021q\267\033\005;A\256H\023o\236\243\020\247:\211\235\277J\001\265\377W\343\224\360\355o\034^k\245\377\023\252\014\244\224";
+    PyObject *data = __Pyx_DecompressString(cstring, 4569, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (8885 bytes) */
-const char* const bytes = "/.1fAll Attempt Base output directory (defaults to ./db)Completed download for Could not save failed URLs: Data source: pubmlst or pasteur (default: pubmlst)Dict[str, Any]Dict[str, Dict[str, List[Dict[str, str]]]]Download MLST/cgMLST schemes from PubMLST or Pasteur BIGSdb using RESTful APIDownloaded Downloaded profiles to Failed URLs saved to Failed to download Failed to download profiles from Failed to fetch base resources from Failed to fetch db attributes for Failed to fetch locus metadata at Failed to fetch scheme metadata from Failed to fetch schemes list for Failed to load Failed to write Failed to write profiles to Force redownload even if files already existForce refresh schemesFound HTTP error downloading HTTP error fetching List[Dict[str, Any]]List[str]Maximum concurrent downloads (default: Maximum retry attempts per locus (default: No alleles_fasta URL for locus No loci found in scheme No locus ID found in response from No locus metadata retrieved from Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Optional[requests.Session]Organism -> Species -> Method -> Method_urlOrganism scheme key (e.g., vcholerae)Parsing Progress: Rate limit exceeded for Rate limited at Rate limited downloading ). Reduce if rate limited.. Retry Retry failed. Retrying in Scheme URL from PubMLST or Pasteur BIGSdb APIShow schemesSkipping Skipping profile.txt (already exists)Starting concurrent download of Starting download for Successfully downloaded all Unexpected error downloading Update schemes%Y-%m-%d %H:%M:%S.?:  ... -> ...)...\n)add_note after %(asctime)s - %(levelname)s - %(message)s attempts attempts:  attempts failed for disable do not exists, please using \"pubmlst_download -h\" to show help massage.enable failed: failed_downloads.txt.fasta.fasta (already exists) for manual retry-force_redownload-force_refreshgchttp://https://https://bigsdb.paste""ur.fr/apihttps://rest.pubmlst.orgisenabled.json loci loci (max_workers= loci processed loci to download, max_retries=-max_retries--max_retries-max_workers--max_workers-output--outputprofile.txtpubmlst_download -scheme SCHEME_NAME -subscheme SUBSCHEME_NAME -scheme_url SCHEME_URL\n\nAuthor: Qingpo Cui(SZQ Lab, China Agricultural University)\npubmlst_download subcommandrequests.Session, retry s...-scheme--scheme-scheme_url--scheme_url-sourcesrc/pubmlstdownload/pubmlst_download.pyx-subscheme--subschemethe following arguments are required: -scheme/--scheme, -subscheme/--subscheme, -scheme_url/--scheme_url, -output/--outputwgMLST/cgMLST database nameAnyArgumentParserCallableConnectionErrorDictExampleHTTPAdapterHTTPErrorIGNORECASEINFOINITIAL_DELAYListMAX_RETRIESMAX_WORKERSNoneOptionalPASTEUR_BASE_URLPath__Pyx_PyDict_NextRefRETRY_STRATEGYRequestExceptionRetrySessionThreadPoolExecutorTimeoutTupleUnknownactionadapteradd_argumentadd_parseradd_subparsersallalleles_fastaarg_parseargparseargsargvas_completedasyncio.coroutinesattemptbackoff_factorbase_outputbase_urlbasicConfigboolbuild_or_load_schemescachedchoices__class_getitem__cline_in_tracebackcompletedconcurrent.futurescurrent_pathdatadatabasesdatefmtdbdb_attributesdebugdefaultdefinitionsdelaydescriptiondestdownload_alleles_seqdownload_loci_seqdownload_pathdownload_profilesdownload_ref_dbdumpeensure_ascii__enter__enumerateerrorexceptionsexecutorexist_okexists__exit__exitffailed_downloadsfailed_filefasta_urlfetch_resources__file__file_pathfloatforce_redownloadforce_refreshformatfunc__func__futurefuture_to_urlgetgetLoggerget_pasteur_schemesget_pubmlst_schemesget_sessionhelphrefiidindentinfoinfo_dictinfo_listinitial_delayint_is_coroutineitemitemsjsonkeyskwargslast_exceptionlevelloadload_schemeslociloci_nameloci_urllocus_attlocus_url_listloggerlogging__main__mainmax_retriesmax_workersmethodmethod_urlmkdir__module__mount__name__nameopenorganismorganism_nameout_fastaoutfileoutputoutput_pathoutput_scheme_infoparentparentsparse_argsp""arserpasteurpathlibpool_connectionspool_maxsizepopprintprint_helpprofilesprofiles_csvprofiles_outprofiles_urlpubmlstpubmlst_pubmlstdownload.pubmlst_download__qualname__rraise_for_statusrandomrereplacerequestsrequests.adaptersresourceresourcesrespect_retry_after_headerresponseresultretry_with_backoffreturnssave_schemesschemescheme_dictscheme_list_dictscheme_urlschemesschemes_schemes_dictschemes_pathsearch_seqdefseqssession__set_name__setdefaultshow_schemesshow_schemes_parserskip_existingskippedsleepsourcespeciesst_sizestatstatus_codestatus_forceliststderrstorage_dirstore_truestrsubcommandsubmitsubparserssubschemesuccesssys__test__texttimetimeouttitletotaltouchtypetypingtyping_method_urluniformupdate_schemesupdate_schemes_parserurlurllib3.util.retryusagevaluevalueswwarningwrite\320\000 \320 2\260&\270\t\300\021\330\026%\320%?\270v\320EU\320UV\360\026\000\005\010\200x\210s\220!\330\010\022\220+\230Q\360\006\000\005\021\220\001\330\004\010\210\013\2205\230\001\230\021\330\010\t\330\014\027\220w\230d\240!\240:\250X\260Q\330\014\024\320\024%\240Q\330\014\030\230\010\240\005\240Q\330\014\r\330\010\017\210x\220{\240.\260\001\330\014\017\210q\220\t\230\035\240c\250\021\340\020\030\230\002\230#\230R\230s\240)\2502\250V\2608\2701\270C\270q\330\020\023\2208\2302\230\\\250\022\2501\330\024\032\230(\240!\320#6\3206G\300q\310\010\320PR\320RU\320UV\320Vi\320ij\320jo\320op\330\024\030\230\006\230a\230q\340\024\032\230&\240\001\320!<\320<L\310A\310Q\330\024\033\2301\340\020\026\220f\230A\320\0354\260K\270q\300\001\330\020\027\220q\330\010\017\210}\230A\330\014\024\220B\220c\230\022\2303\230i\240r\250\026\250x\260q\270\003\2701\330\014\017\210x\220r\230\034\240R\240q\330\020\026\220h\230a\320\037D\300K\310q\320PZ\320Z[\320[c\320ce\320eh\320hi\320i|\320|}\360\000\000~\001C\002\360\000\000C\002D\002\330\020\024\220F\230!\2301\340\020\026\220f\230A\320\035B\320BR\320RS\320Sj\320jk\320kl\330\020\027\220q\340\004\007\200t\2101\330\010\016\210f\220A\320\0259\270\021\330\010\017\210q\340""\004\020\220\t\230\024\230Q\230a\330\004\007\200t\2101\330\010\016\210f\220A\320\025;\2701\330\010\017\210q\340\004\022\220$\220a\220q\330\004\016\210l\230\"\230B\230a\230q\360\006\000\005\010\200~\220T\230\027\240\007\240s\250$\250g\260U\270\"\270I\300R\300q\330\010\016\210f\220A\220[\240\001\240\021\330\010\017\210q\340\004\020\220\t\230\024\230Q\230a\330\004\007\200t\2101\330\010\016\210f\220A\320\0256\260a\260q\330\010\017\210q\360\006\000\005\t\210\013\2205\230\001\230\021\330\010\t\330\014\023\2207\230$\230a\230{\250(\260!\330\014\020\320\020!\240\021\330\021\025\220Q\220i\230x\240q\330\020\031\230\026\230q\240\004\240A\330\014\022\220&\230\001\230\035\240a\240q\330\014\023\2201\330\010\017\210x\220{\240.\260\001\330\014\017\210q\220\t\230\035\240c\250\021\330\020\030\230\002\230#\230R\230s\240)\2502\250V\2608\2701\270C\270q\330\020\023\2208\2302\230\\\250\022\2501\330\024\032\230(\240!\320#>\270a\320?Q\320QR\320RZ\320Z\\\320\\_\320_`\320`s\320st\320ty\320yz\330\024\030\230\006\230a\230q\340\024\032\230&\240\001\320!;\2701\320<M\310Q\310a\330\024\033\2301\340\020\026\220f\230A\320\0356\260a\260|\3001\300A\330\020\027\220q\330\010\017\210}\230A\330\014\024\220B\220c\230\022\2303\230i\240r\250\026\250x\260q\270\003\2701\330\014\017\210x\220r\230\034\240R\240q\330\020\026\220h\230a\320\0374\260A\260\\\300\021\300*\310A\310X\320UW\320WZ\320Z[\320[n\320no\320ot\320tu\330\020\024\220F\230!\2301\340\020\026\220f\230A\320\0352\260!\3203D\300A\320E\\\320\\]\320]^\330\020\027\220q\340\004\013\2101\200\001\340\004\023\2204\220q\230\t\240\021\330\004\013\2109\220A\330\004\r\210W\220A\220V\230:\240Q\330\004\023\220=\240\002\240*\250A\250Q\340\004\007\200t\210<\220s\230!\330\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\360\006\000\t\027\220d\230!\2304\230q\330\010\013\2104\210{\230'\240\021\330\014\027\220v\230Q\230h\240f\250I\260Q\330\010\026\220g\230Q\230f\240O\2601\330\010""\026\220g\230Q\230f\240O\2601\330\010\030\230\004\230G\2401\240F\320*>\270a\330\010\027\220q\230\004\230I\240T\250\034\260T\270\035\300a\330\027#\240=\260\016\270a\330\027#\2401\330\t\r\210\\\230\023\230A\340\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\340\010\032\230!\2301\330\t\r\210\\\230\023\230A\340\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\330\010\032\230!\2301\340\010\016\210e\2201\220B\220a\220t\2301\320\000\035\320\035;\2706\300\021\330\027&\320&@\300\001\360$\000\005\026\220Q\340\004\010\210\013\2205\230\001\230\021\330\010\t\330\014\023\2204\220r\230\030\240\021\330\010\020\220\010\230\013\2401\330\020\030\230\013\2401\330\020\030\230\013\240=\260\001\330\014\035\230Q\330\014\017\210x\220r\230\034\240R\240q\340\020\030\230\016\240c\250\022\2503\250i\260r\270\026\270x\300q\310\003\3101\330\020\026\220h\230a\230z\250\021\250(\260\"\260C\260q\3208M\310Q\320N^\320^_\320_d\320de\330\020\024\220F\230!\2301\340\020\026\220f\230A\230V\2401\320$E\300Q\300d\310!\330\020\026\220a\340\004\n\320\n\034\320\0340\260\t\270\021\270!\320\000$\320$6\260f\270I\300Q\330\026%\320%5\260Q\360\024\000\005\010\200x\210s\220!\330\010\022\220+\230Q\340\004\022\220$\220a\220q\330\004\023\220<\230r\240\021\360\006\000\005\010\200~\220T\230\034\240W\250C\250t\260<\270u\300B\300i\310r\320QR\330\010\016\210f\220A\220Q\330\010\017\210q\340\004\005\330\010\023\2207\230$\230a\230~\250X\260Q\330\010\020\320\020!\240\021\330\004\013\210=\230\001\330\010\016\210f\220A\320\0259\270\037\310\001\310\021\330\010\017\210q\340\004\005\330\r\021\220\021\220.\240\010\250\001\330\014\022\220&\230\001\230\030\240\021\330\010\016\210e\2201\320\024-\250Q\250a\330\010\017\210q\330\004\013\210=\230\001\330\010\016\210f\220A\320\0253\2601\260O\3001\300A\330\010\017\210q\320\000#\320#<\270A\360\020\000\005\017\210k""\230\021\330\004\020\220\001\340\004\010\210\014\220A\330\010\013\2108\2204\220q\230\001\330\014\034\230H\240A\240Q\330\014\017\210t\2202\220W\230A\230[\250\001\330\020\026\220e\2301\230J\240a\240q\330\020\037\230q\340\020\024\220F\230(\240!\2401\330\024\027\220r\230\027\240\001\240\037\260\002\260!\2601\330\030$\240B\240a\240q\330\030\031\330\034,\250G\2604\260q\270\002\270!\2709\300H\310C\310u\320TU\330\030\037\230}\250A\330\034\"\240(\250!\320+O\310q\320P\\\320\\]\320]^\330\034\035\340\030\033\230:\240S\250\001\330\034\035\330 3\2607\270$\270a\270}\310A\310\\\320Ya\320ad\320di\320ij\330\034#\240=\260\001\330 &\240h\250a\320/R\320RS\320S_\320_`\320`a\330 !\340\034&\320&6\260d\270!\270;\300a\330\034(\250\001\340\034 \240\010\250\001\330 )\250\027\260\001\330$.\250d\260!\2601\330$9\270\024\270Q\270a\340\034(\250\001\250\035\260a\340\020\031\230\021\320\032+\2501\340\004\013\2101\320\000#\320#<\270A\360\020\000\005\017\210k\230\021\330\004\020\220\001\360\006\000\005\t\210\014\220A\330\010\013\2108\2204\220q\230\001\330\014\034\230H\240D\250\001\250\037\270\010\300\004\300A\300X\310Q\330\014\017\210t\2202\220W\230A\230[\250\017\260r\270\021\330\020\026\220e\2301\230J\240a\240q\330\020\037\230q\340\020\024\220F\230(\240!\2401\330\024\027\220r\230\027\240\001\240\037\260\002\260$\260a\260\177\300e\3102\310Q\330\030$\240B\240d\250!\2508\2601\330\030\031\330\034,\250G\2604\260q\270\002\270!\2709\300H\310C\310u\320TU\330\030\037\230}\250A\330\034\"\240(\250!\320+O\310q\320P\\\320\\]\320]^\330\034\035\340\030\033\230:\240S\250\001\330\034\035\330 3\2607\270$\270a\270}\310A\310\\\320Ya\320ad\320di\320ij\330\034#\240=\260\001\330 &\240h\250a\320/R\320RS\320S_\320_`\320`a\330 !\340\034&\320&6\260d\270!\270;\300a\330\034(\250\001\340\034 \240\010\250\001\330 )\250\027\260\001\330$.\250d\260$\260a\260\177\300a\330$9\270\024\270T\300\021\300*\310A\340\034(\250\001\250\035\260a\340\020\023\2201\330\024\035\230Q\320\036/\250q\340\004\013\2101\320\000\034\230I\240Q\360\010\000\005""\010\200t\2109\220G\2301\330\010\017\210q\330\004\005\330\r\021\220\021\220+\230X\240Q\330\014\023\2204\220u\230A\230Q\330\004\013\210=\230\001\330\010\016\210h\220a\320\027(\250\001\250\034\260Q\260a\330\010\017\210q\200\001\360\010\000\005\n\210\021\210!\330\004\010\210\014\220I\230U\240!\330\010\026\220i\230q\240\001\330\010\014\210H\220K\230u\240A\330\014\026\220d\230(\240!\240<\250s\260(\270!\270;\300a\330\014\020\220\t\230\033\240A\240Q\330\020\031\230\025\230a\230q\330\020\035\230U\240!\2401\330\020\025\220Q\220b\230\001\230\035\240a\240|\2601\260K\270q\300\001\320\000\024\220J\320\036C\3001\360\022\000\005\017\210k\230\021\330\004\005\330\010\023\2207\230$\230a\230z\250\030\260\021\330\010\020\320\020!\240\021\330\010\017\210x\220u\230A\330\004\013\210=\230\001\330\010\016\210f\220A\320\025<\270K\300q\310\001\330\010\017\210q\320\000\034\230L\320(;\2701\360\010\000\005\006\330\r\021\220\021\220+\230X\240Q\330\014\020\220\005\220Q\220f\230C\230}\250G\2607\270!\330\004\013\210=\230\001\330\010\016\210f\220A\320\025'\240q\250\014\260A\260Q\320\000\034\320\034,\320,=\320=O\310q\330!'\240}\260O\3001\330!'\320'7\260q\360*\000\005\025\220D\230\001\230\035\240b\250\007\250r\260\021\330\004\007\200t\210=\230\007\230q\330\010\025\220V\2301\230H\240F\250)\2601\340\004\n\210%\210q\320\020)\250\031\260!\330\004\016\210k\230\021\340\004\005\330\010\023\2207\230$\230a\230|\2508\2603\260e\2701\330\004\013\210=\230\001\330\010\016\210f\220A\320\025=\270]\310!\3101\330\010\t\340\004\025\220X\230T\240\021\240(\250!\330\004\007\200t\2101\330\010\016\210h\220a\320\0272\260)\2701\330\010\t\340\004\n\210%\210q\220\010\230\001\230\023\230A\230Q\360\006\000\005\010\200\177\220c\230\021\330\010\031\230\021\230(\240!\320#4\260O\3009\310N\320Z[\360\006\000\005\031\230\001\320\031)\250\037\270\014\300A\330\030&\240o\260\\\300\021\330\004\n\210%\210q\320\020*\250)\2601\320\000%\320%=\320=P\320PV\320VW\330\031(\320(B\300&\320HX\320XY\360\030\000\005\023\220$\220a\220q\330\004\014\210C""\210q\220\001\330\004\n\210%\210q\320\0202\260!\3203L\310A\320Mg\320gh\320hi\340\004\016\210k\230\021\330\004\027\220q\330\004\016\210a\340\t\033\2301\230L\320(8\270\001\340\010\030\230\001\330\010\014\210C\210|\2309\240A\240Q\330\014\025\220X\230W\240A\320%8\270\n\300-\310y\320Xg\320gh\330\014\031\230\021\230*\240A\340\014\017\210r\220\022\2201\330\020\024\220F\230!\2301\360\006\000\t\025\220A\330\010\014\210J\220l\240!\2401\330\014\027\220}\240A\240Q\330\014\r\330\020\032\230&\240\007\240q\330\020\035\230Q\330\020\023\2204\220q\330\024$\240G\2501\250A\330\020\023\220:\230R\230s\240#\240R\240s\250*\260C\260q\330\024\032\230%\230q\240\014\250A\250[\270\001\270\021\330\014\023\220=\240\001\330\020\026\220f\230A\320\035<\270A\270[\310\001\310\021\330\020 \240\007\240q\250\001\330\020\035\230Q\340\004\007\200q\330\010\016\210h\220a\320\027,\250A\250S\260\001\3201D\300A\300Q\340\010\026\220l\240\"\240A\330\010\t\330\021\025\220Q\220m\2408\2501\330\020\024\220G\2301\330\024\025\220V\2301\230B\230a\230q\330\014\022\220%\220q\320\030/\250q\260\001\330\010\017\210}\230A\330\014\022\220&\230\001\320\0317\260q\270\001\340\010\016\210e\2201\320\0242\260!\2601\320\000\025\220Q\360\n\000\005\017\210h\220h\230a\330\004\016\210k\230\021\330\010\024\220A\330\010\031\230\021\330\010\025\220Q\340\004\013\2106\220\021\220+\230Q\330\004\013\2106\220\021\220,\230a\340\004\013\2101\200\001\340\004\r\210X\220_\240A\240\\\260\021\330%+\2501\360\006\000\005\022\220\026\220\177\240a\330\010\r\210^\2306\240\021\360\006\000\005\035\230J\240k\260\021\330\010\032\230%\230q\330\004\031\230\035\240a\330\010\032\230'\240\036\250u\260A\330\004\031\230\035\240a\330\010\023\2208\2301\230K\240|\2608\2701\330\010\r\210Q\340\004\032\230*\240K\250q\330\010\030\230\005\230Q\330\004\027\220}\240A\330\010\023\2208\2301\230K\240|\2608\2701\330\010\r\210Q\360\010\000\005\013\210-\220q\230\013\2401\330\026\033\2301\330\004\n\210-\220q\230\016\240a\330\026\033\2301\330\004\n\210-\220q\230\017\240q\330\026\033""\2301\330\004\n\210-\220q\230\013\2401\330\026\033\2301\330\004\n\210-\220q\230\013\2408\2501\250K\260|\3008\3101\330\026\033\2301\330\004\n\210-\220q\320\030(\320(9\270\025\270e\3008\3101\330\026\033\320\033D\300A\300Q\330\004\n\210-\220q\320\030(\320(9\270\025\270e\3008\3101\330\026\033\320\033H\310\001\310\021\330\004\n\210-\220q\320\030-\250W\260A\330\026\033\2301\360\006\000\005\010\200s\210!\2103\210g\220S\230\001\330\010\016\210k\230\021\230#\230Q\330\010\013\2105\220\001\220\021\340\004\013\2106\220\033\230A\360\006\000\005\010\200t\210<\220s\320\032+\2504\250s\260!\2603\260g\270S\300\001\330\010\035\230[\250\001\250\023\250A\330\010\013\2105\220\001\220\021\360\016\000\005\010\200t\210<\220s\230!\340\010\013\2104\210s\220!\2201\220D\230\t\240\024\240\\\260\024\260]\300$\300a\330\014\022\220&\230\001\230\021\340\004\013\2101\320\000(\250\006\250o\270Q\330\031!\320!5\260Q\360\022\000\005\010\200t\2101\330\010\021\220\034\230Q\230a\330\010\013\2101\330\014\023\2201\340\004\007\200w\210c\220\021\330\010\023\2201\330\010\024\220O\2401\240A\330\010\017\320\017\"\240!\2401\340\010\023\2201\330\010\024\220O\2401\240A\330\010\017\320\017\"\240!\2401\340\004\020\220\001\220\036\230q\330\004\013\2101";
+    #else /* compression: none (8906 bytes) */
+const char* const bytes = "/.1fAll Attempt Base output directory (defaults to ./db)Completed download for Could not save failed URLs: Data source: pubmlst or pasteur (default: pubmlst)Dict[str, Any]Dict[str, Dict[str, List[Dict[str, str]]]]Download MLST/cgMLST schemes from PubMLST or Pasteur BIGSdb using RESTful APIDownloaded Downloaded profiles to Failed URLs saved to Failed to download Failed to download profiles from Failed to fetch base resources from Failed to fetch db attributes for Failed to fetch locus metadata at Failed to fetch scheme metadata from Failed to fetch schemes list for Failed to load Failed to write Failed to write profiles to Force redownload even if files already existForce refresh schemesFound HTTP error downloading HTTP error fetching List[Dict[str, Any]]List[str]Maximum concurrent downloads (default: Maximum retry attempts per locus (default: No alleles_fasta URL for locus No loci found in scheme No locus ID found in response from No locus metadata retrieved from Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Optional[requests.Session]Organism -> Species -> Method -> Method_urlOrganism scheme key (e.g., vcholerae)Parsing Progress: Rate limit exceeded for Rate limited at Rate limited downloading ). Reduce if rate limited.. Retry Retry failed. Retrying in Scheme URL from PubMLST or Pasteur BIGSdb APIShow schemesSkipping Skipping profile.txt (already exists)Starting concurrent download of Starting download for Successfully downloaded all Unexpected error downloading Update schemes%Y-%m-%d %H:%M:%S.?:  ... -> ...)...\n)add_note after %(asctime)s - %(levelname)s - %(message)s attempts attempts:  attempts failed for disable do not exists, please using \"pubmlst_download -h\" to show help massage.enable failed: failed_downloads.txt.fasta.fasta (already exists) for manual retry-force_redownload-force_refreshgchttp://https://https://bigsdb.paste""ur.fr/apihttps://rest.pubmlst.orgisenabled.json loci loci (max_workers= loci processed loci to download, max_retries=-max_retries--max_retries-max_workers--max_workers-output--outputprofile.txtpubmlst_download -scheme SCHEME_NAME -subscheme SUBSCHEME_NAME -scheme_url SCHEME_URL\n\nAuthor: Qingpo Cui(SZQ Lab, China Agricultural University)\npubmlst_download subcommandrequests.Session, retry s...-scheme--scheme-scheme_url--scheme_urlseqdef|definitions-sourcesrc/pubmlstdownload/pubmlst_download.pyx-subscheme--subschemethe following arguments are required: -scheme/--scheme, -subscheme/--subscheme, -scheme_url/--scheme_url, -output/--outputwgMLST/cgMLST database nameAnyArgumentParserCallableConnectionErrorDictExampleHTTPAdapterHTTPErrorIGNORECASEINFOINITIAL_DELAYListMAX_RETRIESMAX_WORKERSNoneOptionalPASTEUR_BASE_URLPath__Pyx_PyDict_NextRefRETRY_STRATEGYRequestExceptionRetrySessionThreadPoolExecutorTimeoutTupleUnknownactionadapteradd_argumentadd_parseradd_subparsersallalleles_fastaarg_parseargparseargsargvas_completedasyncio.coroutinesattemptbackoff_factorbase_outputbase_urlbasicConfigboolbuild_or_load_schemescachedchoices__class_getitem__cline_in_tracebackcompletedconcurrent.futurescurrent_pathdatadatabasesdatefmtdbdb_attributesdebugdefaultdefinitionsdelaydescriptiondestdownload_alleles_seqdownload_loci_seqdownload_pathdownload_profilesdownload_ref_dbdumpeensure_ascii__enter__enumerateerrorexceptionsexecutorexist_okexists__exit__exitffailed_downloadsfailed_filefasta_urlfetch_resources__file__file_pathfloatforce_redownloadforce_refreshformatfunc__func__futurefuture_to_urlgetgetLoggerget_pasteur_schemesget_pubmlst_schemesget_sessionhelphrefiidindentinfoinfo_dictinfo_listinitial_delayint_is_coroutineitemitemsjsonkeyskwargslast_exceptionlevelloadload_schemeslociloci_nameloci_urllocus_attlocus_url_listloggerlogging__main__mainmax_retriesmax_workersmethodmethod_urlmkdir__module__mount__name__nameopenorganismorganism_nameout_fastaoutfileoutputoutput_pathoutput_scheme_infoparent""parentsparse_argsparserpasteurpathlibpool_connectionspool_maxsizepopprintprint_helpprofilesprofiles_csvprofiles_outprofiles_urlpubmlstpubmlst_pubmlstdownload.pubmlst_download__qualname__rraise_for_statusrandomrereplacerequestsrequests.adaptersresourceresourcesrespect_retry_after_headerresponseresultretry_with_backoffreturnssave_schemesschemescheme_dictscheme_list_dictscheme_urlschemesschemes_schemes_dictschemes_pathsearch_seqdefseqssession__set_name__setdefaultshow_schemesshow_schemes_parserskip_existingskippedsleepsourcespeciesst_sizestatstatus_codestatus_forceliststderrstorage_dirstore_truestrsubcommandsubmitsubparserssubschemesuccesssys__test__texttimetimeouttitletotaltouchtypetypingtyping_method_urluniformupdate_schemesupdate_schemes_parserurlurllib3.util.retryusagevaluevalueswwarningwrite\320\000 \320 2\260&\270\t\300\021\330\026%\320%?\270v\320EU\320UV\360\026\000\005\010\200x\210s\220!\330\010\022\220+\230Q\360\006\000\005\021\220\001\330\004\010\210\013\2205\230\001\230\021\330\010\t\330\014\027\220w\230d\240!\240:\250X\260Q\330\014\024\320\024%\240Q\330\014\030\230\010\240\005\240Q\330\014\r\330\010\017\210x\220{\240.\260\001\330\014\017\210q\220\t\230\035\240c\250\021\340\020\030\230\002\230#\230R\230s\240)\2502\250V\2608\2701\270C\270q\330\020\023\2208\2302\230\\\250\022\2501\330\024\032\230(\240!\320#6\3206G\300q\310\010\320PR\320RU\320UV\320Vi\320ij\320jo\320op\330\024\030\230\006\230a\230q\340\024\032\230&\240\001\320!<\320<L\310A\310Q\330\024\033\2301\340\020\026\220f\230A\320\0354\260K\270q\300\001\330\020\027\220q\330\010\017\210}\230A\330\014\024\220B\220c\230\022\2303\230i\240r\250\026\250x\260q\270\003\2701\330\014\017\210x\220r\230\034\240R\240q\330\020\026\220h\230a\320\037D\300K\310q\320PZ\320Z[\320[c\320ce\320eh\320hi\320i|\320|}\360\000\000~\001C\002\360\000\000C\002D\002\330\020\024\220F\230!\2301\340\020\026\220f\230A\320\035B\320BR\320RS\320Sj\320jk\320kl\330\020\027\220q\340\004\007\200t\2101\330\010\016\210f\220A\320\0259\270\021\330""\010\017\210q\340\004\020\220\t\230\024\230Q\230a\330\004\007\200t\2101\330\010\016\210f\220A\320\025;\2701\330\010\017\210q\340\004\022\220$\220a\220q\330\004\016\210l\230\"\230B\230a\230q\360\006\000\005\010\200~\220T\230\027\240\007\240s\250$\250g\260U\270\"\270I\300R\300q\330\010\016\210f\220A\220[\240\001\240\021\330\010\017\210q\340\004\020\220\t\230\024\230Q\230a\330\004\007\200t\2101\330\010\016\210f\220A\320\0256\260a\260q\330\010\017\210q\360\006\000\005\t\210\013\2205\230\001\230\021\330\010\t\330\014\023\2207\230$\230a\230{\250(\260!\330\014\020\320\020!\240\021\330\021\025\220Q\220i\230x\240q\330\020\031\230\026\230q\240\004\240A\330\014\022\220&\230\001\230\035\240a\240q\330\014\023\2201\330\010\017\210x\220{\240.\260\001\330\014\017\210q\220\t\230\035\240c\250\021\330\020\030\230\002\230#\230R\230s\240)\2502\250V\2608\2701\270C\270q\330\020\023\2208\2302\230\\\250\022\2501\330\024\032\230(\240!\320#>\270a\320?Q\320QR\320RZ\320Z\\\320\\_\320_`\320`s\320st\320ty\320yz\330\024\030\230\006\230a\230q\340\024\032\230&\240\001\320!;\2701\320<M\310Q\310a\330\024\033\2301\340\020\026\220f\230A\320\0356\260a\260|\3001\300A\330\020\027\220q\330\010\017\210}\230A\330\014\024\220B\220c\230\022\2303\230i\240r\250\026\250x\260q\270\003\2701\330\014\017\210x\220r\230\034\240R\240q\330\020\026\220h\230a\320\0374\260A\260\\\300\021\300*\310A\310X\320UW\320WZ\320Z[\320[n\320no\320ot\320tu\330\020\024\220F\230!\2301\340\020\026\220f\230A\320\0352\260!\3203D\300A\320E\\\320\\]\320]^\330\020\027\220q\340\004\013\2101\200\001\340\004\023\2204\220q\230\t\240\021\330\004\013\2109\220A\330\004\r\210W\220A\220V\230:\240Q\330\004\023\220=\240\002\240*\250A\250Q\340\004\007\200t\210<\220s\230!\330\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\360\006\000\t\027\220d\230!\2304\230q\330\010\013\2104\210{\230'\240\021\330\014\027\220v\230Q\230h\240f\250I\260Q\330\010\026\220g\230Q\230f\240O""\2601\330\010\026\220g\230Q\230f\240O\2601\330\010\030\230\004\230G\2401\240F\320*>\270a\330\010\027\220q\230\004\230I\240T\250\034\260T\270\035\300a\330\027#\240=\260\016\270a\330\027#\2401\330\t\r\210\\\230\023\230A\340\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\340\010\032\230!\2301\330\t\r\210\\\230\023\230A\340\010\013\2104\210|\2307\240!\330\014\030\230\006\230a\330\010\024\320\024)\250\021\250.\270\016\300g\310Q\310f\320Te\320ef\330)0\260\004\260A\330\010\032\230!\2301\340\010\016\210e\2201\220B\220a\220t\2301\320\000\035\320\035;\2706\300\021\330\027&\320&@\300\001\360$\000\005\026\220Q\340\004\010\210\013\2205\230\001\230\021\330\010\t\330\014\023\2204\220r\230\030\240\021\330\010\020\220\010\230\013\2401\330\020\030\230\013\2401\330\020\030\230\013\240=\260\001\330\014\035\230Q\330\014\017\210x\220r\230\034\240R\240q\340\020\030\230\016\240c\250\022\2503\250i\260r\270\026\270x\300q\310\003\3101\330\020\026\220h\230a\230z\250\021\250(\260\"\260C\260q\3208M\310Q\320N^\320^_\320_d\320de\330\020\024\220F\230!\2301\340\020\026\220f\230A\230V\2401\320$E\300Q\300d\310!\330\020\026\220a\340\004\n\320\n\034\320\0340\260\t\270\021\270!\320\000$\320$6\260f\270I\300Q\330\026%\320%5\260Q\360\024\000\005\010\200x\210s\220!\330\010\022\220+\230Q\340\004\022\220$\220a\220q\330\004\023\220<\230r\240\021\360\006\000\005\010\200~\220T\230\034\240W\250C\250t\260<\270u\300B\300i\310r\320QR\330\010\016\210f\220A\220Q\330\010\017\210q\340\004\005\330\010\023\2207\230$\230a\230~\250X\260Q\330\010\020\320\020!\240\021\330\004\013\210=\230\001\330\010\016\210f\220A\320\0259\270\037\310\001\310\021\330\010\017\210q\340\004\005\330\r\021\220\021\220.\240\010\250\001\330\014\022\220&\230\001\230\030\240\021\330\010\016\210e\2201\320\024-\250Q\250a\330\010\017\210q\330\004\013\210=\230\001\330\010\016\210f\220A\320\0253\2601\260O\3001\300A\330\010\017\210q\320\000#\320#<\270A\360\020\000""\005\017\210k\230\021\330\004\020\220\001\340\004\010\210\014\220A\330\010\013\2108\2204\220q\230\001\330\014\034\230H\240A\240Q\330\014\017\210t\2202\220W\230A\230[\250\001\330\020\026\220e\2301\230J\240a\240q\330\020\037\230q\340\020\024\220F\230(\240!\2401\330\024\027\220r\230\027\240\001\240\037\260\002\260!\2601\330\030$\240B\240a\240q\330\030\031\330\034,\250G\2604\260q\270\002\270!\2709\300H\310C\310u\320TU\330\030\037\230}\250A\330\034\"\240(\250!\320+O\310q\320P\\\320\\]\320]^\330\034\035\340\030\033\230:\240S\250\001\330\034\035\330 3\2607\270$\270a\270}\310A\310\\\320Ya\320ad\320di\320ij\330\034#\240=\260\001\330 &\240h\250a\320/R\320RS\320S_\320_`\320`a\330 !\340\034&\320&6\260d\270!\270;\300a\330\034(\250\001\340\034 \240\010\250\001\330 )\250\027\260\001\330$.\250d\260!\2601\330$9\270\024\270Q\270a\340\034(\250\001\250\035\260a\340\020\031\230\021\320\032+\2501\340\004\013\2101\320\000#\320#<\270A\360\020\000\005\017\210k\230\021\330\004\020\220\001\360\006\000\005\t\210\014\220A\330\010\013\2108\2204\220q\230\001\330\014\034\230H\240D\250\001\250\037\270\010\300\004\300A\300X\310Q\330\014\017\210t\2202\220W\230A\230[\250\017\260r\270\021\330\020\026\220e\2301\230J\240a\240q\330\020\037\230q\340\020\024\220F\230(\240!\2401\330\024\027\220r\230\027\240\001\320!7\260r\270\024\270Q\270o\310U\320RT\320TU\330\030$\240B\240d\250!\2508\2601\330\030\031\330\034,\250G\2604\260q\270\002\270!\2709\300H\310C\310u\320TU\330\030\037\230}\250A\330\034\"\240(\250!\320+O\310q\320P\\\320\\]\320]^\330\034\035\340\030\033\230:\240S\250\001\330\034\035\330 3\2607\270$\270a\270}\310A\310\\\320Ya\320ad\320di\320ij\330\034#\240=\260\001\330 &\240h\250a\320/R\320RS\320S_\320_`\320`a\330 !\340\034&\320&6\260d\270!\270;\300a\330\034(\250\001\340\034 \240\010\250\001\330 )\250\027\260\001\330$.\250d\260$\260a\260\177\300a\330$9\270\024\270T\300\021\300*\310A\340\034(\250\001\250\035\260a\340\020\023\2201\330\024\035\230Q\320\036/\250q\340\004\013\2101\320\000\034\230I\240Q\360""\010\000\005\010\200t\2109\220G\2301\330\010\017\210q\330\004\005\330\r\021\220\021\220+\230X\240Q\330\014\023\2204\220u\230A\230Q\330\004\013\210=\230\001\330\010\016\210h\220a\320\027(\250\001\250\034\260Q\260a\330\010\017\210q\200\001\360\010\000\005\n\210\021\210!\330\004\010\210\014\220I\230U\240!\330\010\026\220i\230q\240\001\330\010\014\210H\220K\230u\240A\330\014\026\220d\230(\240!\240<\250s\260(\270!\270;\300a\330\014\020\220\t\230\033\240A\240Q\330\020\031\230\025\230a\230q\330\020\035\230U\240!\2401\330\020\025\220Q\220b\230\001\230\035\240a\240|\2601\260K\270q\300\001\320\000\024\220J\320\036C\3001\360\022\000\005\017\210k\230\021\330\004\005\330\010\023\2207\230$\230a\230z\250\030\260\021\330\010\020\320\020!\240\021\330\010\017\210x\220u\230A\330\004\013\210=\230\001\330\010\016\210f\220A\320\025<\270K\300q\310\001\330\010\017\210q\320\000\034\230L\320(;\2701\360\010\000\005\006\330\r\021\220\021\220+\230X\240Q\330\014\020\220\005\220Q\220f\230C\230}\250G\2607\270!\330\004\013\210=\230\001\330\010\016\210f\220A\320\025'\240q\250\014\260A\260Q\320\000\034\320\034,\320,=\320=O\310q\330!'\240}\260O\3001\330!'\320'7\260q\360*\000\005\025\220D\230\001\230\035\240b\250\007\250r\260\021\330\004\007\200t\210=\230\007\230q\330\010\025\220V\2301\230H\240F\250)\2601\340\004\n\210%\210q\320\020)\250\031\260!\330\004\016\210k\230\021\340\004\005\330\010\023\2207\230$\230a\230|\2508\2603\260e\2701\330\004\013\210=\230\001\330\010\016\210f\220A\320\025=\270]\310!\3101\330\010\t\340\004\025\220X\230T\240\021\240(\250!\330\004\007\200t\2101\330\010\016\210h\220a\320\0272\260)\2701\330\010\t\340\004\n\210%\210q\220\010\230\001\230\023\230A\230Q\360\006\000\005\010\200\177\220c\230\021\330\010\031\230\021\230(\240!\320#4\260O\3009\310N\320Z[\360\006\000\005\031\230\001\320\031)\250\037\270\014\300A\330\030&\240o\260\\\300\021\330\004\n\210%\210q\320\020*\250)\2601\320\000%\320%=\320=P\320PV\320VW\330\031(\320(B\300&\320HX\320XY\360\030\000\005\023\220$\220a\220q\330\004""\014\210C\210q\220\001\330\004\n\210%\210q\320\0202\260!\3203L\310A\320Mg\320gh\320hi\340\004\016\210k\230\021\330\004\027\220q\330\004\016\210a\340\t\033\2301\230L\320(8\270\001\340\010\030\230\001\330\010\014\210C\210|\2309\240A\240Q\330\014\025\220X\230W\240A\320%8\270\n\300-\310y\320Xg\320gh\330\014\031\230\021\230*\240A\340\014\017\210r\220\022\2201\330\020\024\220F\230!\2301\360\006\000\t\025\220A\330\010\014\210J\220l\240!\2401\330\014\027\220}\240A\240Q\330\014\r\330\020\032\230&\240\007\240q\330\020\035\230Q\330\020\023\2204\220q\330\024$\240G\2501\250A\330\020\023\220:\230R\230s\240#\240R\240s\250*\260C\260q\330\024\032\230%\230q\240\014\250A\250[\270\001\270\021\330\014\023\220=\240\001\330\020\026\220f\230A\320\035<\270A\270[\310\001\310\021\330\020 \240\007\240q\250\001\330\020\035\230Q\340\004\007\200q\330\010\016\210h\220a\320\027,\250A\250S\260\001\3201D\300A\300Q\340\010\026\220l\240\"\240A\330\010\t\330\021\025\220Q\220m\2408\2501\330\020\024\220G\2301\330\024\025\220V\2301\230B\230a\230q\330\014\022\220%\220q\320\030/\250q\260\001\330\010\017\210}\230A\330\014\022\220&\230\001\320\0317\260q\270\001\340\010\016\210e\2201\320\0242\260!\2601\320\000\025\220Q\360\n\000\005\017\210h\220h\230a\330\004\016\210k\230\021\330\010\024\220A\330\010\031\230\021\330\010\025\220Q\340\004\013\2106\220\021\220+\230Q\330\004\013\2106\220\021\220,\230a\340\004\013\2101\200\001\340\004\r\210X\220_\240A\240\\\260\021\330%+\2501\360\006\000\005\022\220\026\220\177\240a\330\010\r\210^\2306\240\021\360\006\000\005\035\230J\240k\260\021\330\010\032\230%\230q\330\004\031\230\035\240a\330\010\032\230'\240\036\250u\260A\330\004\031\230\035\240a\330\010\023\2208\2301\230K\240|\2608\2701\330\010\r\210Q\340\004\032\230*\240K\250q\330\010\030\230\005\230Q\330\004\027\220}\240A\330\010\023\2208\2301\230K\240|\2608\2701\330\010\r\210Q\360\010\000\005\013\210-\220q\230\013\2401\330\026\033\2301\330\004\n\210-\220q\230\016\240a\330\026\033\2301\330\004\n\210-\220q\230\017\240q\330""\026\033\2301\330\004\n\210-\220q\230\013\2401\330\026\033\2301\330\004\n\210-\220q\230\013\2408\2501\250K\260|\3008\3101\330\026\033\2301\330\004\n\210-\220q\320\030(\320(9\270\025\270e\3008\3101\330\026\033\320\033D\300A\300Q\330\004\n\210-\220q\320\030(\320(9\270\025\270e\3008\3101\330\026\033\320\033H\310\001\310\021\330\004\n\210-\220q\320\030-\250W\260A\330\026\033\2301\360\006\000\005\010\200s\210!\2103\210g\220S\230\001\330\010\016\210k\230\021\230#\230Q\330\010\013\2105\220\001\220\021\340\004\013\2106\220\033\230A\360\006\000\005\010\200t\210<\220s\320\032+\2504\250s\260!\2603\260g\270S\300\001\330\010\035\230[\250\001\250\023\250A\330\010\013\2105\220\001\220\021\360\016\000\005\010\200t\210<\220s\230!\340\010\013\2104\210s\220!\2201\220D\230\t\240\024\240\\\260\024\260]\300$\300a\330\014\022\220&\230\001\230\021\340\004\013\2101\320\000(\250\006\250o\270Q\330\031!\320!5\260Q\360\022\000\005\010\200t\2101\330\010\021\220\034\230Q\230a\330\010\013\2101\330\014\023\2201\340\004\007\200w\210c\220\021\330\010\023\2201\330\010\024\220O\2401\240A\330\010\017\320\017\"\240!\2401\340\010\023\2201\330\010\024\220O\2401\240A\330\010\017\320\017\"\240!\2401\340\004\020\220\001\220\036\230q\330\004\013\2101";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 359; i++) {
+    for (int i = 0; i < 360; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
-      if (likely(string) && i >= 120) PyUnicode_InternInPlace(&string);
+      if (likely(string) && i >= 121) PyUnicode_InternInPlace(&string);
       if (unlikely(!string)) {
         Py_XDECREF(data);
         __PYX_ERR(0, 1, __pyx_L1_error)
@@ -19370,7 +19370,7 @@ const char* const bytes = "/.1fAll Attempt Base output directory (defaults to ./
       stringtab[i] = string;
       pos += bytes_length;
     }
-    for (int i = 359; i < 374; i++) {
+    for (int i = 360; i < 375; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyBytes_FromStringAndSize(bytes + pos, bytes_length);
       stringtab[i] = string;
@@ -19381,14 +19381,14 @@ const char* const bytes = "/.1fAll Attempt Base output directory (defaults to ./
       }
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 374; i++) {
+    for (Py_ssize_t i = 0; i < 375; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }
     }
     #if CYTHON_IMMORTAL_CONSTANTS
     {
-      PyObject **table = stringtab + 359;
+      PyObject **table = stringtab + 360;
       for (Py_ssize_t i=0; i<15; ++i) {
         #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
         Py_SET_REFCNT(table[i], _Py_IMMORTAL_REFCNT_LOCAL);
