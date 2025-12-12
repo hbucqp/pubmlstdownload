@@ -1,14 +1,15 @@
 # PubMLST Database Downloader
 
-A high-performance Python tool for downloading MLST (Multilocus Sequence Typing) and cgMLST (core genome MLST) schemes and allele sequences from the [PubMLST](https://pubmlst.org/) database using their RESTful API.
+A high-performance Python tool for downloading MLST (Multilocus Sequence Typing) and cgMLST (core genome MLST) schemes and allele sequences from the [PubMLST](https://pubmlst.org/) and [Pasteur BIGSdb](https://bigsdb.pasteur.fr/) databases using their RESTful APIs.
 
 ## Overview
 
-This tool efficiently downloads reference databases from PubMLST, including:
+This tool efficiently downloads reference databases from PubMLST and Pasteur BIGSdb, including:
 - **Scheme profiles** (ST definitions)
 - **Allele sequences** for all loci in FASTA format
 - Support for MLST, cgMLST, and other typing schemes
-- Covers 60+ bacterial, fungal, and parasite species
+- Covers 60+ bacterial, fungal, and parasite species from PubMLST
+- Supports organisms from Pasteur BIGSdb (Listeria, Klebsiella, Bordetella, Corynebacterium, Leptospira, Yersinia, etc.)
 
 ## Features
 
@@ -81,18 +82,21 @@ pubmlstdownload \
 
 #### 2. Update scheme metadata
 
-Fetch or refresh the complete list of available schemes from PubMLST:
+Fetch or refresh the complete list of available schemes from PubMLST or Pasteur BIGSdb:
 
 ```bash
+# Update from PubMLST (default)
 pubmlstdownload update_schemes
-```
 
-Force refresh from API (ignore cached data):
-```bash
+# Update from Pasteur BIGSdb
+pubmlstdownload update_schemes -source pasteur
+
+# Force refresh from API (ignore cached data)
 pubmlstdownload update_schemes -force_refresh
+pubmlstdownload update_schemes -source pasteur -force_refresh
 ```
 
-This creates/updates `schemes.json` with all available organisms and typing methods.
+This creates/updates `schemes_pubmlst.json` or `schemes_pasteur.json` with all available organisms and typing methods.
 
 #### 3. Show available schemes
 
@@ -117,6 +121,7 @@ pubmlstdownload show_schemes | grep "Vibrio"
 | `--subscheme` | `-subscheme` | Typing method (e.g., `MLST`, `cgMLST`) | Yes* |
 | `--scheme_url` | `-scheme_url` | Full API URL for the scheme | Yes* |
 | `--output` | `-output` | Base output directory (default: `./db`) | Yes* |
+| `--source` | `-source` | Data source: `pubmlst` or `pasteur` (default: `pubmlst`) | No |
 
 \* Required only for download mode (no subcommand)
 
@@ -132,8 +137,8 @@ pubmlstdownload show_schemes | grep "Vibrio"
 
 | Subcommand | Options | Description |
 |------------|---------|-------------|
-| `update_schemes` | `-force_refresh` | Update/refresh scheme metadata from API |
-| `show_schemes` | None | Display all available schemes |
+| `update_schemes` | `-force_refresh`, `-source` | Update/refresh scheme metadata from API (PubMLST or Pasteur BIGSdb) |
+| `show_schemes` | `-source` | Display all available schemes from specified source |
 
 ## Examples
 
@@ -195,7 +200,20 @@ pubmlstdownload \
 - Attempt 4: Retry after ~40 seconds
 - Attempt 5: Retry after ~80 seconds
 
-### Example 4: Resume interrupted download
+### Example 4: Download from Pasteur BIGSdb
+
+Download Listeria MLST scheme from Pasteur BIGSdb:
+
+```bash
+pubmlstdownload \
+  -scheme listeria \
+  -subscheme MLST \
+  -scheme_url https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/1 \
+  -output ./db \
+  -source pasteur
+```
+
+### Example 5: Resume interrupted download
 
 Simply re-run the same command. Files already downloaded will be skipped:
 
@@ -207,7 +225,7 @@ pubmlstdownload \
   -output ./db
 ```
 
-### Example 5: Force redownload all files
+### Example 6: Force redownload all files
 
 ```bash
 pubmlstdownload \
@@ -223,14 +241,22 @@ pubmlstdownload \
 ### Method 1: Use the update_schemes command
 
 ```bash
-# Update scheme metadata (creates schemes.json)
+# Update scheme metadata from PubMLST (creates schemes_pubmlst.json)
 pubmlstdownload update_schemes -force_refresh
 
-# View available schemes
+# Update scheme metadata from Pasteur BIGSdb (creates schemes_pasteur.json)
+pubmlstdownload update_schemes -source pasteur -force_refresh
+
+# View available schemes from PubMLST
 pubmlstdownload show_schemes | grep "Vibrio"
+
+# View available schemes from Pasteur BIGSdb
+pubmlstdownload show_schemes -source pasteur | grep "Listeria"
 ```
 
 This will show output like:
+
+**PubMLST:**
 ```
 Vibrio spp. -> vcholerae -> MLST -> https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/1
 Vibrio spp. -> vcholerae -> MLST (O1 and O139) -> https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/2
@@ -238,25 +264,40 @@ Vibrio spp. -> vcholerae -> cgMLST -> https://rest.pubmlst.org/db/pubmlst_vchole
 Vibrio spp. -> vparahaemolyticus -> MLST -> https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/1
 ```
 
-### Method 2: Browse PubMLST API
+**Pasteur BIGSdb:**
+```
+Listeria REST API group -> listeria -> MLST -> https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/1
+Listeria REST API group -> listeria -> cgMLST -> https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/2
+Klebsiella REST API group -> klebsiella -> MLST -> https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/1
+Bordetella REST API group -> bordetella -> MLST -> https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/3
+```
 
-Visit the PubMLST API documentation at https://rest.pubmlst.org/
+### Method 2: Browse API documentation
 
-### Method 3: Use schemes.json
+- **PubMLST API**: Visit https://rest.pubmlst.org/
+- **Pasteur BIGSdb API**: Visit https://bigsdb.pasteur.fr/api
 
-After running `update_schemes`, check the generated `schemes.json` file:
+### Method 3: Use schemes JSON files
+
+After running `update_schemes`, check the generated JSON files:
 
 ```bash
-# Using jq to parse JSON
-cat schemes.json | jq '.["Vibrio spp."]'
+# Using jq to parse JSON (PubMLST)
+cat schemes_pubmlst.json | jq '.["Vibrio spp."]'
+
+# Using jq to parse JSON (Pasteur BIGSdb)
+cat schemes_pasteur.json | jq '.["Listeria REST API group"]'
 
 # Or use grep
-grep -A 2 "vcholerae" schemes.json
+grep -A 2 "vcholerae" schemes_pubmlst.json
+grep -A 2 "listeria" schemes_pasteur.json
 ```
 
 ## Common Organisms and Schemes
 
 Here are some frequently used schemes:
+
+### PubMLST Schemes
 
 | Organism | Scheme | URL |
 |----------|--------|-----|
@@ -269,7 +310,18 @@ Here are some frequently used schemes:
 | *Salmonella* | MLST | `https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/2` |
 | *Campylobacter jejuni* | MLST | `https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/1` |
 
-Run `pubmlstdownload show_schemes` for the complete list.
+### Pasteur BIGSdb Schemes
+
+| Organism | Scheme | URL |
+|----------|--------|-----|
+| *Listeria* | MLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/1` |
+| *Klebsiella* | MLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/1` |
+| *Bordetella* | MLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/3` |
+| *Bordetella* | cgMLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_bordetella_seqdef/schemes/1` |
+| *Corynebacterium* | MLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_diphtheria_seqdef/schemes/1` |
+| *Yersinia* | MLST | `https://bigsdb.pasteur.fr/api/db/pubmlst_yersinia_seqdef/schemes/1` |
+
+Run `pubmlstdownload show_schemes` (for PubMLST) or `pubmlstdownload show_schemes -source pasteur` (for Pasteur BIGSdb) for the complete list.
 
 ## Output Structure
 
@@ -482,7 +534,8 @@ pubmlst_download/
 │   └── pubmlstdownload/
 │       ├── __init__.py                 # Package initialization
 │       ├── pubmlst_download.pyx        # Main module (Cython-compiled)
-│       └── schemes.json                # Cached scheme metadata
+│       ├── schemes_pubmlst.json        # Cached PubMLST scheme metadata
+│       └── schemes_pasteur.json        # Cached Pasteur BIGSdb scheme metadata
 ├── db/                                 # Downloaded databases (default output)
 │   └── <scheme>/
 │       └── <subscheme>/
@@ -510,15 +563,26 @@ uv pip install -e .
 ### Running tests
 
 ```bash
-# Test basic functionality
+# Test basic functionality (PubMLST)
 pubmlstdownload update_schemes
 
-# Test download with a small scheme
+# Test basic functionality (Pasteur BIGSdb)
+pubmlstdownload update_schemes -source pasteur
+
+# Test download with a small scheme (PubMLST)
 pubmlstdownload \
   -scheme achromobacter \
   -subscheme MLST \
   -scheme_url https://rest.pubmlst.org/db/pubmlst_achromobacter_seqdef/schemes/1 \
   -output ./test_db
+
+# Test download with a small scheme (Pasteur BIGSdb)
+pubmlstdownload \
+  -scheme listeria \
+  -subscheme MLST \
+  -scheme_url https://bigsdb.pasteur.fr/api/db/pubmlst_listeria_seqdef/schemes/1 \
+  -output ./test_db \
+  -source pasteur
 ```
 
 ## FAQ
@@ -546,17 +610,25 @@ pubmlstdownload \
 
 ### Q: How do I know what schemes are available?
 
-**A:** Three ways:
-1. Run `pubmlstdownload show_schemes`
-2. Check `schemes.json` after running `update_schemes`
-3. Browse https://pubmlst.org/
+**A:** Several ways:
+1. Run `pubmlstdownload show_schemes` (for PubMLST) or `pubmlstdownload show_schemes -source pasteur` (for Pasteur BIGSdb)
+2. Check `schemes_pubmlst.json` or `schemes_pasteur.json` after running `update_schemes`
+3. Browse https://pubmlst.org/ (for PubMLST) or https://bigsdb.pasteur.fr/api (for Pasteur BIGSdb)
 
 ### Q: Why do I get 429 errors?
 
-**A:** PubMLST has rate limits. Solutions:
+**A:** Both PubMLST and Pasteur BIGSdb have rate limits. Solutions:
 - Reduce `-max_workers` to 5 or 3
 - Increase `-max_retries` to 10
 - The tool automatically backs off with progressive delays
+
+### Q: What's the difference between PubMLST and Pasteur BIGSdb?
+
+**A:** Both are BIGSdb-based systems hosting MLST/cgMLST schemes:
+- **PubMLST** (https://pubmlst.org/): The primary PubMLST database hosted at the University of Oxford
+- **Pasteur BIGSdb** (https://bigsdb.pasteur.fr/): Pasteur Institute's BIGSdb instance hosting additional organisms like Listeria, Klebsiella, Bordetella, Corynebacterium, Leptospira, and Yersinia
+
+Use the `-source` parameter to switch between them.
 
 ### Q: Can I use this in my own Python package?
 
@@ -609,6 +681,14 @@ For issues or questions:
 3. Try reducing `-max_workers` if experiencing rate limits
 
 ## Changelog
+
+### Version 0.3.0 (2025-12-12)
+- Added support for Pasteur BIGSdb database as a data source
+- Fixed Pasteur BIGSdb scheme parsing to detect both "seqdef" and "definitions" database types
+- Improved compatibility with Pasteur BIGSdb API structure
+- Fixed `Optional` type hint import issue
+- Added `-source` parameter to specify data source ('pubmlst' or 'pasteur')
+- Enhanced `get_pasteur_schemes()` function to properly handle all organisms including Listeria
 
 ### Version 0.1.0 (2025-10-16)
 - Initial release
